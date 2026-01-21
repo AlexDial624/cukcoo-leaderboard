@@ -2,13 +2,5 @@ timestamp,timer_running,timer_value,session_type
 2026-01-21T18:05:43.114Z,true,04:59,work
 2026-01-21T18:06:01.790Z,true,04:41,work
 2026-01-21T18:30:33.836Z,true,10:23,unknown
-2026-01-21T19:36:28.957Z,true,05:38,unknown
-2026-01-21T19:59:38.273Z,true,12:49,work
-2026-01-21T20:42:19.981Z,false,00:00,work
-2026-01-21T21:04:51.170Z,false,00:00,work
-2026-01-21T21:41:23.915Z,false,00:00,unknown
-2026-01-21T21:58:42.588Z,true,03:58,unknown
-2026-01-21T22:35:52.091Z,false,00:00,unknown
-2026-01-21T22:57:54.498Z,false,00:00,unknown
-2026-01-21T23:33:46.097Z,true,12:06,unknown
-2026-01-21T23:53:23.387Z,true,22:42,unknown
+2026-01-21T23:54:25.330Z,true,21:40,unknown
+2026-01-21T23:58:34.029Z,true,17:32,unknown

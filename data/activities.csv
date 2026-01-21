@@ -28,26 +28,9 @@ estimated_time,scrape_time,user,action,time_ago_raw
 2026-01-21T16:30:00.000Z,2026-01-21T18:30:33.836Z,Jessica,started a 25 minute work session,2 hours ago
 2026-01-21T16:30:00.000Z,2026-01-21T18:30:33.836Z,angelina,joined this cuckoo,2 hours ago
 2026-01-21T18:02:00.000Z,2026-01-21T18:30:33.836Z,Test,joined this cuckoo,28 min ago
-2026-01-21T16:36:00.000Z,2026-01-21T19:36:28.957Z,Alex,joined this cuckoo,3 hours ago
-2026-01-21T18:36:00.000Z,2026-01-21T19:36:28.957Z,angelina,started a 5 minute break,1 hours ago
-2026-01-21T18:36:00.000Z,2026-01-21T19:36:28.957Z,jordan,paused the current break,1 hours ago
-2026-01-21T18:36:00.000Z,2026-01-21T19:36:28.957Z,jordan,resumed the current break,1 hours ago
-2026-01-21T18:36:00.000Z,2026-01-21T19:36:28.957Z,jordan,started a 5 minute work session,1 hours ago
-2026-01-21T18:36:00.000Z,2026-01-21T19:36:28.957Z,angelina,paused the current work session,1 hours ago
-2026-01-21T18:36:00.000Z,2026-01-21T19:36:28.957Z,angelina,stopped the current work session,1 hours ago
-2026-01-21T18:36:00.000Z,2026-01-21T19:36:28.957Z,angelina,started a 25 minute work session,1 hours ago
-2026-01-21T18:46:00.000Z,2026-01-21T19:36:28.957Z,jordan,started a 25 minute work session,50 min ago
-2026-01-21T18:49:00.000Z,2026-01-21T19:36:28.957Z,j,joined this cuckoo,47 min ago
-2026-01-21T19:14:00.000Z,2026-01-21T19:36:28.957Z,jordan,joined this cuckoo,22 min ago
-2026-01-21T19:16:00.000Z,2026-01-21T19:36:28.957Z,Cian,joined this cuckoo,20 min ago
-2026-01-21T17:42:00.000Z,2026-01-21T20:42:19.981Z,jordan,paused the current break,3 hours ago
-2026-01-21T17:42:00.000Z,2026-01-21T20:42:19.981Z,jordan,resumed the current break,3 hours ago
-2026-01-21T19:42:00.000Z,2026-01-21T20:42:19.981Z,jordan,started a 25 minute work session,1 hours ago
-2026-01-21T19:42:00.000Z,2026-01-21T20:42:19.981Z,j,joined this cuckoo,1 hours ago
-2026-01-21T19:47:00.000Z,2026-01-21T20:42:19.981Z,jordan,started a 25 minute work session,55 min ago
-2026-01-21T20:03:00.000Z,2026-01-21T20:42:19.981Z,jordan,joined this cuckoo,39 min ago
-2026-01-21T20:13:00.000Z,2026-01-21T20:42:19.981Z,jordan,started a 5 minute break,29 min ago
-2026-01-21T23:09:00.000Z,2026-01-21T23:33:46.097Z,angelina,joined this cuckoo,24 min ago
-2026-01-21T23:19:00.000Z,2026-01-21T23:33:46.097Z,Tess,joined this cuckoo,14 min ago
-2026-01-21T23:20:00.000Z,2026-01-21T23:33:46.097Z,angelina,started a 25 minute work session,13 min ago
-2026-01-21T23:23:00.000Z,2026-01-21T23:33:46.097Z,Cian,joined this cuckoo,10 min ago
+2026-01-21T23:07:00.000Z,2026-01-21T23:54:25.330Z,angelina,joined this cuckoo,47 min ago
+2026-01-21T23:17:00.000Z,2026-01-21T23:54:25.330Z,Tess,joined this cuckoo,37 min ago
+2026-01-21T23:18:00.000Z,2026-01-21T23:54:25.330Z,angelina,started a 25 minute work session,36 min ago
+2026-01-21T23:20:00.000Z,2026-01-21T23:54:25.330Z,Cian,joined this cuckoo,34 min ago
+2026-01-21T23:43:00.000Z,2026-01-21T23:54:25.330Z,angelina,started a 5 minute break,11 min ago
+2026-01-21T23:48:00.000Z,2026-01-21T23:54:25.330Z,angelina,started a 25 minute work session,6 min ago

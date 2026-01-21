@@ -149,10 +149,32 @@ async function scrapeActivityFeed() {
     await page.setViewport({ width: 1280, height: 800 });
 
     await page.goto(CUCKOO_URL, { waitUntil: 'networkidle2', timeout: 60000 });
-    await new Promise(resolve => setTimeout(resolve, 5000));
+
+    // Wait for real-time user data - server sends it after ~2 minutes even without joining
+    console.log('   Waiting for real-time user data (up to 3 min)...');
+    let currentUsers = [];
+    for (let i = 0; i < 18; i++) { // Up to 3 minutes
+      await new Promise(r => setTimeout(r, 10000)); // 10 sec intervals
+
+      currentUsers = await page.evaluate(() => {
+        const avatars = document.querySelectorAll('.js-team__list .avatar__image[data-fullname]');
+        return Array.from(avatars).map(a => a.getAttribute('data-fullname'));
+      });
+
+      const elapsed = (i + 1) * 10;
+      if (currentUsers.length > 0) {
+        console.log(`   Found ${currentUsers.length} users after ${elapsed}s: ${currentUsers.join(', ')}`);
+        break;
+      } else if (elapsed % 30 === 0) {
+        // Log progress every 30 seconds
+        console.log(`   ${elapsed}s: Still waiting for user data...`);
+      }
+    }
+
+    // Store current users for this scrape
+    page.currentUsers = currentUsers;
 
     // DO NOT press any keys or click anything - keyboard shortcuts affect the timer!
-    // The activity feed is visible in the bottom-left even with the modal
 
     // Take screenshot
     await page.screenshot({ path: SCREENSHOT_PATH, fullPage: true });
@@ -181,7 +203,7 @@ async function scrapeActivityFeed() {
       return items;
     });
 
-    return activities;
+    return { activities, currentUsers };
 
   } finally {
     await browser.close();
@@ -203,10 +225,19 @@ async function scrape() {
   const snapshotLine = `${scrapeTime.toISOString()},${timerRunning},${timerValue},${sessionType}\n`;
   fs.appendFileSync(SNAPSHOTS_PATH, snapshotLine);
 
-  // Scrape activity feed
-  console.log('\n2. Scraping activity feed...');
-  const activities = await scrapeActivityFeed();
+  // Scrape activity feed and current users
+  console.log('\n2. Scraping activity feed and presence...');
+  const { activities, currentUsers } = await scrapeActivityFeed();
   console.log(`   Found ${activities.length} activities`);
+  console.log(`   Current users in room: ${currentUsers.length > 0 ? currentUsers.join(', ') : 'none detected'}`);
+
+  // Save current presence snapshot
+  const presenceLine = `${scrapeTime.toISOString()},${currentUsers.length},"${currentUsers.join(';')}"\n`;
+  const PRESENCE_PATH = path.join(DATA_DIR, 'presence.csv');
+  if (!fs.existsSync(PRESENCE_PATH)) {
+    fs.writeFileSync(PRESENCE_PATH, 'timestamp,user_count,users\n');
+  }
+  fs.appendFileSync(PRESENCE_PATH, presenceLine);
 
   // Load existing activities for deduplication
   const existingActivities = loadExistingActivities();
