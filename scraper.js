@@ -131,11 +131,18 @@ function parseTimeAgoMs(timeAgo) {
 // Scrape activity feed via Puppeteer (passive - no join)
 async function scrapeActivityFeed() {
   console.log('Launching Puppeteer...');
-  const browser = await puppeteer.launch({
+  // Use bundled Chromium on CI, local Chrome on macOS
+  const launchOptions = {
     headless: 'new',
-    executablePath: process.env.CHROME_PATH || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
     args: ['--no-sandbox', '--disable-setuid-sandbox']
-  });
+  };
+
+  // Only set executablePath for local macOS development
+  if (process.platform === 'darwin' && !process.env.CI) {
+    launchOptions.executablePath = process.env.CHROME_PATH || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
+  }
+
+  const browser = await puppeteer.launch(launchOptions);
 
   try {
     const page = await browser.newPage();
