@@ -1,62 +1,138 @@
 {
-  "generated": "2026-01-21T18:25:55.545Z",
+  "generated": "2026-01-21T18:59:30.627Z",
   "totalSessions": 2,
   "users": {
     "Jessica": {
-      "totalMinutes": 66,
+      "totalMinutes": 101,
       "sessionCount": 2,
-      "activitiesCount": 3,
+      "activitiesCount": 4,
       "byWeek": {
         "2026-W04": {
-          "minutes": 66,
+          "minutes": 101,
           "sessions": 2
         }
       },
       "byDate": {
         "2026-01-21": {
-          "minutes": 66,
+          "minutes": 101,
           "sessions": 2
         }
       },
       "firstSeen": "2026-01-21T16:05:00.000Z",
       "lastSeen": "2026-01-21T17:30:00.000Z"
     },
-    "Cian": {
-      "totalMinutes": 65,
+    "Test2": {
+      "totalMinutes": 90,
+      "sessionCount": 1,
+      "activitiesCount": 1,
+      "byWeek": {
+        "2026-W04": {
+          "minutes": 90,
+          "sessions": 1
+        }
+      },
+      "byDate": {
+        "2026-01-21": {
+          "minutes": 90,
+          "sessions": 1
+        }
+      },
+      "firstSeen": "2026-01-21T16:30:00.000Z",
+      "lastSeen": "2026-01-21T16:30:00.000Z"
+    },
+    "Test": {
+      "totalMinutes": 100,
       "sessionCount": 1,
       "activitiesCount": 3,
       "byWeek": {
         "2026-W04": {
-          "minutes": 65,
+          "minutes": 100,
           "sessions": 1
         }
       },
       "byDate": {
         "2026-01-21": {
-          "minutes": 65,
+          "minutes": 100,
           "sessions": 1
         }
       },
-      "firstSeen": "2026-01-21T17:05:00.000Z",
+      "firstSeen": "2026-01-21T16:30:00.000Z",
+      "lastSeen": "2026-01-21T18:02:00.000Z"
+    },
+    "yoo": {
+      "totalMinutes": 90,
+      "sessionCount": 1,
+      "activitiesCount": 1,
+      "byWeek": {
+        "2026-W04": {
+          "minutes": 90,
+          "sessions": 1
+        }
+      },
+      "byDate": {
+        "2026-01-21": {
+          "minutes": 90,
+          "sessions": 1
+        }
+      },
+      "firstSeen": "2026-01-21T16:30:00.000Z",
+      "lastSeen": "2026-01-21T16:30:00.000Z"
+    },
+    "C": {
+      "totalMinutes": 90,
+      "sessionCount": 1,
+      "activitiesCount": 1,
+      "byWeek": {
+        "2026-W04": {
+          "minutes": 90,
+          "sessions": 1
+        }
+      },
+      "byDate": {
+        "2026-01-21": {
+          "minutes": 90,
+          "sessions": 1
+        }
+      },
+      "firstSeen": "2026-01-21T16:30:00.000Z",
+      "lastSeen": "2026-01-21T16:30:00.000Z"
+    },
+    "Cian": {
+      "totalMinutes": 100,
+      "sessionCount": 1,
+      "activitiesCount": 4,
+      "byWeek": {
+        "2026-W04": {
+          "minutes": 100,
+          "sessions": 1
+        }
+      },
+      "byDate": {
+        "2026-01-21": {
+          "minutes": 100,
+          "sessions": 1
+        }
+      },
+      "firstSeen": "2026-01-21T16:30:00.000Z",
       "lastSeen": "2026-01-21T18:02:00.000Z"
     },
     "angelina": {
-      "totalMinutes": 65,
+      "totalMinutes": 100,
       "sessionCount": 1,
-      "activitiesCount": 7,
+      "activitiesCount": 8,
       "byWeek": {
         "2026-W04": {
-          "minutes": 65,
+          "minutes": 100,
           "sessions": 1
         }
       },
       "byDate": {
         "2026-01-21": {
-          "minutes": 65,
+          "minutes": 100,
           "sessions": 1
         }
       },
-      "firstSeen": "2026-01-21T17:05:00.000Z",
+      "firstSeen": "2026-01-21T16:30:00.000Z",
       "lastSeen": "2026-01-21T18:09:00.000Z"
     },
     "Alex": {
