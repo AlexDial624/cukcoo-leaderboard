@@ -1,115 +1,20 @@
 {
-  "generated": "2026-01-21T18:06:21.289Z",
+  "generated": "2026-01-21T18:25:55.545Z",
   "totalSessions": 2,
   "users": {
-    "TrackerBot": {
-      "totalMinutes": 10,
-      "sessionCount": 1,
-      "activitiesCount": 2,
-      "byWeek": {
-        "2026-W04": {
-          "minutes": 10,
-          "sessions": 1
-        }
-      },
-      "byDate": {
-        "2026-01-21": {
-          "minutes": 10,
-          "sessions": 1
-        }
-      },
-      "firstSeen": "2026-01-21T16:05:00.000Z",
-      "lastSeen": "2026-01-21T16:10:00.000Z"
-    },
-    "Test2": {
-      "totalMinutes": 10,
-      "sessionCount": 1,
-      "activitiesCount": 1,
-      "byWeek": {
-        "2026-W04": {
-          "minutes": 10,
-          "sessions": 1
-        }
-      },
-      "byDate": {
-        "2026-01-21": {
-          "minutes": 10,
-          "sessions": 1
-        }
-      },
-      "firstSeen": "2026-01-21T16:05:00.000Z",
-      "lastSeen": "2026-01-21T16:05:00.000Z"
-    },
-    "Test": {
-      "totalMinutes": 18,
-      "sessionCount": 2,
-      "activitiesCount": 3,
-      "byWeek": {
-        "2026-W04": {
-          "minutes": 18,
-          "sessions": 2
-        }
-      },
-      "byDate": {
-        "2026-01-21": {
-          "minutes": 18,
-          "sessions": 2
-        }
-      },
-      "firstSeen": "2026-01-21T16:05:00.000Z",
-      "lastSeen": "2026-01-21T18:02:00.000Z"
-    },
-    "yoo": {
-      "totalMinutes": 10,
-      "sessionCount": 1,
-      "activitiesCount": 1,
-      "byWeek": {
-        "2026-W04": {
-          "minutes": 10,
-          "sessions": 1
-        }
-      },
-      "byDate": {
-        "2026-01-21": {
-          "minutes": 10,
-          "sessions": 1
-        }
-      },
-      "firstSeen": "2026-01-21T16:05:00.000Z",
-      "lastSeen": "2026-01-21T16:05:00.000Z"
-    },
-    "C": {
-      "totalMinutes": 10,
-      "sessionCount": 1,
-      "activitiesCount": 1,
-      "byWeek": {
-        "2026-W04": {
-          "minutes": 10,
-          "sessions": 1
-        }
-      },
-      "byDate": {
-        "2026-01-21": {
-          "minutes": 10,
-          "sessions": 1
-        }
-      },
-      "firstSeen": "2026-01-21T16:05:00.000Z",
-      "lastSeen": "2026-01-21T16:05:00.000Z"
-    },
     "Jessica": {
-      "totalMinutes": 75,
+      "totalMinutes": 66,
       "sessionCount": 2,
       "activitiesCount": 3,
       "byWeek": {
         "2026-W04": {
-          "minutes": 75,
+          "minutes": 66,
           "sessions": 2
         }
       },
       "byDate": {
         "2026-01-21": {
-          "minutes": 75,
+          "minutes": 66,
           "sessions": 2
         }
       },
