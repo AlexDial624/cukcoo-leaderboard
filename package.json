@@ -1,0 +1,14 @@
+{
+  "name": "cuckoo-tracker",
+  "version": "1.0.0",
+  "description": "Passive Cuckoo pomodoro timer room presence tracker",
+  "main": "scraper.js",
+  "scripts": {
+    "scrape": "node scraper.js",
+    "leaderboard": "node leaderboard.js"
+  },
+  "dependencies": {
+    "puppeteer": "^24.35.0",
+    "socket.io-client": "^4.8.3"
+  }
+}

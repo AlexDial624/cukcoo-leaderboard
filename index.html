@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cuckoo Leaderboard</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 2rem;
+    }
+    .container { max-width: 800px; margin: 0 auto; }
+    h1 {
+      color: white;
+      text-align: center;
+      margin-bottom: 0.5rem;
+      font-size: 2.5rem;
+    }
+    .subtitle {
+      color: rgba(255,255,255,0.8);
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    }
+    .card h2 {
+      color: #333;
+      margin-bottom: 1rem;
+      font-size: 1.3rem;
+    }
+    .leaderboard-item {
+      display: flex;
+      align-items: center;
+      padding: 0.75rem 0;
+      border-bottom: 1px solid #eee;
+    }
+    .leaderboard-item:last-child { border-bottom: none; }
+    .rank {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      margin-right: 1rem;
+      font-size: 1rem;
+    }
+    .rank-1 { background: linear-gradient(135deg, #f5af19, #f12711); color: white; }
+    .rank-2 { background: linear-gradient(135deg, #bdc3c7, #2c3e50); color: white; }
+    .rank-3 { background: linear-gradient(135deg, #b8860b, #cd853f); color: white; }
+    .rank-other { background: #e0e0e0; color: #666; }
+    .user-info { flex: 1; }
+    .user-name { font-weight: 600; color: #333; }
+    .user-stats { font-size: 0.85rem; color: #888; }
+    .time-badge {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+      padding: 0.4rem 0.8rem;
+      border-radius: 20px;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .stat-card {
+      background: white;
+      border-radius: 12px;
+      padding: 1.25rem;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    .stat-value { font-size: 2rem; font-weight: bold; color: #667eea; }
+    .stat-label { font-size: 0.85rem; color: #888; margin-top: 0.25rem; }
+    .updated {
+      text-align: center;
+      color: rgba(255,255,255,0.7);
+      font-size: 0.85rem;
+      margin-top: 1rem;
+    }
+    .loading { text-align: center; padding: 2rem; color: #888; }
+    .error { text-align: center; padding: 2rem; color: #e74c3c; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Cuckoo Leaderboard</h1>
+    <p class="subtitle">EA Gather Town Timer Room</p>
+
+    <div class="stats-grid" id="stats">
+      <div class="stat-card">
+        <div class="stat-value" id="total-users">-</div>
+        <div class="stat-label">Total Users</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="total-sessions">-</div>
+        <div class="stat-label">Sessions</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="total-hours">-</div>
+        <div class="stat-label">Total Hours</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>All-Time Rankings</h2>
+      <div id="leaderboard" class="loading">Loading...</div>
+    </div>
+
+    <p class="updated" id="updated"></p>
+  </div>
+
+  <script>
+    async function loadLeaderboard() {
+      try {
+        const response = await fetch('data/leaderboard.json');
+        if (!response.ok) throw new Error('Failed to load data');
+        const data = await response.json();
+
+        // Update stats
+        const users = Object.entries(data.users);
+        document.getElementById('total-users').textContent = users.length;
+        document.getElementById('total-sessions').textContent = data.totalSessions;
+
+        const totalMinutes = users.reduce((sum, [_, u]) => sum + u.totalMinutes, 0);
+        document.getElementById('total-hours').textContent = (totalMinutes / 60).toFixed(1);
+
+        // Sort and render leaderboard
+        const sorted = users
+          .map(([name, info]) => ({ name, ...info }))
+          .sort((a, b) => b.totalMinutes - a.totalMinutes);
+
+        const container = document.getElementById('leaderboard');
+        container.innerHTML = sorted.map((user, idx) => {
+          const rankClass = idx < 3 ? `rank-${idx + 1}` : 'rank-other';
+          const hours = Math.floor(user.totalMinutes / 60);
+          const mins = Math.round(user.totalMinutes % 60);
+          const timeStr = hours > 0 ? `${hours}h ${mins}m` : `${mins}m`;
+
+          return `
+            <div class="leaderboard-item">
+              <div class="rank ${rankClass}">${idx + 1}</div>
+              <div class="user-info">
+                <div class="user-name">${user.name}</div>
+                <div class="user-stats">${user.sessionCount} session${user.sessionCount !== 1 ? 's' : ''}</div>
+              </div>
+              <div class="time-badge">${timeStr}</div>
+            </div>
+          `;
+        }).join('');
+
+        // Update timestamp
+        document.getElementById('updated').textContent =
+          `Last updated: ${new Date(data.generated).toLocaleString()}`;
+
+      } catch (err) {
+        document.getElementById('leaderboard').innerHTML =
+          `<div class="error">Could not load leaderboard data.<br>Run the scraper first.</div>`;
+      }
+    }
+
+    loadLeaderboard();
+  </script>
+</body>
+</html>
