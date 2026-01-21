@@ -40,3 +40,10 @@ estimated_time,scrape_time,user,action,time_ago_raw
 2026-01-21T18:49:00.000Z,2026-01-21T19:36:28.957Z,j,joined this cuckoo,47 min ago
 2026-01-21T19:14:00.000Z,2026-01-21T19:36:28.957Z,jordan,joined this cuckoo,22 min ago
 2026-01-21T19:16:00.000Z,2026-01-21T19:36:28.957Z,Cian,joined this cuckoo,20 min ago
+2026-01-21T17:42:00.000Z,2026-01-21T20:42:19.981Z,jordan,paused the current break,3 hours ago
+2026-01-21T17:42:00.000Z,2026-01-21T20:42:19.981Z,jordan,resumed the current break,3 hours ago
+2026-01-21T19:42:00.000Z,2026-01-21T20:42:19.981Z,jordan,started a 25 minute work session,1 hours ago
+2026-01-21T19:42:00.000Z,2026-01-21T20:42:19.981Z,j,joined this cuckoo,1 hours ago
+2026-01-21T19:47:00.000Z,2026-01-21T20:42:19.981Z,jordan,started a 25 minute work session,55 min ago
+2026-01-21T20:03:00.000Z,2026-01-21T20:42:19.981Z,jordan,joined this cuckoo,39 min ago
+2026-01-21T20:13:00.000Z,2026-01-21T20:42:19.981Z,jordan,started a 5 minute break,29 min ago
