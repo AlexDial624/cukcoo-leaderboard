@@ -1,15 +1,53 @@
 {
-  "generated": "2026-01-22T21:00:58.155Z",
+  "generated": "2026-01-22T21:33:06.729Z",
   "currentlyPresent": [
+    "Tess",
     "Alex",
-    "Jessica",
-    "angelina",
-    "Tess"
+    "Jessica"
   ],
   "totalUsers": 6,
-  "totalPomodoros": 12,
-  "totalWorkMinutes": 321.645,
+  "totalPomodoros": 16,
+  "totalWorkMinutes": 421.645,
   "activityLog": [
+    {
+      "time": "2026-01-22T21:32:00.000Z",
+      "endTime": "2026-01-22T21:37:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jessica",
+      "participants": [
+        "angelina",
+        "Tess",
+        "Jessica",
+        "Alex"
+      ]
+    },
+    {
+      "time": "2026-01-22T21:07:00.000Z",
+      "endTime": "2026-01-22T21:32:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina",
+      "participants": [
+        "angelina",
+        "Tess",
+        "Jessica",
+        "Alex"
+      ]
+    },
+    {
+      "time": "2026-01-22T21:02:00.000Z",
+      "endTime": "2026-01-22T21:07:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "angelina",
+      "participants": [
+        "angelina",
+        "Tess",
+        "Jessica",
+        "Alex"
+      ]
+    },
     {
       "time": "2026-01-22T20:30:00.000Z",
       "endTime": "2026-01-22T20:55:00.000Z",
@@ -258,26 +296,38 @@
     {
       "user": "Tess",
       "currentlyPresent": true,
-      "totalPresenceMinutes": 145,
-      "totalWorkMinutes": 125,
-      "totalBreakMinutes": 12,
-      "pomodoroCount": 5,
-      "breakCount": 3,
+      "totalPresenceMinutes": 177,
+      "totalWorkMinutes": 150,
+      "totalBreakMinutes": 18,
+      "pomodoroCount": 6,
+      "breakCount": 5,
       "avgPomodoroMinutes": 25,
       "firstSeen": "2026-01-22T00:18:00.000Z",
-      "lastSeen": "2026-01-22T21:00:58.153Z"
+      "lastSeen": "2026-01-22T21:33:06.727Z"
     },
     {
       "user": "angelina",
-      "currentlyPresent": true,
-      "totalPresenceMinutes": 121,
-      "totalWorkMinutes": 97,
-      "totalBreakMinutes": 20,
-      "pomodoroCount": 4,
-      "breakCount": 4,
+      "currentlyPresent": false,
+      "totalPresenceMinutes": 153,
+      "totalWorkMinutes": 122,
+      "totalBreakMinutes": 26,
+      "pomodoroCount": 5,
+      "breakCount": 6,
       "avgPomodoroMinutes": 24,
       "firstSeen": "2026-01-21T23:17:00.000Z",
-      "lastSeen": "2026-01-22T21:00:58.153Z"
+      "lastSeen": "2026-01-22T21:32:42.217Z"
+    },
+    {
+      "user": "Jessica",
+      "currentlyPresent": true,
+      "totalPresenceMinutes": 99,
+      "totalWorkMinutes": 61,
+      "totalBreakMinutes": 6,
+      "pomodoroCount": 2,
+      "breakCount": 2,
+      "avgPomodoroMinutes": 31,
+      "firstSeen": "2026-01-22T17:01:00.000Z",
+      "lastSeen": "2026-01-22T21:33:06.727Z"
     },
     {
       "user": "Joris",
@@ -292,16 +342,16 @@
       "lastSeen": "2026-01-22T19:28:17.640Z"
     },
     {
-      "user": "Jessica",
+      "user": "Alex",
       "currentlyPresent": true,
-      "totalPresenceMinutes": 67,
-      "totalWorkMinutes": 36,
-      "totalBreakMinutes": 0,
+      "totalPresenceMinutes": 69,
+      "totalWorkMinutes": 28,
+      "totalBreakMinutes": 6,
       "pomodoroCount": 1,
-      "breakCount": 0,
-      "avgPomodoroMinutes": 36,
-      "firstSeen": "2026-01-22T17:01:00.000Z",
-      "lastSeen": "2026-01-22T21:00:58.153Z"
+      "breakCount": 2,
+      "avgPomodoroMinutes": 28,
+      "firstSeen": "2026-01-22T18:55:00.000Z",
+      "lastSeen": "2026-01-22T21:33:06.727Z"
     },
     {
       "user": "j",
@@ -314,18 +364,6 @@
       "avgPomodoroMinutes": 25,
       "firstSeen": "2026-01-22T17:02:00.000Z",
       "lastSeen": "2026-01-22T17:50:35.460Z"
-    },
-    {
-      "user": "Alex",
-      "currentlyPresent": true,
-      "totalPresenceMinutes": 37,
-      "totalWorkMinutes": 3,
-      "totalBreakMinutes": 0,
-      "pomodoroCount": 0,
-      "breakCount": 0,
-      "avgPomodoroMinutes": 0,
-      "firstSeen": "2026-01-22T18:55:00.000Z",
-      "lastSeen": "2026-01-22T21:00:58.153Z"
     }
   ]
 }
