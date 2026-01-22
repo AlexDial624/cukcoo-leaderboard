@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-22T08:06:25.238Z",
-  "timerCount": 8,
+  "lastUpdated": "2026-01-22T08:54:50.879Z",
+  "timerCount": 9,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -57,6 +57,13 @@
       "type": "work",
       "duration": 25,
       "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-22T08:26:00.000Z",
+      "endTime": "2026-01-22T08:51:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Izzy"
     }
   ],
   "userWindows": {
