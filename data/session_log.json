@@ -1,99 +1,107 @@
 {
-  "lastUpdated": "2026-01-22T00:15:05.776Z",
-  "eventCount": 8,
+  "lastUpdated": "2026-01-22T00:19:27.024Z",
+  "eventCount": 9,
   "events": [
     {
-      "time": "2026-01-21T23:11:00.000Z",
+      "time": "2026-01-21T23:17:00.000Z",
       "type": "join",
       "user": "angelina",
       "source": "activity"
     },
     {
-      "time": "2026-01-21T23:20:00.000Z",
+      "time": "2026-01-21T23:18:00.000Z",
       "type": "join",
       "user": "Tess",
       "source": "activity"
     },
     {
-      "time": "2026-01-21T23:21:00.000Z",
+      "time": "2026-01-21T23:19:00.000Z",
       "type": "work_start",
       "user": "angelina",
       "duration": 25,
       "source": "activity"
     },
     {
-      "time": "2026-01-21T23:23:00.000Z",
+      "time": "2026-01-21T23:21:00.000Z",
       "type": "join",
       "user": "Cian",
       "source": "activity"
     },
     {
-      "time": "2026-01-21T23:46:00.000Z",
+      "time": "2026-01-21T23:44:00.000Z",
       "type": "break_start",
       "user": "angelina",
       "duration": 5,
       "source": "activity"
     },
     {
-      "time": "2026-01-21T23:51:00.000Z",
+      "time": "2026-01-21T23:49:00.000Z",
       "type": "work_start",
       "user": "angelina",
       "duration": 25,
       "source": "activity"
     },
     {
-      "time": "2026-01-22T00:11:00.000Z",
+      "time": "2026-01-22T00:10:00.000Z",
       "type": "join",
       "user": "angelina",
       "source": "activity"
     },
     {
-      "time": "2026-01-22T00:11:21.699Z",
+      "time": "2026-01-22T00:15:00.000Z",
+      "type": "break_start",
+      "user": "angelina",
+      "duration": 5,
+      "source": "activity"
+    },
+    {
+      "time": "2026-01-22T00:17:18.281Z",
       "type": "join",
-      "user": "Tess",
+      "user": "angelina",
       "source": "presence"
     }
   ],
   "userStats": {
     "angelina": {
-      "totalPresenceMinutes": 4.096266666666667,
+      "totalPresenceMinutes": 2.1457166666666665,
       "totalWorkMinutes": 50,
-      "totalBreakMinutes": 5,
+      "totalBreakMinutes": 10,
       "pomodoroCount": 2,
-      "breakCount": 1,
+      "breakCount": 2,
       "pomodoroMinutes": [
         25,
         25
       ],
       "breakMinutes": [
+        5,
         5
       ],
-      "firstSeen": "2026-01-21T23:11:00.000Z",
-      "lastSeen": "2026-01-22T00:11:00.000Z",
+      "firstSeen": "2026-01-21T23:17:00.000Z",
+      "lastSeen": "2026-01-22T00:17:18.281Z",
       "currentlyPresent": true
     },
     "Tess": {
-      "totalPresenceMinutes": 3.7346166666666667,
+      "totalPresenceMinutes": 61.4504,
       "totalWorkMinutes": 0,
       "totalBreakMinutes": 0,
       "pomodoroCount": 0,
       "breakCount": 0,
       "pomodoroMinutes": [],
       "breakMinutes": [],
-      "firstSeen": "2026-01-21T23:20:00.000Z",
-      "lastSeen": "2026-01-22T00:11:21.699Z",
+      "firstSeen": "2026-01-21T23:18:00.000Z",
+      "lastSeen": "2026-01-21T23:18:00.000Z",
       "currentlyPresent": true
     },
     "Cian": {
-      "totalPresenceMinutes": 52.096266666666665,
+      "totalPresenceMinutes": 58.4504,
       "totalWorkMinutes": 0,
       "totalBreakMinutes": 0,
       "pomodoroCount": 0,
       "breakCount": 0,
       "pomodoroMinutes": [],
       "breakMinutes": [],
-      "firstSeen": "2026-01-21T23:23:00.000Z",
-      "lastSeen": "2026-01-21T23:23:00.000Z",
+      "firstSeen": "2026-01-21T23:21:00.000Z",
+      "lastSeen": "2026-01-21T23:21:00.000Z",
       "currentlyPresent": true
     }
   }

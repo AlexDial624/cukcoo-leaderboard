@@ -150,6 +150,24 @@
     }
     .loading { text-align: center; padding: 2rem; color: #888; }
     .error { text-align: center; padding: 2rem; color: #e74c3c; }
+    .methodology { background: #f8f9fa; }
+    .methodology h2 { color: #555; font-size: 1.1rem; }
+    .methodology-content { font-size: 0.9rem; color: #555; line-height: 1.6; }
+    .methodology-content h3 {
+      color: #667eea;
+      font-size: 0.95rem;
+      margin-top: 1.25rem;
+      margin-bottom: 0.5rem;
+    }
+    .methodology-content h3:first-child { margin-top: 0; }
+    .methodology-content p { margin-bottom: 0.5rem; }
+    .methodology-content ul {
+      margin: 0.5rem 0 1rem 1.5rem;
+      padding: 0;
+    }
+    .methodology-content li { margin-bottom: 0.25rem; }
+    .methodology-content strong { color: #333; }
+    .methodology-content em { font-style: italic; }
   </style>
 </head>
 <body>
@@ -190,6 +208,48 @@
     <div class="card">
       <h2>Leaderboard</h2>
       <div id="leaderboard" class="loading">Loading...</div>
+    </div>
+
+    <div class="card methodology">
+      <h2>How This Works</h2>
+      <div class="methodology-content">
+        <h3>Presence Time</h3>
+        <p>Your <strong>presence time</strong> is the total time you've spent in the Cuckoo room. You are counted as "present" from the moment you appear in the room until you leave. Presence is detected approximately every 5 minutes.</p>
+        <ul>
+          <li>When you join the room, your presence timer starts.</li>
+          <li>When you leave the room (close the tab, navigate away, etc.), your presence timer stops.</li>
+          <li>If you leave and rejoin, each session is tracked separately and added to your total.</li>
+        </ul>
+
+        <h3>Pomodoro Count</h3>
+        <p>Your <strong>pomodoro count</strong> is the number of work sessions you have <em>started</em>. A pomodoro is counted when you click to start a work timer (e.g., "25 minute work session").</p>
+        <ul>
+          <li>Each time you start a work timer, your pomodoro count increases by 1.</li>
+          <li>Only the person who clicks "start" gets credit for that pomodoro.</li>
+          <li>If you stop/skip a timer early, the pomodoro still counts (you started it).</li>
+        </ul>
+
+        <h3>Work Time</h3>
+        <p>Your <strong>work time</strong> is the sum of all work timer durations you have started.</p>
+        <ul>
+          <li>If you start a 25-minute work session, 25 minutes is added to your work time.</li>
+          <li>If you start a 50-minute work session, 50 minutes is added.</li>
+          <li>This measures <em>intended</em> work time based on timers started, not actual elapsed time.</li>
+        </ul>
+
+        <h3>Break Count & Break Time</h3>
+        <p>Your <strong>break count</strong> and <strong>break time</strong> work the same way as pomodoros and work time, but for break timers.</p>
+        <ul>
+          <li>Each break timer you start adds 1 to your break count.</li>
+          <li>The duration of that break timer is added to your break time.</li>
+        </ul>
+
+        <h3>Currently Online</h3>
+        <p>The <strong>"Currently in Room"</strong> section shows who is in the Cuckoo room right now. This is detected in real-time and updates approximately every 5 minutes.</p>
+
+        <h3>Ranking</h3>
+        <p>Users are ranked by <strong>total presence time</strong> (time spent in the room), from highest to lowest.</p>
+      </div>
     </div>
   </div>
 

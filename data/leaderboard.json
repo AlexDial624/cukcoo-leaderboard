@@ -1,48 +1,47 @@
 {
-  "generated": "2026-01-22T00:15:05.778Z",
+  "generated": "2026-01-22T00:19:27.025Z",
   "currentlyPresent": [
-    "angelina",
-    "Tess"
+    "angelina"
   ],
   "totalUsers": 3,
   "totalPomodoros": 2,
   "totalWorkMinutes": 50,
   "users": [
     {
-      "user": "Cian",
+      "user": "Tess",
       "currentlyPresent": false,
-      "totalPresenceMinutes": 52,
+      "totalPresenceMinutes": 61,
       "totalWorkMinutes": 0,
       "totalBreakMinutes": 0,
       "pomodoroCount": 0,
       "breakCount": 0,
       "avgPomodoroMinutes": 0,
-      "firstSeen": "2026-01-21T23:23:00.000Z",
-      "lastSeen": "2026-01-21T23:23:00.000Z"
+      "firstSeen": "2026-01-21T23:18:00.000Z",
+      "lastSeen": "2026-01-21T23:18:00.000Z"
+    },
+    {
+      "user": "Cian",
+      "currentlyPresent": false,
+      "totalPresenceMinutes": 58,
+      "totalWorkMinutes": 0,
+      "totalBreakMinutes": 0,
+      "pomodoroCount": 0,
+      "breakCount": 0,
+      "avgPomodoroMinutes": 0,
+      "firstSeen": "2026-01-21T23:21:00.000Z",
+      "lastSeen": "2026-01-21T23:21:00.000Z"
     },
     {
       "user": "angelina",
       "currentlyPresent": true,
-      "totalPresenceMinutes": 4,
+      "totalPresenceMinutes": 2,
       "totalWorkMinutes": 50,
-      "totalBreakMinutes": 5,
+      "totalBreakMinutes": 10,
       "pomodoroCount": 2,
-      "breakCount": 1,
+      "breakCount": 2,
       "avgPomodoroMinutes": 25,
-      "firstSeen": "2026-01-21T23:11:00.000Z",
-      "lastSeen": "2026-01-22T00:11:00.000Z"
-    },
-    {
-      "user": "Tess",
-      "currentlyPresent": true,
-      "totalPresenceMinutes": 4,
-      "totalWorkMinutes": 0,
-      "totalBreakMinutes": 0,
-      "pomodoroCount": 0,
-      "breakCount": 0,
-      "avgPomodoroMinutes": 0,
-      "firstSeen": "2026-01-21T23:20:00.000Z",
-      "lastSeen": "2026-01-22T00:11:21.699Z"
+      "firstSeen": "2026-01-21T23:17:00.000Z",
+      "lastSeen": "2026-01-22T00:17:18.281Z"
     }
   ]
 }
