@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-22T18:26:07.139Z",
-  "timerCount": 16,
+  "lastUpdated": "2026-01-22T18:59:34.885Z",
+  "timerCount": 22,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -113,6 +113,48 @@
       "type": "work",
       "duration": 25,
       "startedBy": "j"
+    },
+    {
+      "startTime": "2026-01-22T17:55:00.000Z",
+      "endTime": "2026-01-22T18:00:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jessica"
+    },
+    {
+      "startTime": "2026-01-22T17:55:00.000Z",
+      "endTime": "2026-01-22T18:20:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jessica"
+    },
+    {
+      "startTime": "2026-01-22T17:57:00.000Z",
+      "endTime": "2026-01-22T18:02:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jessica"
+    },
+    {
+      "startTime": "2026-01-22T18:02:00.000Z",
+      "endTime": "2026-01-22T18:27:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jessica"
+    },
+    {
+      "startTime": "2026-01-22T18:27:00.000Z",
+      "endTime": "2026-01-22T18:32:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Joris"
+    },
+    {
+      "startTime": "2026-01-22T18:33:00.000Z",
+      "endTime": "2026-01-22T18:58:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jessica"
     }
   ],
   "userWindows": {
@@ -140,6 +182,11 @@
         "joinTime": "2026-01-22T17:18:00.000Z",
         "leaveTime": "2026-01-22T17:50:35.460Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-01-22T18:25:41.467Z",
+        "leaveTime": "2026-01-22T18:59:34.884Z",
+        "stillPresent": true
       }
     ],
     "j": [
@@ -154,6 +201,13 @@
         "joinTime": "2026-01-22T17:01:00.000Z",
         "leaveTime": "2026-01-22T17:50:35.460Z",
         "stillPresent": false
+      }
+    ],
+    "Alex": [
+      {
+        "joinTime": "2026-01-22T18:55:00.000Z",
+        "leaveTime": "2026-01-22T18:59:34.884Z",
+        "stillPresent": true
       }
     ]
   },
@@ -179,14 +233,14 @@
       "currentlyPresent": false
     },
     "Joris": {
-      "totalPresenceMinutes": 32.591,
-      "totalWorkMinutes": 9,
-      "totalBreakMinutes": 0,
-      "pomodoroCount": 0,
-      "breakCount": 0,
+      "totalPresenceMinutes": 66.48128333333334,
+      "totalWorkMinutes": 35.308883333333334,
+      "totalBreakMinutes": 5,
+      "pomodoroCount": 1,
+      "breakCount": 1,
       "firstSeen": "2026-01-22T17:18:00.000Z",
-      "lastSeen": "2026-01-22T17:50:35.460Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-01-22T18:59:34.884Z",
+      "currentlyPresent": true
     },
     "j": {
       "totalPresenceMinutes": 48.591,
@@ -207,6 +261,16 @@
       "firstSeen": "2026-01-22T17:01:00.000Z",
       "lastSeen": "2026-01-22T17:50:35.460Z",
       "currentlyPresent": false
+    },
+    "Alex": {
+      "totalPresenceMinutes": 4.5814,
+      "totalWorkMinutes": 3,
+      "totalBreakMinutes": 0,
+      "pomodoroCount": 0,
+      "breakCount": 0,
+      "firstSeen": "2026-01-22T18:55:00.000Z",
+      "lastSeen": "2026-01-22T18:59:34.884Z",
+      "currentlyPresent": true
     }
   }
 }
