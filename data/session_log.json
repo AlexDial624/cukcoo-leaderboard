@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-22T00:12:19.430Z",
+  "lastUpdated": "2026-01-22T00:15:05.776Z",
   "eventCount": 8,
   "events": [
     {
@@ -56,7 +56,7 @@
   ],
   "userStats": {
     "angelina": {
-      "totalPresenceMinutes": 1.3238333333333334,
+      "totalPresenceMinutes": 4.096266666666667,
       "totalWorkMinutes": 50,
       "totalBreakMinutes": 5,
       "pomodoroCount": 2,
@@ -73,7 +73,7 @@
       "currentlyPresent": true
     },
     "Tess": {
-      "totalPresenceMinutes": 0.9621833333333333,
+      "totalPresenceMinutes": 3.7346166666666667,
       "totalWorkMinutes": 0,
       "totalBreakMinutes": 0,
       "pomodoroCount": 0,
@@ -85,7 +85,7 @@
       "currentlyPresent": true
     },
     "Cian": {
-      "totalPresenceMinutes": 49.32383333333333,
+      "totalPresenceMinutes": 52.096266666666665,
       "totalWorkMinutes": 0,
       "totalBreakMinutes": 0,
       "pomodoroCount": 0,

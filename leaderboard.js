@@ -269,13 +269,18 @@ function formatDuration(minutes) {
 }
 
 // Generate leaderboard data
-function generateLeaderboard(userStats, events) {
+function generateLeaderboard(userStats, events, latestPresence) {
   const now = new Date();
 
-  // Get currently present users
-  const currentlyPresent = Object.entries(userStats)
-    .filter(([_, stats]) => stats.currentlyPresent)
-    .map(([user, _]) => user);
+  // Get currently present users from the LATEST presence snapshot (most accurate)
+  const currentlyPresent = latestPresence
+    ? latestPresence.split(';').filter(u => u)
+    : [];
+
+  // Update userStats to reflect actual presence
+  for (const user of Object.keys(userStats)) {
+    userStats[user].currentlyPresent = currentlyPresent.includes(user);
+  }
 
   // Rank by total presence time
   const ranked = Object.entries(userStats)
@@ -353,8 +358,13 @@ function main() {
   fs.writeFileSync(SESSION_LOG_PATH, JSON.stringify(sessionLog, null, 2));
   console.log(`\nSession log saved to: ${SESSION_LOG_PATH}`);
 
+  // Get latest presence snapshot for accurate "currently present"
+  const latestPresence = presence.length > 0
+    ? presence[presence.length - 1].users
+    : '';
+
   // Generate leaderboard
-  const leaderboard = generateLeaderboard(userStats, allEvents);
+  const leaderboard = generateLeaderboard(userStats, allEvents, latestPresence);
   fs.writeFileSync(LEADERBOARD_PATH, JSON.stringify(leaderboard, null, 2));
   console.log(`Leaderboard saved to: ${LEADERBOARD_PATH}`);
 
