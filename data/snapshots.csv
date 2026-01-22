@@ -15,3 +15,4 @@ timestamp,timer_running,timer_value,session_type
 2026-01-22T07:59:10.809Z,false,00:00,unknown
 2026-01-22T08:47:38.744Z,true,11:05,unknown
 2026-01-22T09:19:43.882Z,true,10:28,unknown
+2026-01-22T09:51:32.048Z,true,02:41,breakTime
