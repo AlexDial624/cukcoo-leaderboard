@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-22T00:51:14.265Z",
-  "timerCount": 4,
+  "lastUpdated": "2026-01-22T00:58:25.172Z",
+  "timerCount": 8,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -24,10 +24,38 @@
       "startedBy": "angelina"
     },
     {
+      "startTime": "2026-01-21T23:55:00.000Z",
+      "endTime": "2026-01-22T00:00:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "angelina"
+    },
+    {
       "startTime": "2026-01-22T00:15:00.000Z",
       "endTime": "2026-01-22T00:20:00.000Z",
       "type": "break",
       "duration": 5,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-22T00:20:00.000Z",
+      "endTime": "2026-01-22T00:45:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-22T00:45:00.000Z",
+      "endTime": "2026-01-22T00:50:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-22T00:50:00.000Z",
+      "endTime": "2026-01-22T01:15:00.000Z",
+      "type": "work",
+      "duration": 25,
       "startedBy": "angelina"
     }
   ],
@@ -35,20 +63,37 @@
     "angelina": [
       {
         "joinTime": "2026-01-21T23:17:00.000Z",
-        "leaveTime": "2026-01-22T00:51:14.262Z",
+        "leaveTime": "2026-01-22T00:55:35.767Z",
+        "stillPresent": false
+      }
+    ],
+    "Tess": [
+      {
+        "joinTime": "2026-01-22T00:18:00.000Z",
+        "leaveTime": "2026-01-22T00:58:25.170Z",
         "stillPresent": true
       }
     ]
   },
   "userStats": {
     "angelina": {
-      "totalPresenceMinutes": 94.2377,
-      "totalWorkMinutes": 50,
-      "totalBreakMinutes": 10,
+      "totalPresenceMinutes": 98.59611666666666,
+      "totalWorkMinutes": 80.59611666666666,
+      "totalBreakMinutes": 20,
+      "pomodoroCount": 4,
+      "breakCount": 4,
+      "firstSeen": "2026-01-21T23:17:00.000Z",
+      "lastSeen": "2026-01-22T00:55:35.767Z",
+      "currentlyPresent": false
+    },
+    "Tess": {
+      "totalPresenceMinutes": 40.4195,
+      "totalWorkMinutes": 33.4195,
+      "totalBreakMinutes": 7,
       "pomodoroCount": 2,
       "breakCount": 2,
-      "firstSeen": "2026-01-21T23:17:00.000Z",
-      "lastSeen": "2026-01-22T00:51:14.262Z",
+      "firstSeen": "2026-01-22T00:18:00.000Z",
+      "lastSeen": "2026-01-22T00:58:25.170Z",
       "currentlyPresent": true
     }
   }

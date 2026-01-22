@@ -327,8 +327,38 @@ function formatDuration(minutes) {
   return `${mins}m`;
 }
 
+// Build activity log showing timers with participants
+function buildActivityLog(timers, userWindows) {
+  const activityLog = [];
+
+  for (const timer of timers) {
+    const participants = [];
+
+    // Find all users who were eligible for this timer
+    for (const user of Object.keys(userWindows)) {
+      if (eligibleForTimerCount(userWindows, user, timer.startTime)) {
+        participants.push(user);
+      }
+    }
+
+    activityLog.push({
+      time: timer.startTime.toISOString(),
+      endTime: timer.endTime.toISOString(),
+      type: timer.type,
+      duration: timer.duration,
+      startedBy: timer.startedBy,
+      participants: participants
+    });
+  }
+
+  // Sort by time descending (most recent first)
+  activityLog.sort((a, b) => new Date(b.time) - new Date(a.time));
+
+  return activityLog;
+}
+
 // Generate leaderboard data
-function generateLeaderboard(userStats, latestPresence) {
+function generateLeaderboard(userStats, latestPresence, timers, userWindows) {
   const now = new Date();
 
   // Get currently present users from the LATEST presence snapshot (most accurate)
@@ -355,12 +385,16 @@ function generateLeaderboard(userStats, latestPresence) {
     }))
     .sort((a, b) => b.totalPresenceMinutes - a.totalPresenceMinutes);
 
+  // Build activity log
+  const activityLog = buildActivityLog(timers, userWindows);
+
   return {
     generated: now.toISOString(),
     currentlyPresent,
     totalUsers: ranked.length,
     totalPomodoros: ranked.reduce((sum, u) => sum + u.pomodoroCount, 0),
     totalWorkMinutes: ranked.reduce((sum, u) => sum + u.totalWorkMinutes, 0),
+    activityLog: activityLog,
     users: ranked.map(u => ({
       user: u.user,
       currentlyPresent: u.currentlyPresent,
@@ -442,7 +476,7 @@ function main() {
     : '';
 
   // Generate leaderboard
-  const leaderboard = generateLeaderboard(userStats, latestPresence);
+  const leaderboard = generateLeaderboard(userStats, latestPresence, timers, userWindows);
   fs.writeFileSync(LEADERBOARD_PATH, JSON.stringify(leaderboard, null, 2));
   console.log(`Leaderboard saved to: ${LEADERBOARD_PATH}`);
 

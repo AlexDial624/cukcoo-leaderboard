@@ -150,6 +150,41 @@
     }
     .loading { text-align: center; padding: 2rem; color: #888; }
     .error { text-align: center; padding: 2rem; color: #e74c3c; }
+    .activity-item {
+      padding: 0.75rem 0;
+      border-bottom: 1px solid #eee;
+    }
+    .activity-item:last-child { border-bottom: none; }
+    .activity-header {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.25rem;
+    }
+    .activity-type {
+      padding: 0.2rem 0.5rem;
+      border-radius: 8px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    .activity-type.work { background: #667eea; color: white; }
+    .activity-type.break { background: #22c55e; color: white; }
+    .activity-time { color: #888; font-size: 0.85rem; }
+    .activity-details { font-size: 0.9rem; color: #555; }
+    .activity-participants {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem;
+      margin-top: 0.25rem;
+    }
+    .participant-chip {
+      background: #e0e0e0;
+      padding: 0.15rem 0.5rem;
+      border-radius: 10px;
+      font-size: 0.8rem;
+      color: #555;
+    }
     .methodology { background: #f8f9fa; }
     .methodology h2 { color: #555; font-size: 1.1rem; }
     .methodology-content { font-size: 0.9rem; color: #555; line-height: 1.6; }
@@ -208,6 +243,11 @@
     <div class="card">
       <h2>Leaderboard</h2>
       <div id="leaderboard" class="loading">Loading...</div>
+    </div>
+
+    <div class="card">
+      <h2>Recent Activity</h2>
+      <div id="activity-log" class="loading">Loading...</div>
     </div>
 
     <div class="card methodology">
@@ -340,6 +380,36 @@
             </div>
           `;
         }).join('');
+
+        // Render activity log
+        const activityLog = data.activityLog || [];
+        const activityContainer = document.getElementById('activity-log');
+
+        if (activityLog.length === 0) {
+          activityContainer.innerHTML = '<div class="no-users">No activity recorded yet.</div>';
+        } else {
+          activityContainer.innerHTML = activityLog.slice(0, 20).map(activity => {
+            const time = new Date(activity.time);
+            const timeStr = time.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+            const dateStr = time.toLocaleDateString([], { month: 'short', day: 'numeric' });
+            const participants = activity.participants || [];
+
+            return `
+              <div class="activity-item">
+                <div class="activity-header">
+                  <span class="activity-type ${activity.type}">${activity.type}</span>
+                  <span class="activity-time">${dateStr} ${timeStr}</span>
+                </div>
+                <div class="activity-details">
+                  ${activity.duration} min ${activity.type} session started by <strong>${activity.startedBy}</strong>
+                </div>
+                <div class="activity-participants">
+                  ${participants.map(p => `<span class="participant-chip">${p}</span>`).join('')}
+                </div>
+              </div>
+            `;
+          }).join('');
+        }
 
       } catch (err) {
         console.error(err);

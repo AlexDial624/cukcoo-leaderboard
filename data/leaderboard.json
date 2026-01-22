@@ -1,23 +1,121 @@
 {
-  "generated": "2026-01-22T00:51:14.266Z",
+  "generated": "2026-01-22T00:58:25.173Z",
   "currentlyPresent": [
-    "angelina"
+    "Tess"
   ],
-  "totalUsers": 1,
-  "totalPomodoros": 2,
-  "totalWorkMinutes": 50,
+  "totalUsers": 2,
+  "totalPomodoros": 6,
+  "totalWorkMinutes": 114.01561666666666,
+  "activityLog": [
+    {
+      "time": "2026-01-22T00:50:00.000Z",
+      "endTime": "2026-01-22T01:15:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina",
+      "participants": [
+        "angelina",
+        "Tess"
+      ]
+    },
+    {
+      "time": "2026-01-22T00:45:00.000Z",
+      "endTime": "2026-01-22T00:50:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "angelina",
+      "participants": [
+        "angelina",
+        "Tess"
+      ]
+    },
+    {
+      "time": "2026-01-22T00:20:00.000Z",
+      "endTime": "2026-01-22T00:45:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina",
+      "participants": [
+        "angelina",
+        "Tess"
+      ]
+    },
+    {
+      "time": "2026-01-22T00:15:00.000Z",
+      "endTime": "2026-01-22T00:20:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "angelina",
+      "participants": [
+        "angelina",
+        "Tess"
+      ]
+    },
+    {
+      "time": "2026-01-21T23:55:00.000Z",
+      "endTime": "2026-01-22T00:00:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "angelina",
+      "participants": [
+        "angelina"
+      ]
+    },
+    {
+      "time": "2026-01-21T23:49:00.000Z",
+      "endTime": "2026-01-22T00:14:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina",
+      "participants": [
+        "angelina"
+      ]
+    },
+    {
+      "time": "2026-01-21T23:44:00.000Z",
+      "endTime": "2026-01-21T23:49:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "angelina",
+      "participants": [
+        "angelina"
+      ]
+    },
+    {
+      "time": "2026-01-21T23:19:00.000Z",
+      "endTime": "2026-01-21T23:44:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina",
+      "participants": [
+        "angelina"
+      ]
+    }
+  ],
   "users": [
     {
       "user": "angelina",
+      "currentlyPresent": false,
+      "totalPresenceMinutes": 99,
+      "totalWorkMinutes": 81,
+      "totalBreakMinutes": 20,
+      "pomodoroCount": 4,
+      "breakCount": 4,
+      "avgPomodoroMinutes": 20,
+      "firstSeen": "2026-01-21T23:17:00.000Z",
+      "lastSeen": "2026-01-22T00:55:35.767Z"
+    },
+    {
+      "user": "Tess",
       "currentlyPresent": true,
-      "totalPresenceMinutes": 94,
-      "totalWorkMinutes": 50,
-      "totalBreakMinutes": 10,
+      "totalPresenceMinutes": 40,
+      "totalWorkMinutes": 33,
+      "totalBreakMinutes": 7,
       "pomodoroCount": 2,
       "breakCount": 2,
-      "avgPomodoroMinutes": 25,
-      "firstSeen": "2026-01-21T23:17:00.000Z",
-      "lastSeen": "2026-01-22T00:51:14.262Z"
+      "avgPomodoroMinutes": 17,
+      "firstSeen": "2026-01-22T00:18:00.000Z",
+      "lastSeen": "2026-01-22T00:58:25.170Z"
     }
   ]
 }
