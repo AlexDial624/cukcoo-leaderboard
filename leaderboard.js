@@ -1,5 +1,12 @@
 // Leaderboard Generator
 // Processes presence snapshots + activity feed into user stats
+//
+// Algorithm:
+// - Timer attribution: +1 count if present at timer start OR joined within 5 min
+// - Work/break time: Only actual overlap between presence and timer running
+// - Join time: Activity feed "joined" (precise) or assume right after last snapshot
+// - Leave time: Just before disappearance snapshot, or after last timer ended
+// - Gap protection: Cap assumed presence if >30 min between snapshots
 
 const fs = require('fs');
 const path = require('path');
@@ -10,6 +17,9 @@ const PRESENCE_PATH = path.join(DATA_DIR, 'presence.csv');
 const SNAPSHOTS_PATH = path.join(DATA_DIR, 'snapshots.csv');
 const SESSION_LOG_PATH = path.join(DATA_DIR, 'session_log.json');
 const LEADERBOARD_PATH = path.join(DATA_DIR, 'leaderboard.json');
+
+const GRACE_PERIOD_MS = 5 * 60 * 1000; // 5 minutes grace period for timer attribution
+const MAX_GAP_MS = 30 * 60 * 1000; // 30 min max gap for presence assumption
 
 // Parse CSV file into array of objects
 function parseCSV(csvPath) {
@@ -30,57 +40,15 @@ function parseCSV(csvPath) {
   });
 }
 
-// Process presence snapshots to detect join/leave events
-function processPresence(presenceData) {
-  const events = [];
-  let previousUsers = new Set();
-
-  for (const snapshot of presenceData) {
-    const time = new Date(snapshot.timestamp);
-    const currentUsers = new Set(
-      snapshot.users ? snapshot.users.split(';').filter(u => u) : []
-    );
-
-    // Detect joins (in current but not previous)
-    for (const user of currentUsers) {
-      if (!previousUsers.has(user)) {
-        events.push({
-          time: time.toISOString(),
-          type: 'join',
-          user: user,
-          source: 'presence'
-        });
-      }
-    }
-
-    // Detect leaves (in previous but not current)
-    for (const user of previousUsers) {
-      if (!currentUsers.has(user)) {
-        events.push({
-          time: time.toISOString(),
-          type: 'leave',
-          user: user,
-          source: 'presence'
-        });
-      }
-    }
-
-    previousUsers = currentUsers;
-  }
-
-  return events;
-}
-
-// Process activity feed for timer events
-function processActivities(activities) {
-  const events = [];
+// Extract timer events from activity feed
+function extractTimerEvents(activities) {
+  const timers = [];
 
   for (const activity of activities) {
-    const time = activity.estimated_time;
+    const time = new Date(activity.estimated_time);
     const user = activity.user;
     const action = activity.action || '';
 
-    // Skip system messages
     if (user === 'cuckoo' || user === 'unknown') continue;
 
     // Parse timer starts
@@ -88,183 +56,261 @@ function processActivities(activities) {
     const breakMatch = action.match(/started.*?(\d+)\s*minute.*?break/i);
     const timerMatch = action.match(/started.*?(\d+)\s*minute/i);
 
+    let timerType = null;
+    let duration = 0;
+
     if (workMatch) {
-      events.push({
-        time,
-        type: 'work_start',
-        user,
-        duration: parseInt(workMatch[1]),
-        source: 'activity'
-      });
+      timerType = 'work';
+      duration = parseInt(workMatch[1]);
     } else if (breakMatch) {
-      events.push({
-        time,
-        type: 'break_start',
-        user,
-        duration: parseInt(breakMatch[1]),
-        source: 'activity'
-      });
+      timerType = 'break';
+      duration = parseInt(breakMatch[1]);
     } else if (timerMatch && action.includes('break')) {
-      events.push({
-        time,
-        type: 'break_start',
-        user,
-        duration: parseInt(timerMatch[1]),
-        source: 'activity'
-      });
+      timerType = 'break';
+      duration = parseInt(timerMatch[1]);
     } else if (timerMatch) {
-      events.push({
-        time,
-        type: 'work_start',
-        user,
-        duration: parseInt(timerMatch[1]),
-        source: 'activity'
-      });
+      timerType = 'work';
+      duration = parseInt(timerMatch[1]);
     }
 
-    // Parse stops/skips
-    if (action.includes('stopped') || action.includes('skipped')) {
-      events.push({
-        time,
-        type: 'timer_stop',
-        user,
-        source: 'activity'
+    if (timerType) {
+      timers.push({
+        startTime: time,
+        endTime: new Date(time.getTime() + duration * 60 * 1000),
+        type: timerType,
+        duration: duration,
+        startedBy: user
       });
     }
+  }
 
-    // Parse joins from activity feed (backup for presence)
+  // Sort by start time
+  timers.sort((a, b) => a.startTime - b.startTime);
+  return timers;
+}
+
+// Extract join events from activity feed (for precise join times)
+function extractJoinEvents(activities) {
+  const joins = {};
+
+  for (const activity of activities) {
+    const time = new Date(activity.estimated_time);
+    const user = activity.user;
+    const action = activity.action || '';
+
+    if (user === 'cuckoo' || user === 'unknown') continue;
+
     if (action.includes('joined')) {
-      events.push({
-        time,
-        type: 'join',
-        user,
-        source: 'activity'
-      });
+      if (!joins[user]) joins[user] = [];
+      joins[user].push(time);
     }
   }
 
-  return events;
+  return joins;
 }
 
-// Merge and deduplicate events
-function mergeEvents(presenceEvents, activityEvents) {
-  const allEvents = [...presenceEvents, ...activityEvents];
+// Build presence windows for each user from presence snapshots
+function buildPresenceWindows(presenceData, joinEvents) {
+  const userWindows = {};
+  let previousSnapshot = null;
+  let previousUsers = new Set();
 
-  // Sort by time
-  allEvents.sort((a, b) => new Date(a.time) - new Date(b.time));
+  for (const snapshot of presenceData) {
+    const snapshotTime = new Date(snapshot.timestamp);
+    const currentUsers = new Set(
+      snapshot.users ? snapshot.users.split(';').filter(u => u) : []
+    );
 
-  // Deduplicate joins (prefer presence source as it's more accurate)
-  const seen = new Set();
-  const deduped = [];
+    // Calculate gap from previous snapshot
+    const gapMs = previousSnapshot
+      ? snapshotTime - new Date(previousSnapshot.timestamp)
+      : 0;
 
-  for (const event of allEvents) {
-    // Create a key for deduplication (within 5 min window for joins)
-    const timeKey = Math.floor(new Date(event.time).getTime() / (5 * 60 * 1000));
-    const key = `${event.type}|${event.user}|${timeKey}`;
-
-    if (event.type === 'join' || event.type === 'leave') {
-      if (!seen.has(key)) {
-        seen.add(key);
-        deduped.push(event);
+    // Process each user
+    for (const user of currentUsers) {
+      if (!userWindows[user]) {
+        userWindows[user] = [];
       }
-    } else {
-      deduped.push(event);
-    }
-  }
 
-  return deduped;
-}
+      // User just appeared (wasn't in previous snapshot)
+      if (!previousUsers.has(user)) {
+        // Try to find a precise join time from activity feed
+        let joinTime = null;
+        const userJoins = joinEvents[user] || [];
 
-// Calculate user statistics from events
-function calculateUserStats(events, timerSnapshots, presenceData) {
-  const userStats = {};
-  const userSessions = {}; // Track active sessions per user
-
-  // Get the time of our first presence snapshot - only trust data after this
-  const firstPresenceTime = presenceData.length > 0
-    ? new Date(presenceData[0].timestamp)
-    : new Date();
-
-  // Get current timer state from latest snapshot
-  const latestSnapshot = timerSnapshots[timerSnapshots.length - 1];
-  const currentTimerRunning = latestSnapshot?.timer_running === 'true';
-  const currentTimerValue = latestSnapshot?.timer_value || '00:00';
-  const currentSessionType = latestSnapshot?.session_type || 'unknown';
-
-  for (const event of events) {
-    // Skip join events from before we started tracking presence
-    // (we can't know when they left without presence data)
-    if (event.type === 'join' && event.source === 'activity') {
-      const eventTime = new Date(event.time);
-      if (eventTime < firstPresenceTime) {
-        continue;
-      }
-    }
-    const { user, type, time, duration } = event;
-
-    if (!userStats[user]) {
-      userStats[user] = {
-        totalPresenceMinutes: 0,
-        totalWorkMinutes: 0,
-        totalBreakMinutes: 0,
-        pomodoroCount: 0,
-        breakCount: 0,
-        pomodoroMinutes: [],
-        breakMinutes: [],
-        firstSeen: time,
-        lastSeen: time,
-        currentlyPresent: false
-      };
-    }
-
-    userStats[user].lastSeen = time;
-
-    if (!userSessions[user]) {
-      userSessions[user] = { joinTime: null, activeTimer: null };
-    }
-
-    switch (type) {
-      case 'join':
-        userSessions[user].joinTime = new Date(time);
-        userStats[user].currentlyPresent = true;
-        break;
-
-      case 'leave':
-        if (userSessions[user].joinTime) {
-          const presenceMs = new Date(time) - userSessions[user].joinTime;
-          userStats[user].totalPresenceMinutes += presenceMs / (1000 * 60);
+        // Look for a join event between previous snapshot and this one
+        for (const jt of userJoins) {
+          if (previousSnapshot) {
+            const prevTime = new Date(previousSnapshot.timestamp);
+            if (jt > prevTime && jt <= snapshotTime) {
+              joinTime = jt;
+              break;
+            }
+          } else if (jt <= snapshotTime) {
+            joinTime = jt;
+            break;
+          }
         }
-        userSessions[user].joinTime = null;
-        userStats[user].currentlyPresent = false;
-        break;
 
-      case 'work_start':
-        userStats[user].pomodoroCount++;
-        userStats[user].totalWorkMinutes += duration;
-        userStats[user].pomodoroMinutes.push(duration);
-        userSessions[user].activeTimer = { type: 'work', duration, startTime: time };
-        break;
+        // If no precise join time, assume right after previous snapshot
+        // But cap at MAX_GAP_MS for gap protection
+        if (!joinTime) {
+          if (previousSnapshot && gapMs <= MAX_GAP_MS) {
+            // Assume joined right after previous snapshot (generous)
+            joinTime = new Date(new Date(previousSnapshot.timestamp).getTime() + 1000);
+          } else if (previousSnapshot && gapMs > MAX_GAP_MS) {
+            // Gap too large, assume joined MAX_GAP_MS before this snapshot
+            joinTime = new Date(snapshotTime.getTime() - MAX_GAP_MS);
+          } else {
+            // No previous snapshot, assume joined at this snapshot
+            joinTime = snapshotTime;
+          }
+        }
 
-      case 'break_start':
-        userStats[user].breakCount++;
-        userStats[user].totalBreakMinutes += duration;
-        userStats[user].breakMinutes.push(duration);
-        userSessions[user].activeTimer = { type: 'break', duration, startTime: time };
-        break;
+        // Start a new window
+        userWindows[user].push({
+          joinTime: joinTime,
+          leaveTime: null // Will be set when they leave
+        });
+      }
+    }
 
-      case 'timer_stop':
-        userSessions[user].activeTimer = null;
-        break;
+    // Process users who left (were in previous but not current)
+    for (const user of previousUsers) {
+      if (!currentUsers.has(user) && userWindows[user]) {
+        // Find the open window and close it
+        const openWindow = userWindows[user].find(w => w.leaveTime === null);
+        if (openWindow) {
+          // Assume left just before this snapshot (generous)
+          openWindow.leaveTime = new Date(snapshotTime.getTime() - 1000);
+        }
+      }
+    }
+
+    previousSnapshot = snapshot;
+    previousUsers = currentUsers;
+  }
+
+  // Close any still-open windows (user is currently present)
+  const now = new Date();
+  for (const user of Object.keys(userWindows)) {
+    for (const window of userWindows[user]) {
+      if (window.leaveTime === null) {
+        window.leaveTime = now; // Still present
+        window.stillPresent = true;
+      }
     }
   }
 
-  // Handle users still present (add time up to now)
-  const now = new Date();
-  for (const [user, session] of Object.entries(userSessions)) {
-    if (session.joinTime) {
-      const presenceMs = now - session.joinTime;
-      userStats[user].totalPresenceMinutes += presenceMs / (1000 * 60);
-      userStats[user].currentlyPresent = true;
+  return userWindows;
+}
+
+// Check if a user was present during a time range
+function wasPresent(userWindows, user, startTime, endTime) {
+  const windows = userWindows[user] || [];
+  for (const w of windows) {
+    // Check for overlap
+    if (w.joinTime <= endTime && w.leaveTime >= startTime) {
+      return true;
+    }
+  }
+  return false;
+}
+
+// Check if user was present at timer start or joined within grace period
+function eligibleForTimerCount(userWindows, user, timerStartTime) {
+  const windows = userWindows[user] || [];
+  const graceEnd = new Date(timerStartTime.getTime() + GRACE_PERIOD_MS);
+
+  for (const w of windows) {
+    // Was present at timer start
+    if (w.joinTime <= timerStartTime && w.leaveTime >= timerStartTime) {
+      return true;
+    }
+    // Joined within grace period and timer was still going
+    if (w.joinTime > timerStartTime && w.joinTime <= graceEnd) {
+      return true;
+    }
+  }
+  return false;
+}
+
+// Calculate overlap in minutes between a user's presence and a timer
+function calculateOverlap(userWindows, user, timerStart, timerEnd) {
+  const windows = userWindows[user] || [];
+  let totalOverlapMs = 0;
+
+  for (const w of windows) {
+    // Calculate overlap
+    const overlapStart = Math.max(w.joinTime.getTime(), timerStart.getTime());
+    const overlapEnd = Math.min(w.leaveTime.getTime(), timerEnd.getTime());
+
+    if (overlapEnd > overlapStart) {
+      totalOverlapMs += (overlapEnd - overlapStart);
+    }
+  }
+
+  return totalOverlapMs / (1000 * 60); // Convert to minutes
+}
+
+// Calculate total presence time for a user
+function calculatePresenceTime(windows) {
+  let totalMs = 0;
+  for (const w of windows) {
+    totalMs += (w.leaveTime.getTime() - w.joinTime.getTime());
+  }
+  return totalMs / (1000 * 60); // Convert to minutes
+}
+
+// Calculate user statistics
+function calculateUserStats(userWindows, timers) {
+  const userStats = {};
+
+  // Initialize stats for all users who have presence windows
+  for (const user of Object.keys(userWindows)) {
+    const windows = userWindows[user];
+    const firstWindow = windows[0];
+    const lastWindow = windows[windows.length - 1];
+
+    userStats[user] = {
+      totalPresenceMinutes: calculatePresenceTime(windows),
+      totalWorkMinutes: 0,
+      totalBreakMinutes: 0,
+      pomodoroCount: 0,
+      breakCount: 0,
+      firstSeen: firstWindow?.joinTime.toISOString(),
+      lastSeen: lastWindow?.leaveTime.toISOString(),
+      currentlyPresent: lastWindow?.stillPresent || false
+    };
+  }
+
+  // Process each timer and attribute to eligible users
+  for (const timer of timers) {
+    for (const user of Object.keys(userWindows)) {
+      // Check if user is eligible for this timer's count
+      if (eligibleForTimerCount(userWindows, user, timer.startTime)) {
+        if (timer.type === 'work') {
+          userStats[user].pomodoroCount++;
+        } else {
+          userStats[user].breakCount++;
+        }
+      }
+
+      // Calculate actual overlap time
+      const overlapMinutes = calculateOverlap(
+        userWindows,
+        user,
+        timer.startTime,
+        timer.endTime
+      );
+
+      if (overlapMinutes > 0) {
+        if (timer.type === 'work') {
+          userStats[user].totalWorkMinutes += overlapMinutes;
+        } else {
+          userStats[user].totalBreakMinutes += overlapMinutes;
+        }
+      }
     }
   }
 
@@ -282,7 +328,7 @@ function formatDuration(minutes) {
 }
 
 // Generate leaderboard data
-function generateLeaderboard(userStats, events, latestPresence) {
+function generateLeaderboard(userStats, latestPresence) {
   const now = new Date();
 
   // Get currently present users from the LATEST presence snapshot (most accurate)
@@ -290,7 +336,7 @@ function generateLeaderboard(userStats, events, latestPresence) {
     ? latestPresence.split(';').filter(u => u)
     : [];
 
-  // Update userStats to reflect actual presence
+  // Update userStats to reflect actual presence from latest snapshot
   for (const user of Object.keys(userStats)) {
     userStats[user].currentlyPresent = currentlyPresent.includes(user);
   }
@@ -348,24 +394,43 @@ function main() {
     return;
   }
 
-  // Process events
-  const presenceEvents = processPresence(presence);
-  const activityEvents = processActivities(activities);
-  const allEvents = mergeEvents(presenceEvents, activityEvents);
+  // Extract timer events from activity feed
+  const timers = extractTimerEvents(activities);
+  console.log(`\nTimers found: ${timers.length}`);
 
-  console.log(`\nPresence events: ${presenceEvents.length}`);
-  console.log(`Activity events: ${activityEvents.length}`);
-  console.log(`Merged events: ${allEvents.length}`);
+  // Extract precise join events from activity feed
+  const joinEvents = extractJoinEvents(activities);
+  console.log(`Users with join events: ${Object.keys(joinEvents).length}`);
+
+  // Build presence windows for each user
+  const userWindows = buildPresenceWindows(presence, joinEvents);
+  console.log(`Users with presence windows: ${Object.keys(userWindows).length}`);
 
   // Calculate stats
-  const userStats = calculateUserStats(allEvents, snapshots, presence);
+  const userStats = calculateUserStats(userWindows, timers);
   console.log(`Users tracked: ${Object.keys(userStats).length}`);
 
-  // Save session log (intermediate format)
+  // Save session log (intermediate format for debugging)
   const sessionLog = {
     lastUpdated: new Date().toISOString(),
-    eventCount: allEvents.length,
-    events: allEvents,
+    timerCount: timers.length,
+    timers: timers.map(t => ({
+      startTime: t.startTime.toISOString(),
+      endTime: t.endTime.toISOString(),
+      type: t.type,
+      duration: t.duration,
+      startedBy: t.startedBy
+    })),
+    userWindows: Object.fromEntries(
+      Object.entries(userWindows).map(([user, windows]) => [
+        user,
+        windows.map(w => ({
+          joinTime: w.joinTime.toISOString(),
+          leaveTime: w.leaveTime.toISOString(),
+          stillPresent: w.stillPresent || false
+        }))
+      ])
+    ),
     userStats
   };
   fs.writeFileSync(SESSION_LOG_PATH, JSON.stringify(sessionLog, null, 2));
@@ -377,7 +442,7 @@ function main() {
     : '';
 
   // Generate leaderboard
-  const leaderboard = generateLeaderboard(userStats, allEvents, latestPresence);
+  const leaderboard = generateLeaderboard(userStats, latestPresence);
   fs.writeFileSync(LEADERBOARD_PATH, JSON.stringify(leaderboard, null, 2));
   console.log(`Leaderboard saved to: ${LEADERBOARD_PATH}`);
 
@@ -392,7 +457,7 @@ function main() {
   console.log('\n=== Top 5 by Presence Time ===');
   leaderboard.users.slice(0, 5).forEach((u, i) => {
     const status = u.currentlyPresent ? ' (online)' : '';
-    console.log(`${i + 1}. ${u.user}${status}: ${formatDuration(u.totalPresenceMinutes)} presence, ${u.pomodoroCount} pomodoros`);
+    console.log(`${i + 1}. ${u.user}${status}: ${formatDuration(u.totalPresenceMinutes)} presence, ${u.pomodoroCount} pomodoros, ${formatDuration(u.totalWorkMinutes)} work`);
   });
 }
 

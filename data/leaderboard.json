@@ -1,5 +1,5 @@
 {
-  "generated": "2026-01-22T00:20:13.560Z",
+  "generated": "2026-01-22T00:51:14.266Z",
   "currentlyPresent": [
     "angelina"
   ],
@@ -10,14 +10,14 @@
     {
       "user": "angelina",
       "currentlyPresent": true,
-      "totalPresenceMinutes": 3,
+      "totalPresenceMinutes": 94,
       "totalWorkMinutes": 50,
       "totalBreakMinutes": 10,
       "pomodoroCount": 2,
       "breakCount": 2,
       "avgPomodoroMinutes": 25,
-      "firstSeen": "2026-01-21T23:19:00.000Z",
-      "lastSeen": "2026-01-22T00:17:18.281Z"
+      "firstSeen": "2026-01-21T23:17:00.000Z",
+      "lastSeen": "2026-01-22T00:51:14.262Z"
     }
   ]
 }

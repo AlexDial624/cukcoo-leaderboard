@@ -1,83 +1,54 @@
 {
-  "lastUpdated": "2026-01-22T00:20:13.560Z",
-  "eventCount": 9,
-  "events": [
+  "lastUpdated": "2026-01-22T00:51:14.265Z",
+  "timerCount": 4,
+  "timers": [
     {
-      "time": "2026-01-21T23:17:00.000Z",
-      "type": "join",
-      "user": "angelina",
-      "source": "activity"
-    },
-    {
-      "time": "2026-01-21T23:18:00.000Z",
-      "type": "join",
-      "user": "Tess",
-      "source": "activity"
-    },
-    {
-      "time": "2026-01-21T23:19:00.000Z",
-      "type": "work_start",
-      "user": "angelina",
+      "startTime": "2026-01-21T23:19:00.000Z",
+      "endTime": "2026-01-21T23:44:00.000Z",
+      "type": "work",
       "duration": 25,
-      "source": "activity"
+      "startedBy": "angelina"
     },
     {
-      "time": "2026-01-21T23:21:00.000Z",
-      "type": "join",
-      "user": "Cian",
-      "source": "activity"
-    },
-    {
-      "time": "2026-01-21T23:44:00.000Z",
-      "type": "break_start",
-      "user": "angelina",
+      "startTime": "2026-01-21T23:44:00.000Z",
+      "endTime": "2026-01-21T23:49:00.000Z",
+      "type": "break",
       "duration": 5,
-      "source": "activity"
+      "startedBy": "angelina"
     },
     {
-      "time": "2026-01-21T23:49:00.000Z",
-      "type": "work_start",
-      "user": "angelina",
+      "startTime": "2026-01-21T23:49:00.000Z",
+      "endTime": "2026-01-22T00:14:00.000Z",
+      "type": "work",
       "duration": 25,
-      "source": "activity"
+      "startedBy": "angelina"
     },
     {
-      "time": "2026-01-22T00:10:00.000Z",
-      "type": "join",
-      "user": "angelina",
-      "source": "activity"
-    },
-    {
-      "time": "2026-01-22T00:15:00.000Z",
-      "type": "break_start",
-      "user": "angelina",
+      "startTime": "2026-01-22T00:15:00.000Z",
+      "endTime": "2026-01-22T00:20:00.000Z",
+      "type": "break",
       "duration": 5,
-      "source": "activity"
-    },
-    {
-      "time": "2026-01-22T00:17:18.281Z",
-      "type": "join",
-      "user": "angelina",
-      "source": "presence"
+      "startedBy": "angelina"
     }
   ],
+  "userWindows": {
+    "angelina": [
+      {
+        "joinTime": "2026-01-21T23:17:00.000Z",
+        "leaveTime": "2026-01-22T00:51:14.262Z",
+        "stillPresent": true
+      }
+    ]
+  },
   "userStats": {
     "angelina": {
-      "totalPresenceMinutes": 2.921316666666667,
+      "totalPresenceMinutes": 94.2377,
       "totalWorkMinutes": 50,
       "totalBreakMinutes": 10,
       "pomodoroCount": 2,
       "breakCount": 2,
-      "pomodoroMinutes": [
-        25,
-        25
-      ],
-      "breakMinutes": [
-        5,
-        5
-      ],
-      "firstSeen": "2026-01-21T23:19:00.000Z",
-      "lastSeen": "2026-01-22T00:17:18.281Z",
+      "firstSeen": "2026-01-21T23:17:00.000Z",
+      "lastSeen": "2026-01-22T00:51:14.262Z",
       "currentlyPresent": true
     }
   }
