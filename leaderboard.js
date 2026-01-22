@@ -176,9 +176,14 @@ function mergeEvents(presenceEvents, activityEvents) {
 }
 
 // Calculate user statistics from events
-function calculateUserStats(events, timerSnapshots) {
+function calculateUserStats(events, timerSnapshots, presenceData) {
   const userStats = {};
   const userSessions = {}; // Track active sessions per user
+
+  // Get the time of our first presence snapshot - only trust data after this
+  const firstPresenceTime = presenceData.length > 0
+    ? new Date(presenceData[0].timestamp)
+    : new Date();
 
   // Get current timer state from latest snapshot
   const latestSnapshot = timerSnapshots[timerSnapshots.length - 1];
@@ -187,6 +192,14 @@ function calculateUserStats(events, timerSnapshots) {
   const currentSessionType = latestSnapshot?.session_type || 'unknown';
 
   for (const event of events) {
+    // Skip join events from before we started tracking presence
+    // (we can't know when they left without presence data)
+    if (event.type === 'join' && event.source === 'activity') {
+      const eventTime = new Date(event.time);
+      if (eventTime < firstPresenceTime) {
+        continue;
+      }
+    }
     const { user, type, time, duration } = event;
 
     if (!userStats[user]) {
@@ -345,7 +358,7 @@ function main() {
   console.log(`Merged events: ${allEvents.length}`);
 
   // Calculate stats
-  const userStats = calculateUserStats(allEvents, snapshots);
+  const userStats = calculateUserStats(allEvents, snapshots, presence);
   console.log(`Users tracked: ${Object.keys(userStats).length}`);
 
   // Save session log (intermediate format)

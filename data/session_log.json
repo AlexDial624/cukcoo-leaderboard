@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-22T00:19:27.024Z",
+  "lastUpdated": "2026-01-22T00:20:13.560Z",
   "eventCount": 9,
   "events": [
     {
@@ -63,7 +63,7 @@
   ],
   "userStats": {
     "angelina": {
-      "totalPresenceMinutes": 2.1457166666666665,
+      "totalPresenceMinutes": 2.921316666666667,
       "totalWorkMinutes": 50,
       "totalBreakMinutes": 10,
       "pomodoroCount": 2,
@@ -76,32 +76,8 @@
         5,
         5
       ],
-      "firstSeen": "2026-01-21T23:17:00.000Z",
+      "firstSeen": "2026-01-21T23:19:00.000Z",
       "lastSeen": "2026-01-22T00:17:18.281Z",
-      "currentlyPresent": true
-    },
-    "Tess": {
-      "totalPresenceMinutes": 61.4504,
-      "totalWorkMinutes": 0,
-      "totalBreakMinutes": 0,
-      "pomodoroCount": 0,
-      "breakCount": 0,
-      "pomodoroMinutes": [],
-      "breakMinutes": [],
-      "firstSeen": "2026-01-21T23:18:00.000Z",
-      "lastSeen": "2026-01-21T23:18:00.000Z",
-      "currentlyPresent": true
-    },
-    "Cian": {
-      "totalPresenceMinutes": 58.4504,
-      "totalWorkMinutes": 0,
-      "totalBreakMinutes": 0,
-      "pomodoroCount": 0,
-      "breakCount": 0,
-      "pomodoroMinutes": [],
-      "breakMinutes": [],
-      "firstSeen": "2026-01-21T23:21:00.000Z",
-      "lastSeen": "2026-01-21T23:21:00.000Z",
       "currentlyPresent": true
     }
   }
