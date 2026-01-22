@@ -1,207 +1,264 @@
 // Leaderboard Generator
-// Computes engagement stats from the activity log
+// Processes presence snapshots + activity feed into user stats
 
 const fs = require('fs');
 const path = require('path');
 
 const DATA_DIR = path.join(__dirname, 'data');
 const ACTIVITIES_PATH = path.join(DATA_DIR, 'activities.csv');
+const PRESENCE_PATH = path.join(DATA_DIR, 'presence.csv');
 const SNAPSHOTS_PATH = path.join(DATA_DIR, 'snapshots.csv');
+const SESSION_LOG_PATH = path.join(DATA_DIR, 'session_log.json');
 const LEADERBOARD_PATH = path.join(DATA_DIR, 'leaderboard.json');
-const LEADERBOARD_MD_PATH = path.join(DATA_DIR, 'leaderboard.md');
 
-// Presence heuristics
-const SESSION_GAP_MINUTES = 15;    // Room idle for 15 min = session ends
-const MAX_IDLE_MINUTES = 90;       // Max 1.5 hours credit after last activity
-
-// Parse CSV file
+// Parse CSV file into array of objects
 function parseCSV(csvPath) {
-  if (!fs.existsSync(csvPath)) {
-    return [];
-  }
+  if (!fs.existsSync(csvPath)) return [];
 
   const content = fs.readFileSync(csvPath, 'utf8');
   const lines = content.trim().split('\n');
-
   if (lines.length < 2) return [];
 
   const headers = lines[0].split(',');
-  const records = [];
-
-  for (let i = 1; i < lines.length; i++) {
-    const values = lines[i].split(',');
+  return lines.slice(1).map(line => {
+    const values = line.split(',');
     const record = {};
     headers.forEach((h, idx) => {
-      record[h.trim()] = values[idx]?.trim() || '';
+      record[h.trim()] = values[idx]?.trim().replace(/^"|"$/g, '') || '';
     });
-    records.push(record);
+    return record;
+  });
+}
+
+// Process presence snapshots to detect join/leave events
+function processPresence(presenceData) {
+  const events = [];
+  let previousUsers = new Set();
+
+  for (const snapshot of presenceData) {
+    const time = new Date(snapshot.timestamp);
+    const currentUsers = new Set(
+      snapshot.users ? snapshot.users.split(';').filter(u => u) : []
+    );
+
+    // Detect joins (in current but not previous)
+    for (const user of currentUsers) {
+      if (!previousUsers.has(user)) {
+        events.push({
+          time: time.toISOString(),
+          type: 'join',
+          user: user,
+          source: 'presence'
+        });
+      }
+    }
+
+    // Detect leaves (in previous but not current)
+    for (const user of previousUsers) {
+      if (!currentUsers.has(user)) {
+        events.push({
+          time: time.toISOString(),
+          type: 'leave',
+          user: user,
+          source: 'presence'
+        });
+      }
+    }
+
+    previousUsers = currentUsers;
   }
 
-  return records;
+  return events;
 }
 
-// Get week string from date
-function getWeek(date) {
-  const d = new Date(date);
-  d.setHours(0, 0, 0, 0);
-  d.setDate(d.getDate() + 4 - (d.getDay() || 7));
-  const yearStart = new Date(d.getFullYear(), 0, 1);
-  const weekNo = Math.ceil((((d - yearStart) / 86400000) + 1) / 7);
-  return `${d.getFullYear()}-W${weekNo.toString().padStart(2, '0')}`;
-}
-
-// Get date string
-function getDate(date) {
-  return new Date(date).toISOString().split('T')[0];
-}
-
-// Calculate engagement from activity log
-function calculateEngagement(activities, snapshots) {
-  // Sort activities by time
-  activities.sort((a, b) => new Date(a.estimated_time) - new Date(b.estimated_time));
-
-  // Group activities into "sessions" (periods of room activity separated by idle gaps)
-  const sessions = [];
-  let currentSession = null;
+// Process activity feed for timer events
+function processActivities(activities) {
+  const events = [];
 
   for (const activity of activities) {
-    const activityTime = new Date(activity.estimated_time);
+    const time = activity.estimated_time;
+    const user = activity.user;
+    const action = activity.action || '';
 
-    if (!currentSession) {
-      currentSession = {
-        start: activityTime,
-        end: activityTime,
-        users: new Map(), // user -> { firstActivity, lastActivity, activities[] }
-        activities: []
-      };
-    } else {
-      const gapMinutes = (activityTime - currentSession.end) / 1000 / 60;
+    // Skip system messages
+    if (user === 'cuckoo' || user === 'unknown') continue;
 
-      if (gapMinutes > SESSION_GAP_MINUTES) {
-        // Session ended - 15+ min gap in room activity
-        sessions.push(currentSession);
-        currentSession = {
-          start: activityTime,
-          end: activityTime,
-          users: new Map(),
-          activities: []
-        };
-      }
-    }
+    // Parse timer starts
+    const workMatch = action.match(/started.*?(\d+)\s*minute.*?work/i);
+    const breakMatch = action.match(/started.*?(\d+)\s*minute.*?break/i);
+    const timerMatch = action.match(/started.*?(\d+)\s*minute/i);
 
-    // Update session end time (only if later, to preserve timer extensions)
-    if (activityTime > currentSession.end) {
-      currentSession.end = activityTime;
-    }
-    currentSession.activities.push(activity);
-
-    // Track per-user timing
-    if (!currentSession.users.has(activity.user)) {
-      currentSession.users.set(activity.user, {
-        firstActivity: activityTime,
-        lastActivity: activityTime,
-        activities: []
+    if (workMatch) {
+      events.push({
+        time,
+        type: 'work_start',
+        user,
+        duration: parseInt(workMatch[1]),
+        source: 'activity'
+      });
+    } else if (breakMatch) {
+      events.push({
+        time,
+        type: 'break_start',
+        user,
+        duration: parseInt(breakMatch[1]),
+        source: 'activity'
+      });
+    } else if (timerMatch && action.includes('break')) {
+      events.push({
+        time,
+        type: 'break_start',
+        user,
+        duration: parseInt(timerMatch[1]),
+        source: 'activity'
+      });
+    } else if (timerMatch) {
+      events.push({
+        time,
+        type: 'work_start',
+        user,
+        duration: parseInt(timerMatch[1]),
+        source: 'activity'
       });
     }
-    const userData = currentSession.users.get(activity.user);
-    userData.activities.push(activity);
 
-    // Update lastActivity only if this activity is later
-    // (preserves timer extensions from earlier activities)
-    if (activityTime > userData.lastActivity) {
-      userData.lastActivity = activityTime;
+    // Parse stops/skips
+    if (action.includes('stopped') || action.includes('skipped')) {
+      events.push({
+        time,
+        type: 'timer_stop',
+        user,
+        source: 'activity'
+      });
     }
 
-    // If starting a timer, extend user's lastActivity and session end by timer duration
-    const durationMatch = activity.action.match(/(\d+)\s*minute/i);
-    if (durationMatch && activity.action.includes('started')) {
-      const duration = parseInt(durationMatch[1]);
-      const timerEnd = new Date(activityTime.getTime() + duration * 60 * 1000);
-      if (timerEnd > userData.lastActivity) {
-        userData.lastActivity = timerEnd;
-      }
-      if (timerEnd > currentSession.end) {
-        currentSession.end = timerEnd;
-      }
-    }
-  }
-
-  if (currentSession) {
-    sessions.push(currentSession);
-  }
-
-  // Calculate engagement per user
-  const userEngagement = {};
-
-  for (const session of sessions) {
-    const week = getWeek(session.start);
-    const date = getDate(session.start);
-
-    for (const [user, userData] of session.users) {
-      if (!userEngagement[user]) {
-        userEngagement[user] = {
-          totalMinutes: 0,
-          sessionCount: 0,
-          activitiesCount: 0,
-          byWeek: {},
-          byDate: {},
-          firstSeen: userData.firstActivity,
-          lastSeen: userData.lastActivity
-        };
-      }
-
-      // Calculate user's presence in this session:
-      // - Starts at their first activity
-      // - Ends at: min(lastActivity + 90 min idle cap, session end)
-      const userStart = userData.firstActivity;
-      const idleCapEnd = new Date(userData.lastActivity.getTime() + MAX_IDLE_MINUTES * 60 * 1000);
-      const userEnd = new Date(Math.min(idleCapEnd.getTime(), session.end.getTime()));
-      const userDurationMinutes = Math.max(1, (userEnd - userStart) / 1000 / 60);
-
-      // Check if they actively participated
-      const isActiveParticipant = userData.activities.some(a =>
-        a.action.includes('started') || a.action.includes('joined')
-      );
-
-      if (isActiveParticipant) {
-        userEngagement[user].totalMinutes += userDurationMinutes;
-        userEngagement[user].sessionCount++;
-      }
-
-      userEngagement[user].activitiesCount += userData.activities.length;
-
-      // Update first/last seen
-      if (userData.firstActivity < userEngagement[user].firstSeen) {
-        userEngagement[user].firstSeen = userData.firstActivity;
-      }
-      if (userData.lastActivity > userEngagement[user].lastSeen) {
-        userEngagement[user].lastSeen = userData.lastActivity;
-      }
-
-      // By week
-      if (!userEngagement[user].byWeek[week]) {
-        userEngagement[user].byWeek[week] = { minutes: 0, sessions: 0 };
-      }
-      if (isActiveParticipant) {
-        userEngagement[user].byWeek[week].minutes += userDurationMinutes;
-        userEngagement[user].byWeek[week].sessions++;
-      }
-
-      // By date
-      if (!userEngagement[user].byDate[date]) {
-        userEngagement[user].byDate[date] = { minutes: 0, sessions: 0 };
-      }
-      if (isActiveParticipant) {
-        userEngagement[user].byDate[date].minutes += userDurationMinutes;
-        userEngagement[user].byDate[date].sessions++;
-      }
+    // Parse joins from activity feed (backup for presence)
+    if (action.includes('joined')) {
+      events.push({
+        time,
+        type: 'join',
+        user,
+        source: 'activity'
+      });
     }
   }
 
-  return { userEngagement, sessions };
+  return events;
 }
 
-// Format duration
+// Merge and deduplicate events
+function mergeEvents(presenceEvents, activityEvents) {
+  const allEvents = [...presenceEvents, ...activityEvents];
+
+  // Sort by time
+  allEvents.sort((a, b) => new Date(a.time) - new Date(b.time));
+
+  // Deduplicate joins (prefer presence source as it's more accurate)
+  const seen = new Set();
+  const deduped = [];
+
+  for (const event of allEvents) {
+    // Create a key for deduplication (within 5 min window for joins)
+    const timeKey = Math.floor(new Date(event.time).getTime() / (5 * 60 * 1000));
+    const key = `${event.type}|${event.user}|${timeKey}`;
+
+    if (event.type === 'join' || event.type === 'leave') {
+      if (!seen.has(key)) {
+        seen.add(key);
+        deduped.push(event);
+      }
+    } else {
+      deduped.push(event);
+    }
+  }
+
+  return deduped;
+}
+
+// Calculate user statistics from events
+function calculateUserStats(events, timerSnapshots) {
+  const userStats = {};
+  const userSessions = {}; // Track active sessions per user
+
+  // Get current timer state from latest snapshot
+  const latestSnapshot = timerSnapshots[timerSnapshots.length - 1];
+  const currentTimerRunning = latestSnapshot?.timer_running === 'true';
+  const currentTimerValue = latestSnapshot?.timer_value || '00:00';
+  const currentSessionType = latestSnapshot?.session_type || 'unknown';
+
+  for (const event of events) {
+    const { user, type, time, duration } = event;
+
+    if (!userStats[user]) {
+      userStats[user] = {
+        totalPresenceMinutes: 0,
+        totalWorkMinutes: 0,
+        totalBreakMinutes: 0,
+        pomodoroCount: 0,
+        breakCount: 0,
+        pomodoroMinutes: [],
+        breakMinutes: [],
+        firstSeen: time,
+        lastSeen: time,
+        currentlyPresent: false
+      };
+    }
+
+    userStats[user].lastSeen = time;
+
+    if (!userSessions[user]) {
+      userSessions[user] = { joinTime: null, activeTimer: null };
+    }
+
+    switch (type) {
+      case 'join':
+        userSessions[user].joinTime = new Date(time);
+        userStats[user].currentlyPresent = true;
+        break;
+
+      case 'leave':
+        if (userSessions[user].joinTime) {
+          const presenceMs = new Date(time) - userSessions[user].joinTime;
+          userStats[user].totalPresenceMinutes += presenceMs / (1000 * 60);
+        }
+        userSessions[user].joinTime = null;
+        userStats[user].currentlyPresent = false;
+        break;
+
+      case 'work_start':
+        userStats[user].pomodoroCount++;
+        userStats[user].totalWorkMinutes += duration;
+        userStats[user].pomodoroMinutes.push(duration);
+        userSessions[user].activeTimer = { type: 'work', duration, startTime: time };
+        break;
+
+      case 'break_start':
+        userStats[user].breakCount++;
+        userStats[user].totalBreakMinutes += duration;
+        userStats[user].breakMinutes.push(duration);
+        userSessions[user].activeTimer = { type: 'break', duration, startTime: time };
+        break;
+
+      case 'timer_stop':
+        userSessions[user].activeTimer = null;
+        break;
+    }
+  }
+
+  // Handle users still present (add time up to now)
+  const now = new Date();
+  for (const [user, session] of Object.entries(userSessions)) {
+    if (session.joinTime) {
+      const presenceMs = now - session.joinTime;
+      userStats[user].totalPresenceMinutes += presenceMs / (1000 * 60);
+      userStats[user].currentlyPresent = true;
+    }
+  }
+
+  return userStats;
+}
+
+// Format duration for display
 function formatDuration(minutes) {
   const hours = Math.floor(minutes / 60);
   const mins = Math.round(minutes % 60);
@@ -211,126 +268,109 @@ function formatDuration(minutes) {
   return `${mins}m`;
 }
 
-// Generate markdown leaderboard
-function generateMarkdown(userEngagement, sessions) {
-  let md = '# Cuckoo Engagement Leaderboard\n\n';
-  md += `*Generated: ${new Date().toLocaleString()}*\n\n`;
-  md += `*Total sessions tracked: ${sessions.length}*\n\n`;
+// Generate leaderboard data
+function generateLeaderboard(userStats, events) {
+  const now = new Date();
 
-  // All-time leaderboard
-  md += '## All-Time Leaderboard\n\n';
-  md += '| Rank | User | Total Time | Sessions | First Seen |\n';
-  md += '|------|------|------------|----------|------------|\n';
+  // Get currently present users
+  const currentlyPresent = Object.entries(userStats)
+    .filter(([_, stats]) => stats.currentlyPresent)
+    .map(([user, _]) => user);
 
-  const ranked = Object.entries(userEngagement)
-    .map(([user, data]) => ({
+  // Rank by total presence time
+  const ranked = Object.entries(userStats)
+    .map(([user, stats]) => ({
       user,
-      minutes: data.totalMinutes,
-      sessions: data.sessionCount,
-      firstSeen: data.firstSeen
+      ...stats,
+      avgPomodoroMinutes: stats.pomodoroCount > 0
+        ? Math.round(stats.totalWorkMinutes / stats.pomodoroCount)
+        : 0,
+      avgBreakMinutes: stats.breakCount > 0
+        ? Math.round(stats.totalBreakMinutes / stats.breakCount)
+        : 0
     }))
-    .sort((a, b) => b.minutes - a.minutes);
+    .sort((a, b) => b.totalPresenceMinutes - a.totalPresenceMinutes);
 
-  ranked.forEach((entry, idx) => {
-    md += `| ${idx + 1} | ${entry.user} | ${formatDuration(entry.minutes)} | ${entry.sessions} | ${getDate(entry.firstSeen)} |\n`;
-  });
-
-  // Weekly leaderboards
-  const allWeeks = new Set();
-  Object.values(userEngagement).forEach(data => {
-    Object.keys(data.byWeek).forEach(w => allWeeks.add(w));
-  });
-
-  const weeks = Array.from(allWeeks).sort().reverse().slice(0, 4);
-
-  for (const week of weeks) {
-    md += `\n## Week ${week}\n\n`;
-    md += '| Rank | User | Time | Sessions |\n';
-    md += '|------|------|------|----------|\n';
-
-    const weeklyRanked = Object.entries(userEngagement)
-      .filter(([_, data]) => data.byWeek[week])
-      .map(([user, data]) => ({
-        user,
-        minutes: data.byWeek[week].minutes,
-        sessions: data.byWeek[week].sessions
-      }))
-      .sort((a, b) => b.minutes - a.minutes);
-
-    if (weeklyRanked.length === 0) {
-      md += '| - | No activity | - | - |\n';
-    } else {
-      weeklyRanked.forEach((entry, idx) => {
-        md += `| ${idx + 1} | ${entry.user} | ${formatDuration(entry.minutes)} | ${entry.sessions} |\n`;
-      });
-    }
-  }
-
-  // Recent daily activity
-  md += '\n## Recent Daily Activity\n\n';
-
-  const allDates = new Set();
-  Object.values(userEngagement).forEach(data => {
-    Object.keys(data.byDate).forEach(d => allDates.add(d));
-  });
-
-  const dates = Array.from(allDates).sort().reverse().slice(0, 7);
-
-  for (const date of dates) {
-    const dayUsers = Object.entries(userEngagement)
-      .filter(([_, data]) => data.byDate[date])
-      .map(([user, data]) => `${user} (${formatDuration(data.byDate[date].minutes)})`)
-      .join(', ');
-
-    md += `- **${date}**: ${dayUsers || 'No activity'}\n`;
-  }
-
-  return md;
+  return {
+    generated: now.toISOString(),
+    currentlyPresent,
+    totalUsers: ranked.length,
+    totalPomodoros: ranked.reduce((sum, u) => sum + u.pomodoroCount, 0),
+    totalWorkMinutes: ranked.reduce((sum, u) => sum + u.totalWorkMinutes, 0),
+    users: ranked.map(u => ({
+      user: u.user,
+      currentlyPresent: u.currentlyPresent,
+      totalPresenceMinutes: Math.round(u.totalPresenceMinutes),
+      totalWorkMinutes: Math.round(u.totalWorkMinutes),
+      totalBreakMinutes: Math.round(u.totalBreakMinutes),
+      pomodoroCount: u.pomodoroCount,
+      breakCount: u.breakCount,
+      avgPomodoroMinutes: u.avgPomodoroMinutes,
+      firstSeen: u.firstSeen,
+      lastSeen: u.lastSeen
+    }))
+  };
 }
 
 // Main
 function main() {
-  console.log('Generating leaderboard from activity log...\n');
+  console.log('Processing data for leaderboard...\n');
 
+  // Load raw data
   const activities = parseCSV(ACTIVITIES_PATH);
+  const presence = parseCSV(PRESENCE_PATH);
   const snapshots = parseCSV(SNAPSHOTS_PATH);
 
-  console.log(`Activities in log: ${activities.length}`);
+  console.log(`Activities: ${activities.length}`);
+  console.log(`Presence snapshots: ${presence.length}`);
   console.log(`Timer snapshots: ${snapshots.length}`);
 
-  if (activities.length === 0) {
-    console.log('\nNo activities to process. Run the scraper first.');
+  if (presence.length === 0 && activities.length === 0) {
+    console.log('\nNo data to process. Run the scraper first.');
     return;
   }
 
-  const { userEngagement, sessions } = calculateEngagement(activities, snapshots);
+  // Process events
+  const presenceEvents = processPresence(presence);
+  const activityEvents = processActivities(activities);
+  const allEvents = mergeEvents(presenceEvents, activityEvents);
 
-  console.log(`\nSessions identified: ${sessions.length}`);
-  console.log(`Users tracked: ${Object.keys(userEngagement).length}`);
+  console.log(`\nPresence events: ${presenceEvents.length}`);
+  console.log(`Activity events: ${activityEvents.length}`);
+  console.log(`Merged events: ${allEvents.length}`);
 
-  // Save JSON
-  const jsonData = {
-    generated: new Date().toISOString(),
-    totalSessions: sessions.length,
-    users: userEngagement
+  // Calculate stats
+  const userStats = calculateUserStats(allEvents, snapshots);
+  console.log(`Users tracked: ${Object.keys(userStats).length}`);
+
+  // Save session log (intermediate format)
+  const sessionLog = {
+    lastUpdated: new Date().toISOString(),
+    eventCount: allEvents.length,
+    events: allEvents,
+    userStats
   };
-  fs.writeFileSync(LEADERBOARD_PATH, JSON.stringify(jsonData, null, 2));
-  console.log(`\nJSON saved to: ${LEADERBOARD_PATH}`);
+  fs.writeFileSync(SESSION_LOG_PATH, JSON.stringify(sessionLog, null, 2));
+  console.log(`\nSession log saved to: ${SESSION_LOG_PATH}`);
 
-  // Generate markdown
-  const markdown = generateMarkdown(userEngagement, sessions);
-  fs.writeFileSync(LEADERBOARD_MD_PATH, markdown);
-  console.log(`Markdown saved to: ${LEADERBOARD_MD_PATH}`);
+  // Generate leaderboard
+  const leaderboard = generateLeaderboard(userStats, allEvents);
+  fs.writeFileSync(LEADERBOARD_PATH, JSON.stringify(leaderboard, null, 2));
+  console.log(`Leaderboard saved to: ${LEADERBOARD_PATH}`);
 
   // Print summary
-  console.log('\n=== Top 5 by Engagement ===\n');
-  Object.entries(userEngagement)
-    .map(([user, data]) => ({ user, minutes: data.totalMinutes }))
-    .sort((a, b) => b.minutes - a.minutes)
-    .slice(0, 5)
-    .forEach((entry, idx) => {
-      console.log(`${idx + 1}. ${entry.user}: ${formatDuration(entry.minutes)}`);
-    });
+  console.log('\n=== Currently Present ===');
+  if (leaderboard.currentlyPresent.length > 0) {
+    console.log(leaderboard.currentlyPresent.join(', '));
+  } else {
+    console.log('No one currently in room');
+  }
+
+  console.log('\n=== Top 5 by Presence Time ===');
+  leaderboard.users.slice(0, 5).forEach((u, i) => {
+    const status = u.currentlyPresent ? ' (online)' : '';
+    console.log(`${i + 1}. ${u.user}${status}: ${formatDuration(u.totalPresenceMinutes)} presence, ${u.pomodoroCount} pomodoros`);
+  });
 }
 
 main();

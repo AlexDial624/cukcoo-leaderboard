@@ -31,6 +31,9 @@ jobs:
         env:
           CUCKOO_ROOM: ${{ vars.CUCKOO_ROOM || 'EAGatherTownTimerEAA1' }}
 
+      - name: Generate leaderboard
+        run: npm run leaderboard
+
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"

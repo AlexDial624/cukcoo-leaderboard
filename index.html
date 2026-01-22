@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cuckoo Leaderboard</title>
+  <meta http-equiv="refresh" content="300"> <!-- Auto-refresh every 5 min -->
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -12,7 +13,7 @@
       min-height: 100vh;
       padding: 2rem;
     }
-    .container { max-width: 800px; margin: 0 auto; }
+    .container { max-width: 900px; margin: 0 auto; }
     h1 {
       color: white;
       text-align: center;
@@ -22,8 +23,18 @@
     .subtitle {
       color: rgba(255,255,255,0.8);
       text-align: center;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
     }
+    .update-info {
+      text-align: center;
+      color: rgba(255,255,255,0.9);
+      font-size: 0.9rem;
+      margin-bottom: 2rem;
+      background: rgba(255,255,255,0.1);
+      padding: 0.75rem;
+      border-radius: 8px;
+    }
+    .update-info .time { font-weight: 600; }
     .card {
       background: white;
       border-radius: 16px;
@@ -35,12 +46,61 @@
       color: #333;
       margin-bottom: 1rem;
       font-size: 1.3rem;
-    }
-    .leaderboard-item {
       display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .online-badge {
+      background: #22c55e;
+      color: white;
+      font-size: 0.75rem;
+      padding: 0.25rem 0.5rem;
+      border-radius: 12px;
+      font-weight: 500;
+    }
+    .currently-present {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .present-user {
+      background: linear-gradient(135deg, #22c55e, #16a34a);
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      font-weight: 500;
+      font-size: 0.9rem;
+    }
+    .no-users {
+      color: #888;
+      font-style: italic;
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    @media (max-width: 600px) {
+      .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    .stat-card {
+      background: white;
+      border-radius: 12px;
+      padding: 1.25rem;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    .stat-value { font-size: 1.8rem; font-weight: bold; color: #667eea; }
+    .stat-label { font-size: 0.8rem; color: #888; margin-top: 0.25rem; }
+    .leaderboard-item {
+      display: grid;
+      grid-template-columns: 50px 1fr auto;
       align-items: center;
       padding: 0.75rem 0;
       border-bottom: 1px solid #eee;
+      gap: 1rem;
     }
     .leaderboard-item:last-child { border-bottom: none; }
     .rank {
@@ -51,44 +111,42 @@
       align-items: center;
       justify-content: center;
       font-weight: bold;
-      margin-right: 1rem;
       font-size: 1rem;
     }
     .rank-1 { background: linear-gradient(135deg, #f5af19, #f12711); color: white; }
     .rank-2 { background: linear-gradient(135deg, #bdc3c7, #2c3e50); color: white; }
     .rank-3 { background: linear-gradient(135deg, #b8860b, #cd853f); color: white; }
     .rank-other { background: #e0e0e0; color: #666; }
-    .user-info { flex: 1; }
-    .user-name { font-weight: 600; color: #333; }
-    .user-stats { font-size: 0.85rem; color: #888; }
+    .user-info { min-width: 0; }
+    .user-name {
+      font-weight: 600;
+      color: #333;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .user-name .online-dot {
+      width: 8px;
+      height: 8px;
+      background: #22c55e;
+      border-radius: 50%;
+    }
+    .user-stats {
+      font-size: 0.85rem;
+      color: #888;
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .user-stats span { white-space: nowrap; }
     .time-badge {
       background: linear-gradient(135deg, #667eea, #764ba2);
       color: white;
-      padding: 0.4rem 0.8rem;
+      padding: 0.5rem 1rem;
       border-radius: 20px;
       font-weight: 600;
       font-size: 0.9rem;
-    }
-    .stats-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 1rem;
-      margin-bottom: 1.5rem;
-    }
-    .stat-card {
-      background: white;
-      border-radius: 12px;
-      padding: 1.25rem;
-      text-align: center;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    }
-    .stat-value { font-size: 2rem; font-weight: bold; color: #667eea; }
-    .stat-label { font-size: 0.85rem; color: #888; margin-top: 0.25rem; }
-    .updated {
-      text-align: center;
-      color: rgba(255,255,255,0.7);
-      font-size: 0.85rem;
-      margin-top: 1rem;
+      white-space: nowrap;
     }
     .loading { text-align: center; padding: 2rem; color: #888; }
     .error { text-align: center; padding: 2rem; color: #e74c3c; }
@@ -99,73 +157,131 @@
     <h1>Cuckoo Leaderboard</h1>
     <p class="subtitle">EA Gather Town Timer Room</p>
 
+    <div class="update-info" id="update-info">
+      Loading update info...
+    </div>
+
+    <div class="card" id="presence-card">
+      <h2>Currently in Room <span class="online-badge" id="online-count">0</span></h2>
+      <div class="currently-present" id="currently-present">
+        <span class="no-users">Loading...</span>
+      </div>
+    </div>
+
     <div class="stats-grid" id="stats">
       <div class="stat-card">
         <div class="stat-value" id="total-users">-</div>
         <div class="stat-label">Total Users</div>
       </div>
       <div class="stat-card">
-        <div class="stat-value" id="total-sessions">-</div>
-        <div class="stat-label">Sessions</div>
+        <div class="stat-value" id="total-pomodoros">-</div>
+        <div class="stat-label">Pomodoros</div>
       </div>
       <div class="stat-card">
         <div class="stat-value" id="total-hours">-</div>
-        <div class="stat-label">Total Hours</div>
+        <div class="stat-label">Work Hours</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="online-now">-</div>
+        <div class="stat-label">Online Now</div>
       </div>
     </div>
 
     <div class="card">
-      <h2>All-Time Rankings</h2>
+      <h2>Leaderboard</h2>
       <div id="leaderboard" class="loading">Loading...</div>
     </div>
-
-    <p class="updated" id="updated"></p>
   </div>
 
   <script>
+    function formatDuration(minutes) {
+      const hours = Math.floor(minutes / 60);
+      const mins = Math.round(minutes % 60);
+      if (hours > 0) return `${hours}h ${mins}m`;
+      return `${mins}m`;
+    }
+
+    function timeAgo(dateStr) {
+      const date = new Date(dateStr);
+      const now = new Date();
+      const diffMs = now - date;
+      const diffMins = Math.floor(diffMs / 60000);
+
+      if (diffMins < 1) return 'just now';
+      if (diffMins < 60) return `${diffMins}m ago`;
+
+      const diffHours = Math.floor(diffMins / 60);
+      if (diffHours < 24) return `${diffHours}h ago`;
+
+      const diffDays = Math.floor(diffHours / 24);
+      return `${diffDays}d ago`;
+    }
+
     async function loadLeaderboard() {
       try {
-        const response = await fetch('data/leaderboard.json');
+        const response = await fetch('data/leaderboard.json?t=' + Date.now());
         if (!response.ok) throw new Error('Failed to load data');
         const data = await response.json();
 
-        // Update stats
-        const users = Object.entries(data.users);
-        document.getElementById('total-users').textContent = users.length;
-        document.getElementById('total-sessions').textContent = data.totalSessions;
+        // Update info
+        const generated = new Date(data.generated);
+        const nextUpdate = new Date(generated.getTime() + 5 * 60 * 1000);
+        document.getElementById('update-info').innerHTML = `
+          <strong>Last updated:</strong> <span class="time">${timeAgo(data.generated)}</span> (${generated.toLocaleTimeString()})
+          &nbsp;|&nbsp;
+          <strong>Auto-refresh:</strong> every 5 minutes
+        `;
 
-        const totalMinutes = users.reduce((sum, [_, u]) => sum + u.totalMinutes, 0);
-        document.getElementById('total-hours').textContent = (totalMinutes / 60).toFixed(1);
+        // Currently present
+        const presentContainer = document.getElementById('currently-present');
+        const onlineCount = document.getElementById('online-count');
+        if (data.currentlyPresent && data.currentlyPresent.length > 0) {
+          presentContainer.innerHTML = data.currentlyPresent
+            .map(u => `<span class="present-user">${u}</span>`)
+            .join('');
+          onlineCount.textContent = data.currentlyPresent.length;
+        } else {
+          presentContainer.innerHTML = '<span class="no-users">No one currently in room</span>';
+          onlineCount.textContent = '0';
+        }
 
-        // Sort and render leaderboard
-        const sorted = users
-          .map(([name, info]) => ({ name, ...info }))
-          .sort((a, b) => b.totalMinutes - a.totalMinutes);
+        // Stats
+        document.getElementById('total-users').textContent = data.totalUsers || 0;
+        document.getElementById('total-pomodoros').textContent = data.totalPomodoros || 0;
+        document.getElementById('total-hours').textContent = ((data.totalWorkMinutes || 0) / 60).toFixed(1);
+        document.getElementById('online-now').textContent = data.currentlyPresent?.length || 0;
 
+        // Leaderboard
+        const users = data.users || [];
         const container = document.getElementById('leaderboard');
-        container.innerHTML = sorted.map((user, idx) => {
+
+        if (users.length === 0) {
+          container.innerHTML = '<div class="no-users">No data yet. Run the scraper first.</div>';
+          return;
+        }
+
+        container.innerHTML = users.map((user, idx) => {
           const rankClass = idx < 3 ? `rank-${idx + 1}` : 'rank-other';
-          const hours = Math.floor(user.totalMinutes / 60);
-          const mins = Math.round(user.totalMinutes % 60);
-          const timeStr = hours > 0 ? `${hours}h ${mins}m` : `${mins}m`;
+          const onlineDot = user.currentlyPresent ? '<span class="online-dot"></span>' : '';
 
           return `
             <div class="leaderboard-item">
               <div class="rank ${rankClass}">${idx + 1}</div>
               <div class="user-info">
-                <div class="user-name">${user.name}</div>
-                <div class="user-stats">${user.sessionCount} session${user.sessionCount !== 1 ? 's' : ''}</div>
+                <div class="user-name">${onlineDot}${user.user}</div>
+                <div class="user-stats">
+                  <span>${user.pomodoroCount} pomodoros</span>
+                  <span>${formatDuration(user.totalWorkMinutes)} work</span>
+                  <span>${formatDuration(user.totalBreakMinutes)} break</span>
+                </div>
               </div>
-              <div class="time-badge">${timeStr}</div>
+              <div class="time-badge">${formatDuration(user.totalPresenceMinutes)}</div>
             </div>
           `;
         }).join('');
 
-        // Update timestamp
-        document.getElementById('updated').textContent =
-          `Last updated: ${new Date(data.generated).toLocaleString()}`;
-
       } catch (err) {
+        console.error(err);
         document.getElementById('leaderboard').innerHTML =
           `<div class="error">Could not load leaderboard data.<br>Run the scraper first.</div>`;
       }
