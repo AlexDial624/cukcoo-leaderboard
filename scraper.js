@@ -150,10 +150,10 @@ async function scrapeActivityFeed() {
 
     await page.goto(CUCKOO_URL, { waitUntil: 'networkidle2', timeout: 60000 });
 
-    // Wait for real-time user data - server sends it after ~2 minutes even without joining
-    console.log('   Waiting for real-time user data (up to 3 min)...');
+    // Wait for real-time user data - server sends it after a few minutes even without joining
+    console.log('   Waiting for real-time user data (up to 7 min)...');
     let currentUsers = [];
-    for (let i = 0; i < 18; i++) { // Up to 3 minutes
+    for (let i = 0; i < 42; i++) { // Up to 7 minutes (42 * 10 sec = 420 sec)
       await new Promise(r => setTimeout(r, 10000)); // 10 sec intervals
 
       currentUsers = await page.evaluate(() => {
@@ -165,8 +165,8 @@ async function scrapeActivityFeed() {
       if (currentUsers.length > 0) {
         console.log(`   Found ${currentUsers.length} users after ${elapsed}s: ${currentUsers.join(', ')}`);
         break;
-      } else if (elapsed % 30 === 0) {
-        // Log progress every 30 seconds
+      } else if (elapsed % 60 === 0) {
+        // Log progress every minute
         console.log(`   ${elapsed}s: Still waiting for user data...`);
       }
     }
