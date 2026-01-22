@@ -171,15 +171,21 @@ async function scrapeActivityFeed() {
       }
     }
 
-    // Store current users for this scrape
-    page.currentUsers = currentUsers;
-
-    // DO NOT press any keys or click anything - keyboard shortcuts affect the timer!
-
-    // Take screenshot
+    // Take screenshot before refresh
     await page.screenshot({ path: SCREENSHOT_PATH, fullPage: true });
 
-    // Extract activity feed
+    // IMPORTANT: Save presence data now, before refreshing
+    // (currentUsers will be returned and saved by caller)
+    console.log(`   Presence captured: ${currentUsers.length > 0 ? currentUsers.join(', ') : 'none'}`);
+
+    // Refresh the page to get fresh activity feed
+    console.log('   Refreshing page for fresh activity feed...');
+    await page.reload({ waitUntil: 'networkidle2', timeout: 60000 });
+
+    // Wait a moment for activity feed to load
+    await new Promise(r => setTimeout(r, 3000));
+
+    // Extract activity feed (now fresh after reload)
     const activities = await page.evaluate(() => {
       const items = [];
       const activityContainer = document.querySelector('.js-activity');
