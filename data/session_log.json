@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-22T00:58:25.172Z",
+  "lastUpdated": "2026-01-22T01:04:31.687Z",
   "timerCount": 8,
   "timers": [
     {
@@ -70,8 +70,8 @@
     "Tess": [
       {
         "joinTime": "2026-01-22T00:18:00.000Z",
-        "leaveTime": "2026-01-22T00:58:25.170Z",
-        "stillPresent": true
+        "leaveTime": "2026-01-22T01:01:09.099Z",
+        "stillPresent": false
       }
     ]
   },
@@ -87,14 +87,14 @@
       "currentlyPresent": false
     },
     "Tess": {
-      "totalPresenceMinutes": 40.4195,
-      "totalWorkMinutes": 33.4195,
+      "totalPresenceMinutes": 43.15165,
+      "totalWorkMinutes": 36.151650000000004,
       "totalBreakMinutes": 7,
       "pomodoroCount": 2,
       "breakCount": 2,
       "firstSeen": "2026-01-22T00:18:00.000Z",
-      "lastSeen": "2026-01-22T00:58:25.170Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-01-22T01:01:09.099Z",
+      "currentlyPresent": false
     }
   }
 }
