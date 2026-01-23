@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-23T23:06:21.920Z",
-  "timerCount": 69,
+  "lastUpdated": "2026-01-23T23:38:09.293Z",
+  "timerCount": 70,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -484,6 +484,13 @@
       "type": "break",
       "duration": 5,
       "startedBy": "Alex"
+    },
+    {
+      "startTime": "2026-01-23T22:30:00.000Z",
+      "endTime": "2026-01-23T22:55:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jessica"
     }
   ],
   "userWindows": {
@@ -707,9 +714,9 @@
     },
     "Alex": {
       "totalPresenceMinutes": 245.40543333333332,
-      "totalWorkMinutes": 321.1007333333333,
+      "totalWorkMinutes": 338.7816833333333,
       "totalBreakMinutes": 57.689283333333336,
-      "pomodoroCount": 14,
+      "pomodoroCount": 15,
       "breakCount": 12,
       "firstSeen": "2026-01-22T18:55:00.000Z",
       "lastSeen": "2026-01-23T22:47:40.857Z",
