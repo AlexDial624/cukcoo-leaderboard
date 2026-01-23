@@ -1,10 +1,59 @@
 {
-  "generated": "2026-01-23T17:52:42.176Z",
-  "currentlyPresent": [],
-  "totalUsers": 6,
-  "totalPomodoros": 24,
-  "totalWorkMinutes": 581.4069666666667,
+  "generated": "2026-01-23T18:04:27.564Z",
+  "currentlyPresent": [
+    "Kiran",
+    "charlotte"
+  ],
+  "totalUsers": 8,
+  "totalPomodoros": 26,
+  "totalWorkMinutes": 607.3842999999999,
   "activityLog": [
+    {
+      "time": "2026-01-23T17:57:00.000Z",
+      "endTime": "2026-01-23T18:22:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Kiran",
+      "participants": [
+        "Kiran",
+        "charlotte"
+      ]
+    },
+    {
+      "time": "2026-01-23T17:52:00.000Z",
+      "endTime": "2026-01-23T17:57:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "charlotte",
+      "participants": [
+        "Kiran",
+        "charlotte"
+      ]
+    },
+    {
+      "time": "2026-01-23T17:26:00.000Z",
+      "endTime": "2026-01-23T17:51:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Kiran",
+      "participants": []
+    },
+    {
+      "time": "2026-01-23T17:20:00.000Z",
+      "endTime": "2026-01-23T17:25:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "charlotte",
+      "participants": []
+    },
+    {
+      "time": "2026-01-23T16:58:00.000Z",
+      "endTime": "2026-01-23T17:23:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Kiran",
+      "participants": []
+    },
     {
       "time": "2026-01-22T21:32:00.000Z",
       "endTime": "2026-01-22T21:37:00.000Z",
@@ -412,6 +461,30 @@
       "avgPomodoroMinutes": 25,
       "firstSeen": "2026-01-22T17:02:00.000Z",
       "lastSeen": "2026-01-22T17:50:35.460Z"
+    },
+    {
+      "user": "Kiran",
+      "currentlyPresent": true,
+      "totalPresenceMinutes": 19,
+      "totalWorkMinutes": 13,
+      "totalBreakMinutes": 5,
+      "pomodoroCount": 1,
+      "breakCount": 1,
+      "avgPomodoroMinutes": 13,
+      "firstSeen": "2026-01-23T17:45:28.242Z",
+      "lastSeen": "2026-01-23T18:04:27.562Z"
+    },
+    {
+      "user": "charlotte",
+      "currentlyPresent": true,
+      "totalPresenceMinutes": 19,
+      "totalWorkMinutes": 13,
+      "totalBreakMinutes": 5,
+      "pomodoroCount": 1,
+      "breakCount": 1,
+      "avgPomodoroMinutes": 13,
+      "firstSeen": "2026-01-23T17:45:28.242Z",
+      "lastSeen": "2026-01-23T18:04:27.562Z"
     }
   ]
 }
