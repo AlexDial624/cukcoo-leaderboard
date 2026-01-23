@@ -103,3 +103,8 @@ estimated_time,scrape_time,user,action,time_ago_raw
 2026-01-23T18:58:00.000Z,2026-01-23T20:58:42.357Z,Alex,paused the current work session,2 hours ago
 2026-01-23T18:58:00.000Z,2026-01-23T20:58:42.357Z,Alex,resumed the current work session,2 hours ago
 2026-01-23T20:55:00.000Z,2026-01-23T20:58:42.357Z,Jessica,started a 5 minute break,3 min ago
+2026-01-23T20:30:00.000Z,2026-01-23T21:30:12.612Z,angelina,joined this cuckoo,1 hours ago
+2026-01-23T20:30:00.000Z,2026-01-23T21:30:12.612Z,Alex,started a 25 minute work session,1 hours ago
+2026-01-23T20:30:00.000Z,2026-01-23T21:30:12.612Z,angelina,started a 5 minute break,1 hours ago
+2026-01-23T21:03:00.000Z,2026-01-23T21:30:12.612Z,angelina,started a 25 minute work session,27 min ago
+2026-01-23T21:29:00.000Z,2026-01-23T21:30:12.612Z,angelina,started a 5 minute break,1 min ago
