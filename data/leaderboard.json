@@ -1,14 +1,37 @@
 {
-  "generated": "2026-01-23T21:35:07.311Z",
+  "generated": "2026-01-23T21:49:53.135Z",
   "currentlyPresent": [
     "Alex",
-    "angelina",
-    "Jessica"
+    "angelina"
   ],
   "totalUsers": 8,
-  "totalPomodoros": 62,
-  "totalWorkMinutes": 1436.5251500000002,
+  "totalPomodoros": 69,
+  "totalWorkMinutes": 1557.7114666666669,
   "activityLog": [
+    {
+      "time": "2026-01-23T21:36:00.000Z",
+      "endTime": "2026-01-23T22:01:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jessica",
+      "participants": [
+        "angelina",
+        "Jessica",
+        "Alex"
+      ]
+    },
+    {
+      "time": "2026-01-23T21:31:00.000Z",
+      "endTime": "2026-01-23T21:36:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "angelina",
+      "participants": [
+        "angelina",
+        "Jessica",
+        "Alex"
+      ]
+    },
     {
       "time": "2026-01-23T21:29:00.000Z",
       "endTime": "2026-01-23T21:34:00.000Z",
@@ -34,11 +57,36 @@
       ]
     },
     {
+      "time": "2026-01-23T21:01:00.000Z",
+      "endTime": "2026-01-23T21:06:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jessica",
+      "participants": [
+        "angelina",
+        "Jessica",
+        "Alex"
+      ]
+    },
+    {
       "time": "2026-01-23T20:55:00.000Z",
       "endTime": "2026-01-23T21:00:00.000Z",
       "type": "break",
       "duration": 5,
       "startedBy": "Jessica",
+      "participants": [
+        "angelina",
+        "Jessica",
+        "Alex",
+        "Kiran"
+      ]
+    },
+    {
+      "time": "2026-01-23T20:47:00.000Z",
+      "endTime": "2026-01-23T21:12:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina",
       "participants": [
         "angelina",
         "Jessica",
@@ -654,38 +702,38 @@
     {
       "user": "angelina",
       "currentlyPresent": true,
-      "totalPresenceMinutes": 288,
-      "totalWorkMinutes": 358,
-      "totalBreakMinutes": 62,
-      "pomodoroCount": 18,
-      "breakCount": 15,
+      "totalPresenceMinutes": 302,
+      "totalWorkMinutes": 395,
+      "totalBreakMinutes": 72,
+      "pomodoroCount": 20,
+      "breakCount": 17,
       "avgPomodoroMinutes": 20,
       "firstSeen": "2026-01-21T23:17:00.000Z",
-      "lastSeen": "2026-01-23T21:35:07.306Z"
+      "lastSeen": "2026-01-23T21:49:53.131Z"
     },
     {
       "user": "Jessica",
-      "currentlyPresent": true,
-      "totalPresenceMinutes": 246,
-      "totalWorkMinutes": 259,
-      "totalBreakMinutes": 49,
-      "pomodoroCount": 10,
-      "breakCount": 10,
-      "avgPomodoroMinutes": 26,
+      "currentlyPresent": false,
+      "totalPresenceMinutes": 258,
+      "totalWorkMinutes": 294,
+      "totalBreakMinutes": 59,
+      "pomodoroCount": 12,
+      "breakCount": 12,
+      "avgPomodoroMinutes": 24,
       "firstSeen": "2026-01-22T17:01:00.000Z",
-      "lastSeen": "2026-01-23T21:35:07.306Z"
+      "lastSeen": "2026-01-23T21:47:17.325Z"
     },
     {
       "user": "Alex",
       "currentlyPresent": true,
-      "totalPresenceMinutes": 202,
-      "totalWorkMinutes": 239,
-      "totalBreakMinutes": 43,
-      "pomodoroCount": 10,
-      "breakCount": 9,
-      "avgPomodoroMinutes": 24,
+      "totalPresenceMinutes": 217,
+      "totalWorkMinutes": 276,
+      "totalBreakMinutes": 53,
+      "pomodoroCount": 12,
+      "breakCount": 11,
+      "avgPomodoroMinutes": 23,
       "firstSeen": "2026-01-22T18:55:00.000Z",
-      "lastSeen": "2026-01-23T21:35:07.306Z"
+      "lastSeen": "2026-01-23T21:49:53.131Z"
     },
     {
       "user": "Tess",
@@ -703,11 +751,11 @@
       "user": "Kiran",
       "currentlyPresent": false,
       "totalPresenceMinutes": 167,
-      "totalWorkMinutes": 252,
+      "totalWorkMinutes": 264,
       "totalBreakMinutes": 44,
-      "pomodoroCount": 11,
+      "pomodoroCount": 12,
       "breakCount": 9,
-      "avgPomodoroMinutes": 23,
+      "avgPomodoroMinutes": 22,
       "firstSeen": "2026-01-23T17:48:00.000Z",
       "lastSeen": "2026-01-23T20:58:41.357Z"
     },

@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-23T21:35:07.310Z",
-  "timerCount": 60,
+  "lastUpdated": "2026-01-23T21:49:53.134Z",
+  "timerCount": 64,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -402,8 +402,22 @@
       "startedBy": "angelina"
     },
     {
+      "startTime": "2026-01-23T20:47:00.000Z",
+      "endTime": "2026-01-23T21:12:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina"
+    },
+    {
       "startTime": "2026-01-23T20:55:00.000Z",
       "endTime": "2026-01-23T21:00:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jessica"
+    },
+    {
+      "startTime": "2026-01-23T21:01:00.000Z",
+      "endTime": "2026-01-23T21:06:00.000Z",
       "type": "break",
       "duration": 5,
       "startedBy": "Jessica"
@@ -421,6 +435,20 @@
       "type": "break",
       "duration": 5,
       "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-23T21:31:00.000Z",
+      "endTime": "2026-01-23T21:36:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-23T21:36:00.000Z",
+      "endTime": "2026-01-23T22:01:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jessica"
     }
   ],
   "userWindows": {
@@ -452,7 +480,7 @@
       },
       {
         "joinTime": "2026-01-23T21:00:12.612Z",
-        "leaveTime": "2026-01-23T21:35:07.306Z",
+        "leaveTime": "2026-01-23T21:49:53.131Z",
         "stillPresent": true
       }
     ],
@@ -525,8 +553,8 @@
       },
       {
         "joinTime": "2026-01-23T21:00:12.612Z",
-        "leaveTime": "2026-01-23T21:35:07.306Z",
-        "stillPresent": true
+        "leaveTime": "2026-01-23T21:47:17.325Z",
+        "stillPresent": false
       }
     ],
     "Alex": [
@@ -557,7 +585,7 @@
       },
       {
         "joinTime": "2026-01-23T21:00:12.612Z",
-        "leaveTime": "2026-01-23T21:35:07.306Z",
+        "leaveTime": "2026-01-23T21:49:53.131Z",
         "stillPresent": true
       }
     ],
@@ -588,13 +616,13 @@
   },
   "userStats": {
     "angelina": {
-      "totalPresenceMinutes": 287.5334,
-      "totalWorkMinutes": 357.5848500000001,
-      "totalBreakMinutes": 62.392900000000004,
-      "pomodoroCount": 18,
-      "breakCount": 15,
+      "totalPresenceMinutes": 302.29715,
+      "totalWorkMinutes": 394.94945000000007,
+      "totalBreakMinutes": 72.3929,
+      "pomodoroCount": 20,
+      "breakCount": 17,
       "firstSeen": "2026-01-21T23:17:00.000Z",
-      "lastSeen": "2026-01-23T21:35:07.306Z",
+      "lastSeen": "2026-01-23T21:49:53.131Z",
       "currentlyPresent": true
     },
     "Tess": {
@@ -628,30 +656,30 @@
       "currentlyPresent": false
     },
     "Jessica": {
-      "totalPresenceMinutes": 245.66741666666667,
-      "totalWorkMinutes": 258.9160333333333,
-      "totalBreakMinutes": 48.689283333333336,
-      "pomodoroCount": 10,
-      "breakCount": 10,
+      "totalPresenceMinutes": 257.8344,
+      "totalWorkMinutes": 293.68386666666663,
+      "totalBreakMinutes": 58.689283333333336,
+      "pomodoroCount": 12,
+      "breakCount": 12,
       "firstSeen": "2026-01-22T17:01:00.000Z",
-      "lastSeen": "2026-01-23T21:35:07.306Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-01-23T21:47:17.325Z",
+      "currentlyPresent": false
     },
     "Alex": {
-      "totalPresenceMinutes": 201.87188333333333,
-      "totalWorkMinutes": 238.8922,
-      "totalBreakMinutes": 42.689283333333336,
-      "pomodoroCount": 10,
-      "breakCount": 9,
+      "totalPresenceMinutes": 216.63563333333335,
+      "totalWorkMinutes": 276.2568,
+      "totalBreakMinutes": 52.689283333333336,
+      "pomodoroCount": 12,
+      "breakCount": 11,
       "firstSeen": "2026-01-22T18:55:00.000Z",
-      "lastSeen": "2026-01-23T21:35:07.306Z",
+      "lastSeen": "2026-01-23T21:49:53.131Z",
       "currentlyPresent": true
     },
     "Kiran": {
       "totalPresenceMinutes": 167.1764,
-      "totalWorkMinutes": 252.40228333333334,
+      "totalWorkMinutes": 264.09156666666667,
       "totalBreakMinutes": 43.689283333333336,
-      "pomodoroCount": 11,
+      "pomodoroCount": 12,
       "breakCount": 9,
       "firstSeen": "2026-01-23T17:48:00.000Z",
       "lastSeen": "2026-01-23T20:58:41.357Z",
