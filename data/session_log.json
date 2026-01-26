@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-26T17:25:51.475Z",
-  "timerCount": 78,
+  "lastUpdated": "2026-01-26T17:56:51.984Z",
+  "timerCount": 83,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -547,6 +547,41 @@
       "type": "work",
       "duration": 25,
       "startedBy": "Izzy"
+    },
+    {
+      "startTime": "2026-01-26T16:49:00.000Z",
+      "endTime": "2026-01-26T17:14:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-26T17:14:00.000Z",
+      "endTime": "2026-01-26T17:19:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-26T17:19:00.000Z",
+      "endTime": "2026-01-26T17:44:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jessica"
+    },
+    {
+      "startTime": "2026-01-26T17:44:00.000Z",
+      "endTime": "2026-01-26T17:49:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jessica"
+    },
+    {
+      "startTime": "2026-01-26T17:49:00.000Z",
+      "endTime": "2026-01-26T18:14:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina"
     }
   ],
   "userWindows": {
@@ -663,6 +698,11 @@
         "joinTime": "2026-01-26T15:06:32.571Z",
         "leaveTime": "2026-01-26T17:18:35.304Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-01-26T17:19:48.260Z",
+        "leaveTime": "2026-01-26T17:56:51.981Z",
+        "stillPresent": true
       }
     ],
     "Alex": [
@@ -776,14 +816,14 @@
       "currentlyPresent": false
     },
     "Jessica": {
-      "totalPresenceMinutes": 389.87995,
-      "totalWorkMinutes": 363.42068333333333,
-      "totalBreakMinutes": 63.689283333333336,
-      "pomodoroCount": 16,
-      "breakCount": 13,
+      "totalPresenceMinutes": 426.94196666666664,
+      "totalWorkMinutes": 420.4827,
+      "totalBreakMinutes": 73.27768333333333,
+      "pomodoroCount": 19,
+      "breakCount": 15,
       "firstSeen": "2026-01-22T17:01:00.000Z",
-      "lastSeen": "2026-01-26T17:18:35.304Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-01-26T17:56:51.981Z",
+      "currentlyPresent": true
     },
     "Alex": {
       "totalPresenceMinutes": 245.40543333333332,
