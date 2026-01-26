@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-26T20:06:51.266Z",
-  "timerCount": 86,
+  "lastUpdated": "2026-01-26T20:45:23.817Z",
+  "timerCount": 90,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -598,11 +598,39 @@
       "startedBy": "Jessic"
     },
     {
+      "startTime": "2026-01-26T19:38:00.000Z",
+      "endTime": "2026-01-26T19:43:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jessic"
+    },
+    {
       "startTime": "2026-01-26T19:42:00.000Z",
       "endTime": "2026-01-26T20:07:00.000Z",
       "type": "work",
       "duration": 25,
       "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-26T20:07:00.000Z",
+      "endTime": "2026-01-26T20:12:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-26T20:13:00.000Z",
+      "endTime": "2026-01-26T20:38:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-26T20:37:00.000Z",
+      "endTime": "2026-01-26T20:42:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess"
     }
   ],
   "userWindows": {
@@ -816,9 +844,9 @@
     "angelina": {
       "totalPresenceMinutes": 379.17381666666665,
       "totalWorkMinutes": 449.10913333333343,
-      "totalBreakMinutes": 77.3929,
+      "totalBreakMinutes": 82.3929,
       "pomodoroCount": 22,
-      "breakCount": 18,
+      "breakCount": 19,
       "firstSeen": "2026-01-21T23:17:00.000Z",
       "lastSeen": "2026-01-26T19:48:08.571Z",
       "currentlyPresent": false
@@ -866,9 +894,9 @@
     "Alex": {
       "totalPresenceMinutes": 281.54828333333336,
       "totalWorkMinutes": 369.92453333333333,
-      "totalBreakMinutes": 62.689283333333336,
+      "totalBreakMinutes": 67.68928333333334,
       "pomodoroCount": 17,
-      "breakCount": 13,
+      "breakCount": 14,
       "firstSeen": "2026-01-22T18:55:00.000Z",
       "lastSeen": "2026-01-26T19:48:08.571Z",
       "currentlyPresent": false
@@ -906,9 +934,9 @@
     "Jessic": {
       "totalPresenceMinutes": 37.14285,
       "totalWorkMinutes": 31.14285,
-      "totalBreakMinutes": 5,
+      "totalBreakMinutes": 10,
       "pomodoroCount": 2,
-      "breakCount": 1,
+      "breakCount": 2,
       "firstSeen": "2026-01-26T19:11:00.000Z",
       "lastSeen": "2026-01-26T19:48:08.571Z",
       "currentlyPresent": false

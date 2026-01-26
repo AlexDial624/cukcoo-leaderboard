@@ -1,16 +1,52 @@
 {
-  "generated": "2026-01-26T20:06:51.267Z",
+  "generated": "2026-01-26T20:45:23.818Z",
   "currentlyPresent": [],
   "totalUsers": 10,
   "totalPomodoros": 87,
   "totalWorkMinutes": 1926.6051333333335,
   "activityLog": [
     {
+      "time": "2026-01-26T20:37:00.000Z",
+      "endTime": "2026-01-26T20:42:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess",
+      "participants": []
+    },
+    {
+      "time": "2026-01-26T20:13:00.000Z",
+      "endTime": "2026-01-26T20:38:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina",
+      "participants": []
+    },
+    {
+      "time": "2026-01-26T20:07:00.000Z",
+      "endTime": "2026-01-26T20:12:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "angelina",
+      "participants": []
+    },
+    {
       "time": "2026-01-26T19:42:00.000Z",
       "endTime": "2026-01-26T20:07:00.000Z",
       "type": "work",
       "duration": 25,
       "startedBy": "angelina",
+      "participants": [
+        "angelina",
+        "Alex",
+        "Jessic"
+      ]
+    },
+    {
+      "time": "2026-01-26T19:38:00.000Z",
+      "endTime": "2026-01-26T19:43:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jessic",
       "participants": [
         "angelina",
         "Alex",
@@ -931,9 +967,9 @@
       "currentlyPresent": false,
       "totalPresenceMinutes": 379,
       "totalWorkMinutes": 449,
-      "totalBreakMinutes": 77,
+      "totalBreakMinutes": 82,
       "pomodoroCount": 22,
-      "breakCount": 18,
+      "breakCount": 19,
       "avgPomodoroMinutes": 20,
       "firstSeen": "2026-01-21T23:17:00.000Z",
       "lastSeen": "2026-01-26T19:48:08.571Z"
@@ -943,9 +979,9 @@
       "currentlyPresent": false,
       "totalPresenceMinutes": 282,
       "totalWorkMinutes": 370,
-      "totalBreakMinutes": 63,
+      "totalBreakMinutes": 68,
       "pomodoroCount": 17,
-      "breakCount": 13,
+      "breakCount": 14,
       "avgPomodoroMinutes": 22,
       "firstSeen": "2026-01-22T18:55:00.000Z",
       "lastSeen": "2026-01-26T19:48:08.571Z"
@@ -1027,9 +1063,9 @@
       "currentlyPresent": false,
       "totalPresenceMinutes": 37,
       "totalWorkMinutes": 31,
-      "totalBreakMinutes": 5,
+      "totalBreakMinutes": 10,
       "pomodoroCount": 2,
-      "breakCount": 1,
+      "breakCount": 2,
       "avgPomodoroMinutes": 16,
       "firstSeen": "2026-01-26T19:11:00.000Z",
       "lastSeen": "2026-01-26T19:48:08.571Z"
