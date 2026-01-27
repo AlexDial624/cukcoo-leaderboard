@@ -1,13 +1,43 @@
 {
-  "generated": "2026-01-27T14:35:50.191Z",
-  "currentlyPresent": [
-    "Jessica",
-    "Alex"
-  ],
+  "generated": "2026-01-27T15:09:43.894Z",
+  "currentlyPresent": [],
   "totalUsers": 10,
-  "totalPomodoros": 87,
-  "totalWorkMinutes": 1926.6051333333335,
+  "totalPomodoros": 91,
+  "totalWorkMinutes": 1971.5539666666668,
   "activityLog": [
+    {
+      "time": "2026-01-27T15:01:00.000Z",
+      "endTime": "2026-01-27T15:26:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jessica",
+      "participants": [
+        "Jessica",
+        "Alex"
+      ]
+    },
+    {
+      "time": "2026-01-27T14:56:00.000Z",
+      "endTime": "2026-01-27T15:01:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jessica",
+      "participants": [
+        "Jessica",
+        "Alex"
+      ]
+    },
+    {
+      "time": "2026-01-27T14:30:00.000Z",
+      "endTime": "2026-01-27T14:55:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jessica",
+      "participants": [
+        "Jessica",
+        "Alex"
+      ]
+    },
     {
       "time": "2026-01-26T21:44:00.000Z",
       "endTime": "2026-01-26T22:09:00.000Z",
@@ -1019,15 +1049,15 @@
   "users": [
     {
       "user": "Jessica",
-      "currentlyPresent": true,
-      "totalPresenceMinutes": 450,
-      "totalWorkMinutes": 438,
-      "totalBreakMinutes": 73,
-      "pomodoroCount": 19,
-      "breakCount": 15,
-      "avgPomodoroMinutes": 23,
+      "currentlyPresent": false,
+      "totalPresenceMinutes": 477,
+      "totalWorkMinutes": 460,
+      "totalBreakMinutes": 78,
+      "pomodoroCount": 21,
+      "breakCount": 16,
+      "avgPomodoroMinutes": 22,
       "firstSeen": "2026-01-22T17:01:00.000Z",
-      "lastSeen": "2026-01-27T14:35:50.185Z"
+      "lastSeen": "2026-01-27T15:02:28.465Z"
     },
     {
       "user": "angelina",
@@ -1043,15 +1073,15 @@
     },
     {
       "user": "Alex",
-      "currentlyPresent": true,
-      "totalPresenceMinutes": 283,
-      "totalWorkMinutes": 370,
-      "totalBreakMinutes": 68,
-      "pomodoroCount": 17,
-      "breakCount": 14,
-      "avgPomodoroMinutes": 22,
+      "currentlyPresent": false,
+      "totalPresenceMinutes": 310,
+      "totalWorkMinutes": 392,
+      "totalBreakMinutes": 73,
+      "pomodoroCount": 19,
+      "breakCount": 15,
+      "avgPomodoroMinutes": 21,
       "firstSeen": "2026-01-22T18:55:00.000Z",
-      "lastSeen": "2026-01-27T14:35:50.185Z"
+      "lastSeen": "2026-01-27T15:02:28.465Z"
     },
     {
       "user": "Tess",
