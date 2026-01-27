@@ -1,15 +1,26 @@
 {
-  "generated": "2026-01-27T22:33:51.526Z",
+  "generated": "2026-01-27T22:57:22.596Z",
   "currentlyPresent": [
+    "Alex",
     "angelina"
   ],
   "totalUsers": 10,
-  "totalPomodoros": 108,
-  "totalWorkMinutes": 2329.0948166666667,
+  "totalPomodoros": 109,
+  "totalWorkMinutes": 2379.236133333334,
   "activityLog": [
     {
       "time": "2026-01-27T22:30:00.000Z",
       "endTime": "2026-01-27T22:55:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina",
+      "participants": [
+        "angelina"
+      ]
+    },
+    {
+      "time": "2026-01-27T22:27:00.000Z",
+      "endTime": "2026-01-27T22:52:00.000Z",
       "type": "work",
       "duration": 25,
       "startedBy": "angelina",
@@ -1238,26 +1249,26 @@
     {
       "user": "angelina",
       "currentlyPresent": true,
-      "totalPresenceMinutes": 429,
-      "totalWorkMinutes": 496,
+      "totalPresenceMinutes": 453,
+      "totalWorkMinutes": 539,
       "totalBreakMinutes": 87,
-      "pomodoroCount": 24,
+      "pomodoroCount": 25,
       "breakCount": 20,
-      "avgPomodoroMinutes": 21,
+      "avgPomodoroMinutes": 22,
       "firstSeen": "2026-01-21T23:17:00.000Z",
-      "lastSeen": "2026-01-27T22:33:51.521Z"
+      "lastSeen": "2026-01-27T22:57:22.590Z"
     },
     {
       "user": "Alex",
-      "currentlyPresent": false,
-      "totalPresenceMinutes": 404,
-      "totalWorkMinutes": 525,
+      "currentlyPresent": true,
+      "totalPresenceMinutes": 411,
+      "totalWorkMinutes": 532,
       "totalBreakMinutes": 86,
       "pomodoroCount": 26,
       "breakCount": 18,
       "avgPomodoroMinutes": 20,
       "firstSeen": "2026-01-22T18:55:00.000Z",
-      "lastSeen": "2026-01-27T20:11:35.444Z"
+      "lastSeen": "2026-01-27T22:57:22.590Z"
     },
     {
       "user": "Tess",
