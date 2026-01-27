@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-27T14:02:56.622Z",
+  "lastUpdated": "2026-01-27T14:35:50.190Z",
   "timerCount": 98,
   "timers": [
     {
@@ -813,6 +813,11 @@
         "joinTime": "2026-01-26T17:19:48.260Z",
         "leaveTime": "2026-01-26T18:18:26.135Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-01-27T14:34:00.000Z",
+        "leaveTime": "2026-01-27T14:35:50.185Z",
+        "stillPresent": true
       }
     ],
     "Alex": [
@@ -855,6 +860,11 @@
         "joinTime": "2026-01-26T19:12:00.000Z",
         "leaveTime": "2026-01-26T19:48:08.571Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-01-27T14:34:00.000Z",
+        "leaveTime": "2026-01-27T14:35:50.185Z",
+        "stillPresent": true
       }
     ],
     "Kiran": [
@@ -938,24 +948,24 @@
       "currentlyPresent": false
     },
     "Jessica": {
-      "totalPresenceMinutes": 448.5112,
+      "totalPresenceMinutes": 450.3476166666667,
       "totalWorkMinutes": 437.61635,
       "totalBreakMinutes": 73.27768333333333,
       "pomodoroCount": 19,
       "breakCount": 15,
       "firstSeen": "2026-01-22T17:01:00.000Z",
-      "lastSeen": "2026-01-26T18:18:26.135Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-01-27T14:35:50.185Z",
+      "currentlyPresent": true
     },
     "Alex": {
-      "totalPresenceMinutes": 281.54828333333336,
+      "totalPresenceMinutes": 283.3847,
       "totalWorkMinutes": 369.92453333333333,
       "totalBreakMinutes": 67.68928333333334,
       "pomodoroCount": 17,
       "breakCount": 14,
       "firstSeen": "2026-01-22T18:55:00.000Z",
-      "lastSeen": "2026-01-26T19:48:08.571Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-01-27T14:35:50.185Z",
+      "currentlyPresent": true
     },
     "Kiran": {
       "totalPresenceMinutes": 167.1764,

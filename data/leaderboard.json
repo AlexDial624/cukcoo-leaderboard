@@ -1,6 +1,9 @@
 {
-  "generated": "2026-01-27T14:02:56.623Z",
-  "currentlyPresent": [],
+  "generated": "2026-01-27T14:35:50.191Z",
+  "currentlyPresent": [
+    "Jessica",
+    "Alex"
+  ],
   "totalUsers": 10,
   "totalPomodoros": 87,
   "totalWorkMinutes": 1926.6051333333335,
@@ -1016,15 +1019,15 @@
   "users": [
     {
       "user": "Jessica",
-      "currentlyPresent": false,
-      "totalPresenceMinutes": 449,
+      "currentlyPresent": true,
+      "totalPresenceMinutes": 450,
       "totalWorkMinutes": 438,
       "totalBreakMinutes": 73,
       "pomodoroCount": 19,
       "breakCount": 15,
       "avgPomodoroMinutes": 23,
       "firstSeen": "2026-01-22T17:01:00.000Z",
-      "lastSeen": "2026-01-26T18:18:26.135Z"
+      "lastSeen": "2026-01-27T14:35:50.185Z"
     },
     {
       "user": "angelina",
@@ -1040,15 +1043,15 @@
     },
     {
       "user": "Alex",
-      "currentlyPresent": false,
-      "totalPresenceMinutes": 282,
+      "currentlyPresent": true,
+      "totalPresenceMinutes": 283,
       "totalWorkMinutes": 370,
       "totalBreakMinutes": 68,
       "pomodoroCount": 17,
       "breakCount": 14,
       "avgPomodoroMinutes": 22,
       "firstSeen": "2026-01-22T18:55:00.000Z",
-      "lastSeen": "2026-01-26T19:48:08.571Z"
+      "lastSeen": "2026-01-27T14:35:50.185Z"
     },
     {
       "user": "Tess",
