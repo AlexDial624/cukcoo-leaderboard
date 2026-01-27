@@ -180,3 +180,13 @@ estimated_time,scrape_time,user,action,time_ago_raw
 2026-01-27T14:30:00.000Z,2026-01-27T15:02:29.465Z,Jessica,started a 25 minute work session,32 min ago
 2026-01-27T14:56:00.000Z,2026-01-27T15:02:29.465Z,Jessica,started a 5 minute break,6 min ago
 2026-01-27T15:01:00.000Z,2026-01-27T15:02:29.465Z,Jessica,started a 25 minute work session,1 min ago
+2026-01-27T14:59:00.000Z,2026-01-27T15:59:14.683Z,Jessica,started a 25 minute work session,1 hours ago
+2026-01-27T14:59:00.000Z,2026-01-27T15:59:14.683Z,Jessica,started a 5 minute break,1 hours ago
+2026-01-27T15:27:00.000Z,2026-01-27T15:59:14.683Z,Jessica,started a 5 minute break,32 min ago
+2026-01-27T15:32:00.000Z,2026-01-27T15:59:14.683Z,Alex,started a 25 minute work session,27 min ago
+2026-01-27T15:47:00.000Z,2026-01-27T15:59:14.683Z,angelina,joined this cuckoo,12 min ago
+2026-01-27T15:57:00.000Z,2026-01-27T15:59:14.683Z,Jessica,started a 5 minute break,2 min ago
+2026-01-27T15:58:00.000Z,2026-01-27T15:59:14.683Z,angelina,paused the current break,1 min ago
+2026-01-27T15:58:00.000Z,2026-01-27T15:59:14.683Z,angelina,stopped the current break,1 min ago
+2026-01-27T15:58:00.000Z,2026-01-27T15:59:14.683Z,angelina,skipped the break,1 min ago
+2026-01-27T15:58:00.000Z,2026-01-27T15:59:14.683Z,angelina,started a 25 minute work session,55 sec ago
