@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-28T21:33:49.525Z",
-  "timerCount": 141,
+  "lastUpdated": "2026-01-28T22:01:46.896Z",
+  "timerCount": 147,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -985,6 +985,48 @@
     {
       "startTime": "2026-01-28T20:39:00.000Z",
       "endTime": "2026-01-28T21:04:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-28T20:54:00.000Z",
+      "endTime": "2026-01-28T20:59:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-28T21:04:00.000Z",
+      "endTime": "2026-01-28T21:09:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-01-28T21:09:00.000Z",
+      "endTime": "2026-01-28T21:39:00.000Z",
+      "type": "work",
+      "duration": 30,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-01-28T21:09:00.000Z",
+      "endTime": "2026-01-28T21:34:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-28T21:35:00.000Z",
+      "endTime": "2026-01-28T21:40:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-28T21:40:00.000Z",
+      "endTime": "2026-01-28T22:05:00.000Z",
       "type": "work",
       "duration": 25,
       "startedBy": "angelina"
