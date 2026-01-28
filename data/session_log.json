@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-28T20:25:37.768Z",
-  "timerCount": 136,
+  "lastUpdated": "2026-01-28T21:00:11.843Z",
+  "timerCount": 141,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -953,6 +953,41 @@
       "type": "work",
       "duration": 25,
       "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-01-28T19:52:00.000Z",
+      "endTime": "2026-01-28T20:17:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-01-28T20:03:00.000Z",
+      "endTime": "2026-01-28T20:08:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-01-28T20:08:00.000Z",
+      "endTime": "2026-01-28T20:33:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-28T20:33:00.000Z",
+      "endTime": "2026-01-28T20:38:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-28T20:39:00.000Z",
+      "endTime": "2026-01-28T21:04:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina"
     }
   ],
   "userWindows": {
