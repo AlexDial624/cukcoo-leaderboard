@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-28T18:10:18.313Z",
-  "timerCount": 128,
+  "lastUpdated": "2026-01-28T18:59:19.492Z",
+  "timerCount": 133,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -897,6 +897,41 @@
       "type": "work",
       "duration": 25,
       "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-28T17:52:00.000Z",
+      "endTime": "2026-01-28T18:17:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-28T18:09:00.000Z",
+      "endTime": "2026-01-28T18:14:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-01-28T18:15:00.000Z",
+      "endTime": "2026-01-28T18:40:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-01-28T18:40:00.000Z",
+      "endTime": "2026-01-28T18:45:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-28T18:46:00.000Z",
+      "endTime": "2026-01-28T19:11:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess"
     }
   ],
   "userWindows": {
@@ -1176,9 +1211,9 @@
   "userStats": {
     "angelina": {
       "totalPresenceMinutes": 563.8787833333333,
-      "totalWorkMinutes": 603.9041166666668,
+      "totalWorkMinutes": 614.9472333333335,
       "totalBreakMinutes": 102.3929,
-      "pomodoroCount": 28,
+      "pomodoroCount": 29,
       "breakCount": 23,
       "firstSeen": "2026-01-21T23:17:00.000Z",
       "lastSeen": "2026-01-28T18:03:02.587Z",
@@ -1226,9 +1261,9 @@
     },
     "Alex": {
       "totalPresenceMinutes": 487.76565,
-      "totalWorkMinutes": 587.0312833333334,
+      "totalWorkMinutes": 598.0744000000001,
       "totalBreakMinutes": 101.1637,
-      "pomodoroCount": 28,
+      "pomodoroCount": 29,
       "breakCount": 21,
       "firstSeen": "2026-01-22T18:55:00.000Z",
       "lastSeen": "2026-01-28T18:03:02.587Z",
@@ -1276,9 +1311,9 @@
     },
     "Jess": {
       "totalPresenceMinutes": 90.92128333333334,
-      "totalWorkMinutes": 72.92128333333334,
+      "totalWorkMinutes": 83.9644,
       "totalBreakMinutes": 25,
-      "pomodoroCount": 3,
+      "pomodoroCount": 4,
       "breakCount": 5,
       "firstSeen": "2026-01-28T16:32:07.310Z",
       "lastSeen": "2026-01-28T18:03:02.587Z",
