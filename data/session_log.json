@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-28T22:01:46.896Z",
+  "lastUpdated": "2026-01-28T22:28:49.530Z",
   "timerCount": 147,
   "timers": [
     {
@@ -1110,6 +1110,11 @@
         "joinTime": "2026-01-22T20:38:11.600Z",
         "leaveTime": "2026-01-22T21:52:01.167Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-01-28T21:58:15.317Z",
+        "leaveTime": "2026-01-28T22:28:49.523Z",
+        "stillPresent": true
       }
     ],
     "Joris": [
@@ -1304,6 +1309,13 @@
         "leaveTime": "2026-01-28T18:03:02.587Z",
         "stillPresent": false
       }
+    ],
+    "Rory Fenton": [
+      {
+        "joinTime": "2026-01-28T21:58:15.317Z",
+        "leaveTime": "2026-01-28T22:28:49.523Z",
+        "stillPresent": true
+      }
     ]
   },
   "userStats": {
@@ -1318,14 +1330,14 @@
       "currentlyPresent": false
     },
     "Tess": {
-      "totalPresenceMinutes": 196.28608333333332,
-      "totalWorkMinutes": 195.95278333333334,
+      "totalPresenceMinutes": 226.85618333333332,
+      "totalWorkMinutes": 202.69750000000002,
       "totalBreakMinutes": 32,
       "pomodoroCount": 8,
       "breakCount": 7,
       "firstSeen": "2026-01-22T00:18:00.000Z",
-      "lastSeen": "2026-01-22T21:52:01.167Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-01-28T22:28:49.523Z",
+      "currentlyPresent": true
     },
     "Joris": {
       "totalPresenceMinutes": 95.19388333333333,
@@ -1416,6 +1428,16 @@
       "firstSeen": "2026-01-28T16:32:07.310Z",
       "lastSeen": "2026-01-28T18:03:02.587Z",
       "currentlyPresent": false
+    },
+    "Rory Fenton": {
+      "totalPresenceMinutes": 30.5701,
+      "totalWorkMinutes": 6.744716666666666,
+      "totalBreakMinutes": 0,
+      "pomodoroCount": 0,
+      "breakCount": 0,
+      "firstSeen": "2026-01-28T21:58:15.317Z",
+      "lastSeen": "2026-01-28T22:28:49.523Z",
+      "currentlyPresent": true
     }
   }
 }
