@@ -299,3 +299,16 @@ estimated_time,scrape_time,user,action,time_ago_raw
 2026-01-29T18:00:00.000Z,2026-01-29T18:22:38.098Z,Jessica,started a 5 minute break,22 min ago
 2026-01-29T18:15:00.000Z,2026-01-29T18:22:38.098Z,Alex,joined this cuckoo,7 min ago
 2026-01-29T18:18:00.000Z,2026-01-29T18:22:38.098Z,Jessica,started a 25 minute work session,4 min ago
+2026-01-29T19:00:00.000Z,2026-01-29T19:44:07.394Z,angelina,joined this cuckoo,44 min ago
+2026-01-29T19:00:00.000Z,2026-01-29T19:44:07.394Z,angelina,started a 25 minute work session,44 min ago
+2026-01-29T19:13:00.000Z,2026-01-29T19:44:07.394Z,jordan,joined this cuckoo,31 min ago
+2026-01-29T19:15:00.000Z,2026-01-29T19:44:07.394Z,j,joined this cuckoo,29 min ago
+2026-01-29T19:25:00.000Z,2026-01-29T19:44:07.394Z,jordan,started a 5 minute break,19 min ago
+2026-01-29T19:26:00.000Z,2026-01-29T19:44:07.394Z,jordan,paused the current break,18 min ago
+2026-01-29T19:26:00.000Z,2026-01-29T19:44:07.394Z,jordan,stopped the current break,18 min ago
+2026-01-29T19:26:00.000Z,2026-01-29T19:44:07.394Z,jordan,skipped the break,18 min ago
+2026-01-29T19:26:00.000Z,2026-01-29T19:44:07.394Z,jordan,started a 15 minute work session,18 min ago
+2026-01-29T19:26:00.000Z,2026-01-29T19:44:07.394Z,jordan,paused the current work session,18 min ago
+2026-01-29T19:26:00.000Z,2026-01-29T19:44:07.394Z,jordan,resumed the current work session,18 min ago
+2026-01-29T19:41:00.000Z,2026-01-29T19:44:07.394Z,j,started a 5 minute break,3 min ago
+2026-01-29T19:44:00.000Z,2026-01-29T19:44:07.394Z,jordan,joined this cuckoo,4 sec ago
