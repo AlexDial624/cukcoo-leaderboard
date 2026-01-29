@@ -315,3 +315,12 @@ estimated_time,scrape_time,user,action,time_ago_raw
 2026-01-29T19:43:00.000Z,2026-01-29T20:01:56.193Z,j,created a 30 minutes work session to settings,18 min ago
 2026-01-29T19:43:00.000Z,2026-01-29T20:01:56.193Z,j,joined this cuckoo,18 min ago
 2026-01-29T19:43:00.000Z,2026-01-29T20:01:56.193Z,j,started a 30 minute work session,18 min ago
+2026-01-29T20:23:00.000Z,2026-01-29T21:03:43.193Z,angelina,joined this cuckoo,40 min ago
+2026-01-29T20:23:00.000Z,2026-01-29T21:03:43.193Z,j,joined this cuckoo,40 min ago
+2026-01-29T20:24:00.000Z,2026-01-29T21:03:43.193Z,angelina,started a 25 minute work session,39 min ago
+2026-01-29T20:24:00.000Z,2026-01-29T21:03:43.193Z,j,started a 25 minute work session,39 min ago
+2026-01-29T20:28:00.000Z,2026-01-29T21:03:43.193Z,Jessica,joined this cuckoo,35 min ago
+2026-01-29T20:29:00.000Z,2026-01-29T21:03:43.193Z,Tess,joined this cuckoo,34 min ago
+2026-01-29T20:49:00.000Z,2026-01-29T21:03:43.193Z,angelina,started a 5 minute break,14 min ago
+2026-01-29T20:54:00.000Z,2026-01-29T21:03:43.193Z,angelina,started a 25 minute work session,9 min ago
+2026-01-29T21:03:00.000Z,2026-01-29T21:03:43.193Z,Alex,joined this cuckoo,5 sec ago
