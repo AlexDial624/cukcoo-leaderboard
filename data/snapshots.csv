@@ -341,3 +341,4 @@ timestamp,timer_running,timer_value,session_type
 2026-01-29T15:59:37.825Z,true,04:00,unknown
 2026-01-29T16:55:17.981Z,false,00:00,unknown
 2026-01-29T17:39:29.175Z,true,02:23,unknown
+2026-01-29T18:22:38.098Z,false,00:00,work
