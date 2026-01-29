@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-29T12:59:50.706Z",
-  "timerCount": 156,
+  "lastUpdated": "2026-01-29T14:04:29.254Z",
+  "timerCount": 157,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -1093,6 +1093,13 @@
       "type": "break",
       "duration": 5,
       "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-29T13:37:00.000Z",
+      "endTime": "2026-01-29T14:02:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jessica"
     }
   ],
   "userWindows": {
