@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-29T23:08:28.295Z",
-  "timerCount": 183,
+  "lastUpdated": "2026-01-29T23:44:02.263Z",
+  "timerCount": 185,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -1279,6 +1279,20 @@
     {
       "startTime": "2026-01-29T22:54:00.000Z",
       "endTime": "2026-01-29T23:19:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-29T23:19:00.000Z",
+      "endTime": "2026-01-29T23:24:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-29T23:24:00.000Z",
+      "endTime": "2026-01-29T23:49:00.000Z",
       "type": "work",
       "duration": 25,
       "startedBy": "angelina"
