@@ -271,3 +271,18 @@ estimated_time,scrape_time,user,action,time_ago_raw
 2026-01-28T21:35:00.000Z,2026-01-28T21:54:34.819Z,angelina,started a 5 minute break,19 min ago
 2026-01-28T21:35:00.000Z,2026-01-28T21:54:34.819Z,Tess,joined this cuckoo,19 min ago
 2026-01-28T21:40:00.000Z,2026-01-28T21:54:34.819Z,angelina,started a 25 minute work session,14 min ago
+2026-01-28T23:49:00.000Z,2026-01-29T01:49:26.287Z,angelina,joined this cuckoo,2 hours ago
+2026-01-28T23:49:00.000Z,2026-01-29T01:49:26.287Z,angelina,started a 25 minute work session,2 hours ago
+2026-01-28T23:49:00.000Z,2026-01-29T01:49:26.287Z,Tess,joined this cuckoo,2 hours ago
+2026-01-28T23:49:00.000Z,2026-01-29T01:49:26.287Z,angelina,started a 5 minute break,2 hours ago
+2026-01-29T00:49:00.000Z,2026-01-29T01:49:26.287Z,Tess,started a 25 minute work session,1 hours ago
+2026-01-29T00:49:00.000Z,2026-01-29T01:49:26.287Z,angelina,started a 5 minute break,1 hours ago
+2026-01-29T00:49:00.000Z,2026-01-29T01:49:26.287Z,angelina,started a 25 minute work session,1 hours ago
+2026-01-29T00:52:00.000Z,2026-01-29T01:49:26.287Z,angelina,started a 25 minute work session,57 min ago
+2026-01-29T01:17:00.000Z,2026-01-29T01:49:26.287Z,angelina,started a 5 minute break,32 min ago
+2026-01-29T01:22:00.000Z,2026-01-29T01:49:26.287Z,angelina,paused the current break,27 min ago
+2026-01-29T01:22:00.000Z,2026-01-29T01:49:26.287Z,angelina,stopped the current break,27 min ago
+2026-01-29T01:22:00.000Z,2026-01-29T01:49:26.287Z,angelina,skipped the break,27 min ago
+2026-01-29T01:22:00.000Z,2026-01-29T01:49:26.287Z,angelina,started a 25 minute work session,27 min ago
+2026-01-29T01:33:00.000Z,2026-01-29T01:49:26.287Z,Alex,joined this cuckoo,16 min ago
+2026-01-29T01:48:00.000Z,2026-01-29T01:49:26.287Z,angelina,started a 5 minute break,1 min ago

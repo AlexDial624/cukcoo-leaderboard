@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-29T00:00:28.103Z",
-  "timerCount": 147,
+  "lastUpdated": "2026-01-29T01:56:39.864Z",
+  "timerCount": 156,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -1029,6 +1029,69 @@
       "endTime": "2026-01-28T22:05:00.000Z",
       "type": "work",
       "duration": 25,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-28T23:49:00.000Z",
+      "endTime": "2026-01-29T00:14:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-28T23:49:00.000Z",
+      "endTime": "2026-01-28T23:54:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-29T00:49:00.000Z",
+      "endTime": "2026-01-29T01:14:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Tess"
+    },
+    {
+      "startTime": "2026-01-29T00:49:00.000Z",
+      "endTime": "2026-01-29T00:54:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-29T00:49:00.000Z",
+      "endTime": "2026-01-29T01:14:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-29T00:52:00.000Z",
+      "endTime": "2026-01-29T01:17:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-29T01:17:00.000Z",
+      "endTime": "2026-01-29T01:22:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-29T01:22:00.000Z",
+      "endTime": "2026-01-29T01:47:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-01-29T01:48:00.000Z",
+      "endTime": "2026-01-29T01:53:00.000Z",
+      "type": "break",
+      "duration": 5,
       "startedBy": "angelina"
     }
   ],
