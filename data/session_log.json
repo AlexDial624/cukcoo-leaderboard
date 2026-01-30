@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-01-30T20:49:03.689Z",
-  "timerCount": 189,
+  "lastUpdated": "2026-01-30T21:04:09.377Z",
+  "timerCount": 190,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -1324,6 +1324,13 @@
       "type": "work",
       "duration": 25,
       "startedBy": "Alex"
+    },
+    {
+      "startTime": "2026-01-30T20:44:00.000Z",
+      "endTime": "2026-01-30T21:09:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Alex"
     }
   ],
   "userWindows": {
@@ -1520,6 +1527,11 @@
         "joinTime": "2026-01-30T15:49:00.000Z",
         "leaveTime": "2026-01-30T16:56:20.228Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-01-30T20:41:50.494Z",
+        "leaveTime": "2026-01-30T21:04:09.368Z",
+        "stillPresent": true
       }
     ],
     "Alex": [
@@ -1592,6 +1604,11 @@
         "joinTime": "2026-01-29T21:03:00.000Z",
         "leaveTime": "2026-01-29T21:39:50.225Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-01-30T20:41:50.494Z",
+        "leaveTime": "2026-01-30T21:04:09.368Z",
+        "stillPresent": true
       }
     ],
     "Kiran": [
@@ -1649,6 +1666,11 @@
         "joinTime": "2026-01-30T16:56:00.000Z",
         "leaveTime": "2026-01-30T17:38:28.530Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-01-30T21:03:00.000Z",
+        "leaveTime": "2026-01-30T21:04:09.368Z",
+        "stillPresent": true
       }
     ],
     "jordan": [
@@ -1663,6 +1685,13 @@
         "joinTime": "2026-01-30T15:59:00.000Z",
         "leaveTime": "2026-01-30T16:56:20.228Z",
         "stillPresent": false
+      }
+    ],
+    "Anna": [
+      {
+        "joinTime": "2026-01-30T21:02:00.000Z",
+        "leaveTime": "2026-01-30T21:04:09.368Z",
+        "stillPresent": true
       }
     ]
   },
@@ -1708,24 +1737,24 @@
       "currentlyPresent": false
     },
     "Jessica": {
-      "totalPresenceMinutes": 778.1911,
-      "totalWorkMinutes": 803.7385166666669,
+      "totalPresenceMinutes": 800.5056666666667,
+      "totalWorkMinutes": 823.8946500000002,
       "totalBreakMinutes": 112.58918333333334,
-      "pomodoroCount": 36,
+      "pomodoroCount": 37,
       "breakCount": 24,
       "firstSeen": "2026-01-22T17:01:00.000Z",
-      "lastSeen": "2026-01-30T16:56:20.228Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-01-30T21:04:09.368Z",
+      "currentlyPresent": true
     },
     "Alex": {
-      "totalPresenceMinutes": 524.6027333333334,
-      "totalWorkMinutes": 654.9114833333334,
+      "totalPresenceMinutes": 546.9173,
+      "totalWorkMinutes": 675.0676166666667,
       "totalBreakMinutes": 107.00078333333335,
-      "pomodoroCount": 31,
+      "pomodoroCount": 32,
       "breakCount": 23,
       "firstSeen": "2026-01-22T18:55:00.000Z",
-      "lastSeen": "2026-01-29T21:39:50.225Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-01-30T21:04:09.368Z",
+      "currentlyPresent": true
     },
     "Kiran": {
       "totalPresenceMinutes": 167.1764,
@@ -1778,14 +1807,14 @@
       "currentlyPresent": false
     },
     "Rory Fenton": {
-      "totalPresenceMinutes": 100.64908333333334,
-      "totalWorkMinutes": 6.744716666666666,
+      "totalPresenceMinutes": 101.80521666666667,
+      "totalWorkMinutes": 7.900849999999999,
       "totalBreakMinutes": 0,
       "pomodoroCount": 0,
       "breakCount": 0,
       "firstSeen": "2026-01-28T21:58:15.317Z",
-      "lastSeen": "2026-01-30T17:38:28.530Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-01-30T21:04:09.368Z",
+      "currentlyPresent": true
     },
     "jordan": {
       "totalPresenceMinutes": 48.91988333333333,
@@ -1806,6 +1835,16 @@
       "firstSeen": "2026-01-30T15:59:00.000Z",
       "lastSeen": "2026-01-30T16:56:20.228Z",
       "currentlyPresent": false
+    },
+    "Anna": {
+      "totalPresenceMinutes": 2.1561333333333335,
+      "totalWorkMinutes": 2.1561333333333335,
+      "totalBreakMinutes": 0,
+      "pomodoroCount": 0,
+      "breakCount": 0,
+      "firstSeen": "2026-01-30T21:02:00.000Z",
+      "lastSeen": "2026-01-30T21:04:09.368Z",
+      "currentlyPresent": true
     }
   }
 }
