@@ -362,3 +362,14 @@ estimated_time,scrape_time,user,action,time_ago_raw
 2026-01-30T20:44:00.000Z,2026-01-30T21:03:24.218Z,Alex,started a 25 minute work session,19 min ago
 2026-01-30T21:02:00.000Z,2026-01-30T21:03:24.218Z,Anna,joined this cuckoo,45 sec ago
 2026-01-30T21:03:00.000Z,2026-01-30T21:03:24.218Z,Rory Fenton,joined this cuckoo,10 sec ago
+2026-01-30T20:38:00.000Z,2026-01-30T21:38:26.400Z,Alex,joined this cuckoo,1 hours ago
+2026-01-30T20:38:00.000Z,2026-01-30T21:38:26.400Z,Alex,started a 25 minute work session,1 hours ago
+2026-01-30T20:57:00.000Z,2026-01-30T21:38:26.400Z,Anna,joined this cuckoo,41 min ago
+2026-01-30T20:57:00.000Z,2026-01-30T21:38:26.400Z,Rory Fenton,joined this cuckoo,41 min ago
+2026-01-30T21:03:00.000Z,2026-01-30T21:38:26.400Z,k,joined this cuckoo,35 min ago
+2026-01-30T21:03:00.000Z,2026-01-30T21:38:26.400Z,Jessica,started a 5 minute break,35 min ago
+2026-01-30T21:08:00.000Z,2026-01-30T21:38:26.400Z,Jessica,started a 25 minute work session,30 min ago
+2026-01-30T21:15:00.000Z,2026-01-30T21:38:26.400Z,niko,joined this cuckoo,23 min ago
+2026-01-30T21:33:00.000Z,2026-01-30T21:38:26.400Z,Rory Fenton,started a 5 minute break,5 min ago
+2026-01-30T21:33:00.000Z,2026-01-30T21:38:26.400Z,Jessica,started a 5 minute break,5 min ago
+2026-01-30T21:38:00.000Z,2026-01-30T21:38:26.400Z,Jessica,started a 25 minute work session,15 sec ago
