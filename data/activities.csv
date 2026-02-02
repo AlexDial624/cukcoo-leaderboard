@@ -373,3 +373,14 @@ estimated_time,scrape_time,user,action,time_ago_raw
 2026-01-30T21:33:00.000Z,2026-01-30T21:38:26.400Z,Rory Fenton,started a 5 minute break,5 min ago
 2026-01-30T21:33:00.000Z,2026-01-30T21:38:26.400Z,Jessica,started a 5 minute break,5 min ago
 2026-01-30T21:38:00.000Z,2026-01-30T21:38:26.400Z,Jessica,started a 25 minute work session,15 sec ago
+2026-02-02T12:29:00.000Z,2026-02-02T14:29:39.215Z,Jessica,joined this cuckoo,2 hours ago
+2026-02-02T12:29:00.000Z,2026-02-02T14:29:39.215Z,Joris,joined this cuckoo,2 hours ago
+2026-02-02T12:29:00.000Z,2026-02-02T14:29:39.215Z,Jessica,started a 25 minute work session,2 hours ago
+2026-02-02T12:29:00.000Z,2026-02-02T14:29:39.215Z,Jessica,started a 5 minute break,2 hours ago
+2026-02-02T12:29:00.000Z,2026-02-02T14:29:39.215Z,Joris,started a 25 minute work session,2 hours ago
+2026-02-02T13:29:00.000Z,2026-02-02T14:29:39.215Z,Jessica,started a 5 minute break,1 hours ago
+2026-02-02T13:29:00.000Z,2026-02-02T14:29:39.215Z,Jessica,started a 25 minute work session,1 hours ago
+2026-02-02T13:30:00.000Z,2026-02-02T14:29:39.215Z,Joris,started a 25 minute work session,59 min ago
+2026-02-02T14:05:00.000Z,2026-02-02T14:29:39.215Z,jemim,joined this cuckoo,24 min ago
+2026-02-02T14:05:00.000Z,2026-02-02T14:29:39.215Z,jemim,skipped the break,24 min ago
+2026-02-02T14:05:00.000Z,2026-02-02T14:29:39.215Z,Jessica,started a 25 minute work session,24 min ago

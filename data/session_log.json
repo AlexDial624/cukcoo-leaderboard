@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-02T13:51:31.260Z",
-  "timerCount": 196,
+  "lastUpdated": "2026-02-02T14:36:51.381Z",
+  "timerCount": 203,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -1373,6 +1373,55 @@
       "type": "work",
       "duration": 25,
       "startedBy": "Jessica"
+    },
+    {
+      "startTime": "2026-02-02T12:29:00.000Z",
+      "endTime": "2026-02-02T12:54:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jessica"
+    },
+    {
+      "startTime": "2026-02-02T12:29:00.000Z",
+      "endTime": "2026-02-02T12:34:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jessica"
+    },
+    {
+      "startTime": "2026-02-02T12:29:00.000Z",
+      "endTime": "2026-02-02T12:54:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Joris"
+    },
+    {
+      "startTime": "2026-02-02T13:29:00.000Z",
+      "endTime": "2026-02-02T13:34:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jessica"
+    },
+    {
+      "startTime": "2026-02-02T13:29:00.000Z",
+      "endTime": "2026-02-02T13:54:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jessica"
+    },
+    {
+      "startTime": "2026-02-02T13:30:00.000Z",
+      "endTime": "2026-02-02T13:55:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Joris"
+    },
+    {
+      "startTime": "2026-02-02T14:05:00.000Z",
+      "endTime": "2026-02-02T14:30:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jessica"
     }
   ],
   "userWindows": {
@@ -1797,10 +1846,10 @@
     },
     "Jessica": {
       "totalPresenceMinutes": 957.34715,
-      "totalWorkMinutes": 892.2610333333337,
-      "totalBreakMinutes": 127.58918333333334,
-      "pomodoroCount": 40,
-      "breakCount": 27,
+      "totalWorkMinutes": 971.817966666667,
+      "totalBreakMinutes": 137.58918333333332,
+      "pomodoroCount": 44,
+      "breakCount": 29,
       "firstSeen": "2026-01-22T17:01:00.000Z",
       "lastSeen": "2026-02-02T13:44:16.708Z",
       "currentlyPresent": false
