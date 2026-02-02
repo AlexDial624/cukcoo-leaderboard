@@ -399,3 +399,30 @@ estimated_time,scrape_time,user,action,time_ago_raw
 2026-02-02T15:34:00.000Z,2026-02-02T15:57:12.542Z,jordan,started a 25 minute work session,23 min ago
 2026-02-02T15:46:00.000Z,2026-02-02T15:57:12.542Z,Alex,joined this cuckoo,11 min ago
 2026-02-02T15:47:00.000Z,2026-02-02T15:57:12.542Z,Joris,joined this cuckoo,10 min ago
+2026-02-02T18:05:00.000Z,2026-02-02T23:05:19.002Z,Jess,started a 5 minute break,5 hours ago
+2026-02-02T19:05:00.000Z,2026-02-02T23:05:19.002Z,angelina,started a 25 minute work session,4 hours ago
+2026-02-02T19:05:00.000Z,2026-02-02T23:05:19.002Z,Jess,started a 5 minute break,4 hours ago
+2026-02-02T19:05:00.000Z,2026-02-02T23:05:19.002Z,angelina,joined this cuckoo,4 hours ago
+2026-02-02T19:05:00.000Z,2026-02-02T23:05:19.002Z,Jessica,joined this cuckoo,4 hours ago
+2026-02-02T20:05:00.000Z,2026-02-02T23:05:19.002Z,Alex,joined this cuckoo,3 hours ago
+2026-02-02T20:05:00.000Z,2026-02-02T23:05:19.002Z,Jessica,skipped the break,3 hours ago
+2026-02-02T20:05:00.000Z,2026-02-02T23:05:19.002Z,Jessica,started a 25 minute work session,3 hours ago
+2026-02-02T20:05:00.000Z,2026-02-02T23:05:19.002Z,Kiran,joined this cuckoo,3 hours ago
+2026-02-02T20:05:00.000Z,2026-02-02T23:05:19.002Z,Jessica,started a 5 minute break,3 hours ago
+2026-02-02T20:05:00.000Z,2026-02-02T23:05:19.002Z,Kiran,started a 25 minute work session,3 hours ago
+2026-02-02T21:05:00.000Z,2026-02-02T23:05:19.002Z,niko,joined this cuckoo,2 hours ago
+2026-02-02T21:05:00.000Z,2026-02-02T23:05:19.002Z,Kiran,started a 5 minute break,2 hours ago
+2026-02-02T21:05:00.000Z,2026-02-02T23:05:19.002Z,Kiran,started a 25 minute work session,2 hours ago
+2026-02-02T21:05:00.000Z,2026-02-02T23:05:19.002Z,Jess,joined this cuckoo,2 hours ago
+2026-02-02T21:05:00.000Z,2026-02-02T23:05:19.002Z,Jess,started a 5 minute break,2 hours ago
+2026-02-02T21:05:00.000Z,2026-02-02T23:05:19.002Z,angelina,joined this cuckoo,2 hours ago
+2026-02-02T22:05:00.000Z,2026-02-02T23:05:19.002Z,Alex,started a 5 minute break,1 hours ago
+2026-02-02T22:05:00.000Z,2026-02-02T23:05:19.002Z,angelina,started a 25 minute work session,1 hours ago
+2026-02-02T22:05:00.000Z,2026-02-02T23:05:19.002Z,angelina,started a 5 minute break,1 hours ago
+2026-02-02T22:05:00.000Z,2026-02-02T23:05:19.002Z,Kiran,started a 25 minute work session,1 hours ago
+2026-02-02T22:07:00.000Z,2026-02-02T23:05:19.002Z,Kiran,joined this cuckoo,58 min ago
+2026-02-02T22:20:00.000Z,2026-02-02T23:05:19.002Z,jemima,joined this cuckoo,45 min ago
+2026-02-02T22:35:00.000Z,2026-02-02T23:05:19.002Z,angelina,joined this cuckoo,30 min ago
+2026-02-02T22:38:00.000Z,2026-02-02T23:05:19.002Z,Kiran,joined this cuckoo,27 min ago
+2026-02-02T22:47:00.000Z,2026-02-02T23:05:19.002Z,jemima,started a 5 minute break,18 min ago
+2026-02-02T22:52:00.000Z,2026-02-02T23:05:19.002Z,Kiran,started a 25 minute work session,13 min ago

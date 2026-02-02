@@ -1,10 +1,130 @@
 {
-  "generated": "2026-02-02T18:14:31.852Z",
+  "generated": "2026-02-02T23:12:33.747Z",
   "currentlyPresent": [],
   "totalUsers": 16,
   "totalPomodoros": 158,
   "totalWorkMinutes": 3532.7576666666664,
   "activityLog": [
+    {
+      "time": "2026-02-02T22:52:00.000Z",
+      "endTime": "2026-02-02T23:17:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Kiran",
+      "participants": []
+    },
+    {
+      "time": "2026-02-02T22:47:00.000Z",
+      "endTime": "2026-02-02T22:52:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "jemima",
+      "participants": []
+    },
+    {
+      "time": "2026-02-02T22:05:00.000Z",
+      "endTime": "2026-02-02T22:10:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Alex",
+      "participants": []
+    },
+    {
+      "time": "2026-02-02T22:05:00.000Z",
+      "endTime": "2026-02-02T22:30:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina",
+      "participants": []
+    },
+    {
+      "time": "2026-02-02T22:05:00.000Z",
+      "endTime": "2026-02-02T22:10:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "angelina",
+      "participants": []
+    },
+    {
+      "time": "2026-02-02T22:05:00.000Z",
+      "endTime": "2026-02-02T22:30:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Kiran",
+      "participants": []
+    },
+    {
+      "time": "2026-02-02T21:05:00.000Z",
+      "endTime": "2026-02-02T21:10:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Kiran",
+      "participants": []
+    },
+    {
+      "time": "2026-02-02T21:05:00.000Z",
+      "endTime": "2026-02-02T21:30:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Kiran",
+      "participants": []
+    },
+    {
+      "time": "2026-02-02T21:05:00.000Z",
+      "endTime": "2026-02-02T21:10:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess",
+      "participants": []
+    },
+    {
+      "time": "2026-02-02T20:05:00.000Z",
+      "endTime": "2026-02-02T20:30:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jessica",
+      "participants": []
+    },
+    {
+      "time": "2026-02-02T20:05:00.000Z",
+      "endTime": "2026-02-02T20:10:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jessica",
+      "participants": []
+    },
+    {
+      "time": "2026-02-02T20:05:00.000Z",
+      "endTime": "2026-02-02T20:30:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Kiran",
+      "participants": []
+    },
+    {
+      "time": "2026-02-02T19:05:00.000Z",
+      "endTime": "2026-02-02T19:30:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina",
+      "participants": []
+    },
+    {
+      "time": "2026-02-02T19:05:00.000Z",
+      "endTime": "2026-02-02T19:10:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess",
+      "participants": []
+    },
+    {
+      "time": "2026-02-02T18:05:00.000Z",
+      "endTime": "2026-02-02T18:10:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess",
+      "participants": []
+    },
     {
       "time": "2026-02-02T15:34:00.000Z",
       "endTime": "2026-02-02T15:59:00.000Z",
