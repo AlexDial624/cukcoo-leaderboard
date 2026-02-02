@@ -1,16 +1,72 @@
 {
-  "generated": "2026-02-02T15:29:40.007Z",
+  "generated": "2026-02-02T16:04:27.490Z",
   "currentlyPresent": [],
   "totalUsers": 16,
   "totalPomodoros": 158,
   "totalWorkMinutes": 3532.7576666666664,
   "activityLog": [
     {
+      "time": "2026-02-02T15:34:00.000Z",
+      "endTime": "2026-02-02T15:59:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "jordan",
+      "participants": []
+    },
+    {
+      "time": "2026-02-02T15:32:00.000Z",
+      "endTime": "2026-02-02T15:37:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jessica",
+      "participants": []
+    },
+    {
+      "time": "2026-02-02T15:07:00.000Z",
+      "endTime": "2026-02-02T15:32:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jessica",
+      "participants": []
+    },
+    {
+      "time": "2026-02-02T15:02:00.000Z",
+      "endTime": "2026-02-02T15:07:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jessica",
+      "participants": []
+    },
+    {
+      "time": "2026-02-02T14:57:00.000Z",
+      "endTime": "2026-02-02T15:02:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jessica",
+      "participants": []
+    },
+    {
+      "time": "2026-02-02T14:57:00.000Z",
+      "endTime": "2026-02-02T15:22:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "jemim",
+      "participants": []
+    },
+    {
       "time": "2026-02-02T14:05:00.000Z",
       "endTime": "2026-02-02T14:30:00.000Z",
       "type": "work",
       "duration": 25,
       "startedBy": "Jessica",
+      "participants": []
+    },
+    {
+      "time": "2026-02-02T13:57:00.000Z",
+      "endTime": "2026-02-02T14:22:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Joris",
       "participants": []
     },
     {
@@ -2036,7 +2092,7 @@
     {
       "user": "Jessica",
       "currentlyPresent": false,
-      "totalPresenceMinutes": 957,
+      "totalPresenceMinutes": 959,
       "totalWorkMinutes": 972,
       "totalBreakMinutes": 138,
       "pomodoroCount": 44,
