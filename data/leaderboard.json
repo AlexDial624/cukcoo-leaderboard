@@ -1,11 +1,9 @@
 {
-  "generated": "2026-02-04T21:54:25.790Z",
-  "currentlyPresent": [
-    "angelina"
-  ],
+  "generated": "2026-02-04T22:31:17.814Z",
+  "currentlyPresent": [],
   "totalUsers": 20,
   "totalPomodoros": 171,
-  "totalWorkMinutes": 3771.551783333334,
+  "totalWorkMinutes": 3795.1221833333334,
   "activityLog": [
     {
       "time": "2026-02-04T21:53:00.000Z",
@@ -2445,15 +2443,15 @@
     },
     {
       "user": "angelina",
-      "currentlyPresent": true,
-      "totalPresenceMinutes": 605,
-      "totalWorkMinutes": 677,
+      "currentlyPresent": false,
+      "totalPresenceMinutes": 635,
+      "totalWorkMinutes": 701,
       "totalBreakMinutes": 108,
       "pomodoroCount": 32,
       "breakCount": 25,
-      "avgPomodoroMinutes": 21,
+      "avgPomodoroMinutes": 22,
       "firstSeen": "2026-01-21T23:17:00.000Z",
-      "lastSeen": "2026-02-04T21:54:25.776Z"
+      "lastSeen": "2026-02-04T22:24:04.695Z"
     },
     {
       "user": "Tess",
