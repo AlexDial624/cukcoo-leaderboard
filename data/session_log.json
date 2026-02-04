@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-04T20:57:21.196Z",
+  "lastUpdated": "2026-02-04T21:28:03.445Z",
   "timerCount": 247,
   "timers": [
     {
@@ -1825,6 +1825,11 @@
         "joinTime": "2026-01-29T21:01:00.000Z",
         "leaveTime": "2026-01-29T21:39:50.225Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-02-04T20:53:20.323Z",
+        "leaveTime": "2026-02-04T21:28:03.433Z",
+        "stillPresent": true
       }
     ],
     "Joris": [
@@ -2100,6 +2105,11 @@
         "joinTime": "2026-01-30T21:03:00.000Z",
         "leaveTime": "2026-01-30T21:55:21.845Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-02-04T20:53:20.323Z",
+        "leaveTime": "2026-02-04T21:28:03.433Z",
+        "stillPresent": true
       }
     ],
     "jordan": [
@@ -2155,6 +2165,13 @@
         "leaveTime": "2026-02-03T16:29:58.154Z",
         "stillPresent": false
       }
+    ],
+    "Cian": [
+      {
+        "joinTime": "2026-02-04T20:53:20.323Z",
+        "leaveTime": "2026-02-04T21:28:03.433Z",
+        "stillPresent": true
+      }
     ]
   },
   "userStats": {
@@ -2169,14 +2186,14 @@
       "currentlyPresent": false
     },
     "Tess": {
-      "totalPresenceMinutes": 293.29675,
-      "totalWorkMinutes": 263.53458333333333,
+      "totalPresenceMinutes": 328.01525,
+      "totalWorkMinutes": 279.1958666666667,
       "totalBreakMinutes": 37.83708333333333,
       "pomodoroCount": 10,
       "breakCount": 9,
       "firstSeen": "2026-01-22T00:18:00.000Z",
-      "lastSeen": "2026-01-29T21:39:50.225Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-02-04T21:28:03.433Z",
+      "currentlyPresent": true
     },
     "Joris": {
       "totalPresenceMinutes": 155.16311666666667,
@@ -2269,14 +2286,14 @@
       "currentlyPresent": false
     },
     "Rory Fenton": {
-      "totalPresenceMinutes": 153.01316666666668,
-      "totalWorkMinutes": 55.108799999999995,
+      "totalPresenceMinutes": 187.73166666666665,
+      "totalWorkMinutes": 70.77008333333333,
       "totalBreakMinutes": 15,
       "pomodoroCount": 2,
       "breakCount": 3,
       "firstSeen": "2026-01-28T21:58:15.317Z",
-      "lastSeen": "2026-01-30T21:55:21.845Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-02-04T21:28:03.433Z",
+      "currentlyPresent": true
     },
     "jordan": {
       "totalPresenceMinutes": 48.91988333333333,
@@ -2347,6 +2364,16 @@
       "firstSeen": "2026-02-03T15:12:00.000Z",
       "lastSeen": "2026-02-03T16:29:58.154Z",
       "currentlyPresent": false
+    },
+    "Cian": {
+      "totalPresenceMinutes": 34.7185,
+      "totalWorkMinutes": 15.661283333333333,
+      "totalBreakMinutes": 0,
+      "pomodoroCount": 0,
+      "breakCount": 0,
+      "firstSeen": "2026-02-04T20:53:20.323Z",
+      "lastSeen": "2026-02-04T21:28:03.433Z",
+      "currentlyPresent": true
     }
   }
 }

@@ -1,9 +1,13 @@
 {
-  "generated": "2026-02-04T20:57:21.197Z",
-  "currentlyPresent": [],
-  "totalUsers": 19,
+  "generated": "2026-02-04T21:28:03.446Z",
+  "currentlyPresent": [
+    "Rory Fenton",
+    "Tess",
+    "Cian"
+  ],
+  "totalUsers": 20,
   "totalPomodoros": 167,
-  "totalWorkMinutes": 3722.630533333333,
+  "totalWorkMinutes": 3769.614383333334,
   "activityLog": [
     {
       "time": "2026-02-04T20:44:00.000Z",
@@ -2442,15 +2446,27 @@
     },
     {
       "user": "Tess",
-      "currentlyPresent": false,
-      "totalPresenceMinutes": 293,
-      "totalWorkMinutes": 264,
+      "currentlyPresent": true,
+      "totalPresenceMinutes": 328,
+      "totalWorkMinutes": 279,
       "totalBreakMinutes": 38,
       "pomodoroCount": 10,
       "breakCount": 9,
-      "avgPomodoroMinutes": 26,
+      "avgPomodoroMinutes": 28,
       "firstSeen": "2026-01-22T00:18:00.000Z",
-      "lastSeen": "2026-01-29T21:39:50.225Z"
+      "lastSeen": "2026-02-04T21:28:03.433Z"
+    },
+    {
+      "user": "Rory Fenton",
+      "currentlyPresent": true,
+      "totalPresenceMinutes": 188,
+      "totalWorkMinutes": 71,
+      "totalBreakMinutes": 15,
+      "pomodoroCount": 2,
+      "breakCount": 3,
+      "avgPomodoroMinutes": 35,
+      "firstSeen": "2026-01-28T21:58:15.317Z",
+      "lastSeen": "2026-02-04T21:28:03.433Z"
     },
     {
       "user": "Kiran",
@@ -2475,18 +2491,6 @@
       "avgPomodoroMinutes": 43,
       "firstSeen": "2026-01-22T17:18:00.000Z",
       "lastSeen": "2026-02-03T16:29:58.154Z"
-    },
-    {
-      "user": "Rory Fenton",
-      "currentlyPresent": false,
-      "totalPresenceMinutes": 153,
-      "totalWorkMinutes": 55,
-      "totalBreakMinutes": 15,
-      "pomodoroCount": 2,
-      "breakCount": 3,
-      "avgPomodoroMinutes": 28,
-      "firstSeen": "2026-01-28T21:58:15.317Z",
-      "lastSeen": "2026-01-30T21:55:21.845Z"
     },
     {
       "user": "Izzy",
@@ -2631,6 +2635,18 @@
       "avgPomodoroMinutes": 17,
       "firstSeen": "2026-01-30T21:02:00.000Z",
       "lastSeen": "2026-01-30T21:38:25.400Z"
+    },
+    {
+      "user": "Cian",
+      "currentlyPresent": true,
+      "totalPresenceMinutes": 35,
+      "totalWorkMinutes": 16,
+      "totalBreakMinutes": 0,
+      "pomodoroCount": 0,
+      "breakCount": 0,
+      "avgPomodoroMinutes": 0,
+      "firstSeen": "2026-02-04T20:53:20.323Z",
+      "lastSeen": "2026-02-04T21:28:03.433Z"
     }
   ]
 }
