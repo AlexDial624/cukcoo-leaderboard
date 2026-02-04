@@ -1,10 +1,18 @@
 {
-  "generated": "2026-02-03T23:53:21.442Z",
+  "generated": "2026-02-04T00:08:48.691Z",
   "currentlyPresent": [],
   "totalUsers": 19,
   "totalPomodoros": 166,
   "totalWorkMinutes": 3722.300183333333,
   "activityLog": [
+    {
+      "time": "2026-02-03T23:49:00.000Z",
+      "endTime": "2026-02-03T23:54:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Alex",
+      "participants": []
+    },
     {
       "time": "2026-02-03T21:25:00.000Z",
       "endTime": "2026-02-03T21:50:00.000Z",
