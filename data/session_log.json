@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-04T18:36:36.786Z",
-  "timerCount": 236,
+  "lastUpdated": "2026-02-04T19:36:14.473Z",
+  "timerCount": 241,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -1653,6 +1653,41 @@
       "type": "work",
       "duration": 25,
       "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-02-04T18:29:00.000Z",
+      "endTime": "2026-02-04T18:54:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jessica"
+    },
+    {
+      "startTime": "2026-02-04T18:36:00.000Z",
+      "endTime": "2026-02-04T18:41:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jessica"
+    },
+    {
+      "startTime": "2026-02-04T18:41:00.000Z",
+      "endTime": "2026-02-04T19:06:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "jemima"
+    },
+    {
+      "startTime": "2026-02-04T19:07:00.000Z",
+      "endTime": "2026-02-04T19:12:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jessica"
+    },
+    {
+      "startTime": "2026-02-04T19:11:00.000Z",
+      "endTime": "2026-02-04T19:36:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "jemima"
     }
   ],
   "userWindows": {
@@ -2123,9 +2158,9 @@
     },
     "Jessica": {
       "totalPresenceMinutes": 1132.2192,
-      "totalWorkMinutes": 1014.3302333333336,
+      "totalWorkMinutes": 1014.6605833333335,
       "totalBreakMinutes": 142.167,
-      "pomodoroCount": 46,
+      "pomodoroCount": 47,
       "breakCount": 30,
       "firstSeen": "2026-01-22T17:01:00.000Z",
       "lastSeen": "2026-02-04T18:29:19.821Z",

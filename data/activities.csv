@@ -454,3 +454,15 @@ estimated_time,scrape_time,user,action,time_ago_raw
 2026-02-04T15:41:00.000Z,2026-02-04T15:55:02.996Z,angelina,joined this cuckoo,14 min ago
 2026-02-04T15:41:00.000Z,2026-02-04T15:55:02.996Z,angelina,started a 25 minute work session,14 min ago
 2026-02-04T17:43:00.000Z,2026-02-04T17:43:25.410Z,Jessica,joined this cuckoo,10 sec ago
+2026-02-04T18:29:00.000Z,2026-02-04T19:29:02.279Z,Jessica,joined this cuckoo,1 hours ago
+2026-02-04T18:29:00.000Z,2026-02-04T19:29:02.279Z,jemima,joined this cuckoo,1 hours ago
+2026-02-04T18:29:00.000Z,2026-02-04T19:29:02.279Z,Jessica,started a 25 minute work session,1 hours ago
+2026-02-04T18:36:00.000Z,2026-02-04T19:29:02.279Z,Jessica,started a 5 minute break,53 min ago
+2026-02-04T18:41:00.000Z,2026-02-04T19:29:02.279Z,jemima,started a 25 minute work session,48 min ago
+2026-02-04T18:57:00.000Z,2026-02-04T19:29:02.279Z,Alex,joined this cuckoo,32 min ago
+2026-02-04T19:07:00.000Z,2026-02-04T19:29:02.279Z,Jessica,started a 5 minute break,22 min ago
+2026-02-04T19:11:00.000Z,2026-02-04T19:29:02.279Z,jemima,paused the current break,18 min ago
+2026-02-04T19:11:00.000Z,2026-02-04T19:29:02.279Z,jemima,restarted the current break,18 min ago
+2026-02-04T19:11:00.000Z,2026-02-04T19:29:02.279Z,jemima,stopped the current break,18 min ago
+2026-02-04T19:11:00.000Z,2026-02-04T19:29:02.279Z,jemima,skipped the break,18 min ago
+2026-02-04T19:11:00.000Z,2026-02-04T19:29:02.279Z,jemima,started a 25 minute work session,18 min ago

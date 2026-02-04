@@ -1,10 +1,52 @@
 {
-  "generated": "2026-02-04T18:36:36.787Z",
+  "generated": "2026-02-04T19:36:14.474Z",
   "currentlyPresent": [],
   "totalUsers": 19,
-  "totalPomodoros": 166,
-  "totalWorkMinutes": 3722.300183333333,
+  "totalPomodoros": 167,
+  "totalWorkMinutes": 3722.630533333333,
   "activityLog": [
+    {
+      "time": "2026-02-04T19:11:00.000Z",
+      "endTime": "2026-02-04T19:36:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "jemima",
+      "participants": []
+    },
+    {
+      "time": "2026-02-04T19:07:00.000Z",
+      "endTime": "2026-02-04T19:12:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jessica",
+      "participants": []
+    },
+    {
+      "time": "2026-02-04T18:41:00.000Z",
+      "endTime": "2026-02-04T19:06:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "jemima",
+      "participants": []
+    },
+    {
+      "time": "2026-02-04T18:36:00.000Z",
+      "endTime": "2026-02-04T18:41:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jessica",
+      "participants": []
+    },
+    {
+      "time": "2026-02-04T18:29:00.000Z",
+      "endTime": "2026-02-04T18:54:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jessica",
+      "participants": [
+        "Jessica"
+      ]
+    },
     {
       "time": "2026-02-04T15:41:00.000Z",
       "endTime": "2026-02-04T16:06:00.000Z",
@@ -2318,9 +2360,9 @@
       "user": "Jessica",
       "currentlyPresent": false,
       "totalPresenceMinutes": 1132,
-      "totalWorkMinutes": 1014,
+      "totalWorkMinutes": 1015,
       "totalBreakMinutes": 142,
-      "pomodoroCount": 46,
+      "pomodoroCount": 47,
       "breakCount": 30,
       "avgPomodoroMinutes": 22,
       "firstSeen": "2026-01-22T17:01:00.000Z",
