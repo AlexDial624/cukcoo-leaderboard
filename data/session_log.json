@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-04T21:28:03.445Z",
-  "timerCount": 247,
+  "lastUpdated": "2026-02-04T21:54:25.788Z",
+  "timerCount": 248,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -1730,6 +1730,13 @@
       "type": "work",
       "duration": 25,
       "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-02-04T21:53:00.000Z",
+      "endTime": "2026-02-04T22:18:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina"
     }
   ],
   "userWindows": {
@@ -1793,6 +1800,11 @@
         "joinTime": "2026-01-29T21:01:00.000Z",
         "leaveTime": "2026-01-29T21:39:50.225Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-02-04T21:52:00.000Z",
+        "leaveTime": "2026-02-04T21:54:25.776Z",
+        "stillPresent": true
       }
     ],
     "Tess": [
@@ -1828,8 +1840,8 @@
       },
       {
         "joinTime": "2026-02-04T20:53:20.323Z",
-        "leaveTime": "2026-02-04T21:28:03.433Z",
-        "stillPresent": true
+        "leaveTime": "2026-02-04T21:53:10.156Z",
+        "stillPresent": false
       }
     ],
     "Joris": [
@@ -2108,8 +2120,8 @@
       },
       {
         "joinTime": "2026-02-04T20:53:20.323Z",
-        "leaveTime": "2026-02-04T21:28:03.433Z",
-        "stillPresent": true
+        "leaveTime": "2026-02-04T21:53:10.156Z",
+        "stillPresent": false
       }
     ],
     "jordan": [
@@ -2169,31 +2181,31 @@
     "Cian": [
       {
         "joinTime": "2026-02-04T20:53:20.323Z",
-        "leaveTime": "2026-02-04T21:28:03.433Z",
-        "stillPresent": true
+        "leaveTime": "2026-02-04T21:53:10.156Z",
+        "stillPresent": false
       }
     ]
   },
   "userStats": {
     "angelina": {
-      "totalPresenceMinutes": 602.7158666666667,
-      "totalWorkMinutes": 675.7843166666669,
+      "totalPresenceMinutes": 605.1454666666667,
+      "totalWorkMinutes": 677.2139166666669,
       "totalBreakMinutes": 108.22998333333334,
-      "pomodoroCount": 31,
+      "pomodoroCount": 32,
       "breakCount": 25,
       "firstSeen": "2026-01-21T23:17:00.000Z",
-      "lastSeen": "2026-01-29T21:39:50.225Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-02-04T21:54:25.776Z",
+      "currentlyPresent": true
     },
     "Tess": {
-      "totalPresenceMinutes": 328.01525,
-      "totalWorkMinutes": 279.1958666666667,
+      "totalPresenceMinutes": 353.1273,
+      "totalWorkMinutes": 279.36513333333335,
       "totalBreakMinutes": 37.83708333333333,
-      "pomodoroCount": 10,
+      "pomodoroCount": 11,
       "breakCount": 9,
       "firstSeen": "2026-01-22T00:18:00.000Z",
-      "lastSeen": "2026-02-04T21:28:03.433Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-02-04T21:53:10.156Z",
+      "currentlyPresent": false
     },
     "Joris": {
       "totalPresenceMinutes": 155.16311666666667,
@@ -2286,14 +2298,14 @@
       "currentlyPresent": false
     },
     "Rory Fenton": {
-      "totalPresenceMinutes": 187.73166666666665,
-      "totalWorkMinutes": 70.77008333333333,
+      "totalPresenceMinutes": 212.84371666666667,
+      "totalWorkMinutes": 70.93935,
       "totalBreakMinutes": 15,
-      "pomodoroCount": 2,
+      "pomodoroCount": 3,
       "breakCount": 3,
       "firstSeen": "2026-01-28T21:58:15.317Z",
-      "lastSeen": "2026-02-04T21:28:03.433Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-02-04T21:53:10.156Z",
+      "currentlyPresent": false
     },
     "jordan": {
       "totalPresenceMinutes": 48.91988333333333,
@@ -2366,14 +2378,14 @@
       "currentlyPresent": false
     },
     "Cian": {
-      "totalPresenceMinutes": 34.7185,
-      "totalWorkMinutes": 15.661283333333333,
+      "totalPresenceMinutes": 59.83055,
+      "totalWorkMinutes": 15.83055,
       "totalBreakMinutes": 0,
-      "pomodoroCount": 0,
+      "pomodoroCount": 1,
       "breakCount": 0,
       "firstSeen": "2026-02-04T20:53:20.323Z",
-      "lastSeen": "2026-02-04T21:28:03.433Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-02-04T21:53:10.156Z",
+      "currentlyPresent": false
     }
   }
 }
