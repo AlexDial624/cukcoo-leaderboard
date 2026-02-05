@@ -494,3 +494,9 @@ estimated_time,scrape_time,user,action,time_ago_raw
 2026-02-05T17:10:00.000Z,2026-02-05T17:58:29.739Z,Jessica,started a 25 minute work session,48 min ago
 2026-02-05T17:35:00.000Z,2026-02-05T17:58:29.739Z,Jessica,started a 5 minute break,23 min ago
 2026-02-05T17:41:00.000Z,2026-02-05T17:58:29.739Z,Alex,started a 25 minute work session,17 min ago
+2026-02-05T18:01:00.000Z,2026-02-05T19:01:10.784Z,Alex,joined this cuckoo,1 hours ago
+2026-02-05T18:01:00.000Z,2026-02-05T19:01:10.784Z,Jessica,started a 25 minute work session,1 hours ago
+2026-02-05T18:01:00.000Z,2026-02-05T19:01:10.784Z,Jessica,started a 5 minute break,1 hours ago
+2026-02-05T18:01:00.000Z,2026-02-05T19:01:10.784Z,Alex,started a 25 minute work session,1 hours ago
+2026-02-05T18:01:00.000Z,2026-02-05T19:01:10.784Z,jess,joined this cuckoo,1 hours ago
+2026-02-05T18:07:00.000Z,2026-02-05T19:01:10.784Z,jess,started a 5 minute break,54 min ago
