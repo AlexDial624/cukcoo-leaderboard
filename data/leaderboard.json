@@ -1,12 +1,9 @@
 {
-  "generated": "2026-02-05T21:32:22.066Z",
-  "currentlyPresent": [
-    "Jessica",
-    "Kiran"
-  ],
+  "generated": "2026-02-05T22:02:56.947Z",
+  "currentlyPresent": [],
   "totalUsers": 20,
   "totalPomodoros": 176,
-  "totalWorkMinutes": 3882.056116666668,
+  "totalWorkMinutes": 3917.3210833333337,
   "activityLog": [
     {
       "time": "2026-02-05T21:25:00.000Z",
@@ -2572,15 +2569,15 @@
   "users": [
     {
       "user": "Jessica",
-      "currentlyPresent": true,
-      "totalPresenceMinutes": 1296,
-      "totalWorkMinutes": 1073,
+      "currentlyPresent": false,
+      "totalPresenceMinutes": 1319,
+      "totalWorkMinutes": 1090,
       "totalBreakMinutes": 152,
       "pomodoroCount": 50,
       "breakCount": 32,
-      "avgPomodoroMinutes": 21,
+      "avgPomodoroMinutes": 22,
       "firstSeen": "2026-01-22T17:01:00.000Z",
-      "lastSeen": "2026-02-05T21:32:22.051Z"
+      "lastSeen": "2026-02-05T21:55:42.813Z"
     },
     {
       "user": "Alex",
@@ -2631,6 +2628,18 @@
       "lastSeen": "2026-02-05T13:24:27.706Z"
     },
     {
+      "user": "Kiran",
+      "currentlyPresent": false,
+      "totalPresenceMinutes": 225,
+      "totalWorkMinutes": 332,
+      "totalBreakMinutes": 49,
+      "pomodoroCount": 15,
+      "breakCount": 10,
+      "avgPomodoroMinutes": 22,
+      "firstSeen": "2026-01-23T17:48:00.000Z",
+      "lastSeen": "2026-02-05T21:55:42.813Z"
+    },
+    {
       "user": "Rory Fenton",
       "currentlyPresent": false,
       "totalPresenceMinutes": 213,
@@ -2641,18 +2650,6 @@
       "avgPomodoroMinutes": 24,
       "firstSeen": "2026-01-28T21:58:15.317Z",
       "lastSeen": "2026-02-04T21:53:10.156Z"
-    },
-    {
-      "user": "Kiran",
-      "currentlyPresent": true,
-      "totalPresenceMinutes": 201,
-      "totalWorkMinutes": 314,
-      "totalBreakMinutes": 49,
-      "pomodoroCount": 15,
-      "breakCount": 10,
-      "avgPomodoroMinutes": 21,
-      "firstSeen": "2026-01-23T17:48:00.000Z",
-      "lastSeen": "2026-02-05T21:32:22.051Z"
     },
     {
       "user": "Izzy",
