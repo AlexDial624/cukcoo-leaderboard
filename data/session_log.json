@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-06T22:31:43.633Z",
+  "lastUpdated": "2026-02-06T23:00:28.500Z",
   "timerCount": 298,
   "timers": [
     {
@@ -2480,8 +2480,8 @@
       },
       {
         "joinTime": "2026-02-06T22:00:00.035Z",
-        "leaveTime": "2026-02-06T22:31:43.617Z",
-        "stillPresent": true
+        "leaveTime": "2026-02-06T22:53:14.432Z",
+        "stillPresent": false
       }
     ],
     "charlotte": [
@@ -2702,14 +2702,14 @@
       "currentlyPresent": false
     },
     "Kiran": {
-      "totalPresenceMinutes": 356.71823333333333,
+      "totalPresenceMinutes": 378.23181666666665,
       "totalWorkMinutes": 497.4677,
       "totalBreakMinutes": 56.689283333333336,
       "pomodoroCount": 21,
       "breakCount": 12,
       "firstSeen": "2026-01-23T17:48:00.000Z",
-      "lastSeen": "2026-02-06T22:31:43.617Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-02-06T22:53:14.432Z",
+      "currentlyPresent": false
     },
     "charlotte": {
       "totalPresenceMinutes": 60.46811666666667,

@@ -1,8 +1,6 @@
 {
-  "generated": "2026-02-06T22:31:43.635Z",
-  "currentlyPresent": [
-    "Kiran"
-  ],
+  "generated": "2026-02-06T23:00:28.501Z",
+  "currentlyPresent": [],
   "totalUsers": 22,
   "totalPomodoros": 213,
   "totalWorkMinutes": 4957.598366666666,
@@ -2939,6 +2937,18 @@
       "lastSeen": "2026-02-03T22:00:36.815Z"
     },
     {
+      "user": "Kiran",
+      "currentlyPresent": false,
+      "totalPresenceMinutes": 378,
+      "totalWorkMinutes": 497,
+      "totalBreakMinutes": 57,
+      "pomodoroCount": 21,
+      "breakCount": 12,
+      "avgPomodoroMinutes": 24,
+      "firstSeen": "2026-01-23T17:48:00.000Z",
+      "lastSeen": "2026-02-06T22:53:14.432Z"
+    },
+    {
       "user": "Rory Fenton",
       "currentlyPresent": false,
       "totalPresenceMinutes": 357,
@@ -2949,18 +2959,6 @@
       "avgPomodoroMinutes": 29,
       "firstSeen": "2026-01-28T21:58:15.317Z",
       "lastSeen": "2026-02-06T22:29:59.035Z"
-    },
-    {
-      "user": "Kiran",
-      "currentlyPresent": true,
-      "totalPresenceMinutes": 357,
-      "totalWorkMinutes": 497,
-      "totalBreakMinutes": 57,
-      "pomodoroCount": 21,
-      "breakCount": 12,
-      "avgPomodoroMinutes": 24,
-      "firstSeen": "2026-01-23T17:48:00.000Z",
-      "lastSeen": "2026-02-06T22:31:43.617Z"
     },
     {
       "user": "Tess",
