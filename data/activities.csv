@@ -512,3 +512,18 @@ estimated_time,scrape_time,user,action,time_ago_raw
 2026-02-05T21:20:00.000Z,2026-02-05T21:28:16.805Z,Jessica,started a 5 minute break,8 min ago
 2026-02-05T21:25:00.000Z,2026-02-05T21:28:16.805Z,Jessica,started a 25 minute work session,3 min ago
 2026-02-06T12:58:00.000Z,2026-02-06T12:58:56.312Z,Joris,joined this cuckoo,4 sec ago
+2026-02-06T13:56:00.000Z,2026-02-06T14:56:52.861Z,Joris,joined this cuckoo,1 hours ago
+2026-02-06T13:56:00.000Z,2026-02-06T14:56:52.861Z,Jessica,joined this cuckoo,1 hours ago
+2026-02-06T13:56:00.000Z,2026-02-06T14:56:52.861Z,Jessica,started a 25 minute work session,1 hours ago
+2026-02-06T13:56:00.000Z,2026-02-06T14:56:52.861Z,Jessica,paused the current work session,1 hours ago
+2026-02-06T13:56:00.000Z,2026-02-06T14:56:52.861Z,Joris,resumed the current work session,1 hours ago
+2026-02-06T13:56:00.000Z,2026-02-06T14:56:52.861Z,Jessica,started a 5 minute break,1 hours ago
+2026-02-06T14:00:00.000Z,2026-02-06T14:56:52.861Z,jemim,joined this cuckoo,56 min ago
+2026-02-06T14:00:00.000Z,2026-02-06T14:56:52.861Z,jordan,joined this cuckoo,56 min ago
+2026-02-06T14:01:00.000Z,2026-02-06T14:56:52.861Z,Jessica,paused the current work session,55 min ago
+2026-02-06T14:02:00.000Z,2026-02-06T14:56:52.861Z,Jessica,stopped the current work session,54 min ago
+2026-02-06T14:02:00.000Z,2026-02-06T14:56:52.861Z,Jessica,started a 25 minute work session,54 min ago
+2026-02-06T14:28:00.000Z,2026-02-06T14:56:52.861Z,Jessica,started a 5 minute break,28 min ago
+2026-02-06T14:33:00.000Z,2026-02-06T14:56:52.861Z,Jessica,started a 25 minute work session,23 min ago
+2026-02-06T14:33:00.000Z,2026-02-06T14:56:52.861Z,jemim,started a 25 minute work session,23 min ago
+2026-02-06T14:56:00.000Z,2026-02-06T14:56:52.861Z,Kiran,joined this cuckoo,10 sec ago
