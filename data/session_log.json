@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-06T21:59:02.723Z",
+  "lastUpdated": "2026-02-06T22:31:43.633Z",
   "timerCount": 298,
   "timers": [
     {
@@ -2477,6 +2477,11 @@
         "joinTime": "2026-02-06T17:19:00.000Z",
         "leaveTime": "2026-02-06T18:05:43.002Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-02-06T22:00:00.035Z",
+        "leaveTime": "2026-02-06T22:31:43.617Z",
+        "stillPresent": true
       }
     ],
     "charlotte": [
@@ -2540,8 +2545,8 @@
       },
       {
         "joinTime": "2026-02-06T21:32:24.117Z",
-        "leaveTime": "2026-02-06T21:59:02.708Z",
-        "stillPresent": true
+        "leaveTime": "2026-02-06T22:29:59.035Z",
+        "stillPresent": false
       }
     ],
     "jordan": [
@@ -2697,14 +2702,14 @@
       "currentlyPresent": false
     },
     "Kiran": {
-      "totalPresenceMinutes": 324.9918666666667,
+      "totalPresenceMinutes": 356.71823333333333,
       "totalWorkMinutes": 497.4677,
       "totalBreakMinutes": 56.689283333333336,
       "pomodoroCount": 21,
       "breakCount": 12,
       "firstSeen": "2026-01-23T17:48:00.000Z",
-      "lastSeen": "2026-02-06T18:05:43.002Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-02-06T22:31:43.617Z",
+      "currentlyPresent": true
     },
     "charlotte": {
       "totalPresenceMinutes": 60.46811666666667,
@@ -2747,14 +2752,14 @@
       "currentlyPresent": false
     },
     "Rory Fenton": {
-      "totalPresenceMinutes": 326.00005,
+      "totalPresenceMinutes": 356.9388333333333,
       "totalWorkMinutes": 114.93935,
       "totalBreakMinutes": 15,
       "pomodoroCount": 4,
       "breakCount": 3,
       "firstSeen": "2026-01-28T21:58:15.317Z",
-      "lastSeen": "2026-02-06T21:59:02.708Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-02-06T22:29:59.035Z",
+      "currentlyPresent": false
     },
     "jordan": {
       "totalPresenceMinutes": 131.70416666666668,
