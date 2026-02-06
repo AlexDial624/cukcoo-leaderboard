@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T19:13:45.517Z",
-  "timerCount": 287,
+  "lastUpdated": "2026-02-06T19:55:57.055Z",
+  "timerCount": 294,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -2010,6 +2010,55 @@
       "type": "work",
       "duration": 25,
       "startedBy": "Rory Fenton"
+    },
+    {
+      "startTime": "2026-02-06T18:48:00.000Z",
+      "endTime": "2026-02-06T19:43:00.000Z",
+      "type": "work",
+      "duration": 55,
+      "startedBy": "Kiran"
+    },
+    {
+      "startTime": "2026-02-06T18:48:00.000Z",
+      "endTime": "2026-02-06T19:13:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jessica"
+    },
+    {
+      "startTime": "2026-02-06T18:48:00.000Z",
+      "endTime": "2026-02-06T19:13:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Kiran"
+    },
+    {
+      "startTime": "2026-02-06T19:02:00.000Z",
+      "endTime": "2026-02-06T19:07:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Kiran"
+    },
+    {
+      "startTime": "2026-02-06T19:07:00.000Z",
+      "endTime": "2026-02-06T19:32:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Kiran"
+    },
+    {
+      "startTime": "2026-02-06T19:32:00.000Z",
+      "endTime": "2026-02-06T19:37:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jessica"
+    },
+    {
+      "startTime": "2026-02-06T19:37:00.000Z",
+      "endTime": "2026-02-06T20:02:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Kiran"
     }
   ],
   "userWindows": {
