@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-06T21:39:36.877Z",
+  "lastUpdated": "2026-02-06T21:59:02.723Z",
   "timerCount": 298,
   "timers": [
     {
@@ -2537,6 +2537,11 @@
         "joinTime": "2026-02-06T20:18:00.000Z",
         "leaveTime": "2026-02-06T20:54:47.787Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-02-06T21:32:24.117Z",
+        "leaveTime": "2026-02-06T21:59:02.708Z",
+        "stillPresent": true
       }
     ],
     "jordan": [
@@ -2742,14 +2747,14 @@
       "currentlyPresent": false
     },
     "Rory Fenton": {
-      "totalPresenceMinutes": 299.3568666666667,
+      "totalPresenceMinutes": 326.00005,
       "totalWorkMinutes": 114.93935,
       "totalBreakMinutes": 15,
       "pomodoroCount": 4,
       "breakCount": 3,
       "firstSeen": "2026-01-28T21:58:15.317Z",
-      "lastSeen": "2026-02-06T20:54:47.787Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-02-06T21:59:02.708Z",
+      "currentlyPresent": true
     },
     "jordan": {
       "totalPresenceMinutes": 131.70416666666668,
