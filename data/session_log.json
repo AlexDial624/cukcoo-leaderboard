@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-06T20:22:18.333Z",
+  "lastUpdated": "2026-02-06T21:02:01.314Z",
   "timerCount": 298,
   "timers": [
     {
@@ -2158,8 +2158,8 @@
       },
       {
         "joinTime": "2026-02-06T19:48:45.904Z",
-        "leaveTime": "2026-02-06T20:22:18.317Z",
-        "stillPresent": true
+        "leaveTime": "2026-02-06T20:54:47.787Z",
+        "stillPresent": false
       }
     ],
     "Tess": [
@@ -2361,8 +2361,8 @@
       },
       {
         "joinTime": "2026-02-06T19:48:45.904Z",
-        "leaveTime": "2026-02-06T20:22:18.317Z",
-        "stillPresent": true
+        "leaveTime": "2026-02-06T20:54:47.787Z",
+        "stillPresent": false
       }
     ],
     "Alex": [
@@ -2535,8 +2535,8 @@
       },
       {
         "joinTime": "2026-02-06T20:18:00.000Z",
-        "leaveTime": "2026-02-06T20:22:18.317Z",
-        "stillPresent": true
+        "leaveTime": "2026-02-06T20:54:47.787Z",
+        "stillPresent": false
       }
     ],
     "jordan": [
@@ -2597,8 +2597,8 @@
       },
       {
         "joinTime": "2026-02-06T20:13:00.000Z",
-        "leaveTime": "2026-02-06T20:22:18.317Z",
-        "stillPresent": true
+        "leaveTime": "2026-02-06T20:54:47.787Z",
+        "stillPresent": false
       }
     ],
     "Caitlin": [
@@ -2625,21 +2625,21 @@
     "Charlotte": [
       {
         "joinTime": "2026-02-06T19:48:45.904Z",
-        "leaveTime": "2026-02-06T20:22:18.317Z",
-        "stillPresent": true
+        "leaveTime": "2026-02-06T20:54:47.787Z",
+        "stillPresent": false
       }
     ]
   },
   "userStats": {
     "angelina": {
-      "totalPresenceMinutes": 668.3343333333333,
-      "totalWorkMinutes": 748.5594666666668,
+      "totalPresenceMinutes": 700.8255,
+      "totalWorkMinutes": 763.2541833333335,
       "totalBreakMinutes": 113.22998333333334,
       "pomodoroCount": 33,
       "breakCount": 26,
       "firstSeen": "2026-01-21T23:17:00.000Z",
-      "lastSeen": "2026-02-06T20:22:18.317Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-02-06T20:54:47.787Z",
+      "currentlyPresent": false
     },
     "Tess": {
       "totalPresenceMinutes": 353.1273,
@@ -2672,14 +2672,14 @@
       "currentlyPresent": false
     },
     "Jessica": {
-      "totalPresenceMinutes": 1435.198,
-      "totalWorkMinutes": 1333.6990000000003,
+      "totalPresenceMinutes": 1467.6891666666668,
+      "totalWorkMinutes": 1348.393716666667,
       "totalBreakMinutes": 172.167,
       "pomodoroCount": 59,
       "breakCount": 36,
       "firstSeen": "2026-01-22T17:01:00.000Z",
-      "lastSeen": "2026-02-06T20:22:18.317Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-02-06T20:54:47.787Z",
+      "currentlyPresent": false
     },
     "Alex": {
       "totalPresenceMinutes": 660.2568166666666,
@@ -2742,14 +2742,14 @@
       "currentlyPresent": false
     },
     "Rory Fenton": {
-      "totalPresenceMinutes": 266.8657,
-      "totalWorkMinutes": 100.24463333333334,
+      "totalPresenceMinutes": 299.3568666666667,
+      "totalWorkMinutes": 114.93935,
       "totalBreakMinutes": 15,
       "pomodoroCount": 4,
       "breakCount": 3,
       "firstSeen": "2026-01-28T21:58:15.317Z",
-      "lastSeen": "2026-02-06T20:22:18.317Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-02-06T20:54:47.787Z",
+      "currentlyPresent": false
     },
     "jordan": {
       "totalPresenceMinutes": 131.70416666666668,
@@ -2802,14 +2802,14 @@
       "currentlyPresent": false
     },
     "jemima": {
-      "totalPresenceMinutes": 138.53425,
-      "totalWorkMinutes": 70.81755,
+      "totalPresenceMinutes": 171.02541666666667,
+      "totalWorkMinutes": 85.51226666666666,
       "totalBreakMinutes": 5,
       "pomodoroCount": 3,
       "breakCount": 1,
       "firstSeen": "2026-02-03T14:04:00.000Z",
-      "lastSeen": "2026-02-06T20:22:18.317Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-02-06T20:54:47.787Z",
+      "currentlyPresent": false
     },
     "Caitlin": {
       "totalPresenceMinutes": 77.96923333333334,
@@ -2842,14 +2842,14 @@
       "currentlyPresent": false
     },
     "Charlotte": {
-      "totalPresenceMinutes": 33.540216666666666,
-      "totalWorkMinutes": 47.775150000000004,
+      "totalPresenceMinutes": 66.03138333333334,
+      "totalWorkMinutes": 62.46986666666667,
       "totalBreakMinutes": 5,
       "pomodoroCount": 1,
       "breakCount": 1,
       "firstSeen": "2026-02-06T19:48:45.904Z",
-      "lastSeen": "2026-02-06T20:22:18.317Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-02-06T20:54:47.787Z",
+      "currentlyPresent": false
     }
   }
 }
