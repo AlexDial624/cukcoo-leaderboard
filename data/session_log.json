@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-09T20:38:28.147Z",
-  "timerCount": 300,
+  "lastUpdated": "2026-02-09T21:14:32.943Z",
+  "timerCount": 301,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -2101,6 +2101,13 @@
       "type": "work",
       "duration": 25,
       "startedBy": "jordan"
+    },
+    {
+      "startTime": "2026-02-09T20:23:00.000Z",
+      "endTime": "2026-02-09T20:48:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "jordan"
     }
   ],
   "userWindows": {
@@ -2174,6 +2181,11 @@
         "joinTime": "2026-02-06T19:48:45.904Z",
         "leaveTime": "2026-02-06T20:54:47.787Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-02-09T21:09:00.000Z",
+        "leaveTime": "2026-02-09T21:14:32.927Z",
+        "stillPresent": true
       }
     ],
     "Tess": [
@@ -2681,14 +2693,14 @@
   },
   "userStats": {
     "angelina": {
-      "totalPresenceMinutes": 700.8255,
+      "totalPresenceMinutes": 706.3742833333333,
       "totalWorkMinutes": 763.2541833333335,
       "totalBreakMinutes": 113.22998333333334,
       "pomodoroCount": 33,
       "breakCount": 26,
       "firstSeen": "2026-01-21T23:17:00.000Z",
-      "lastSeen": "2026-02-06T20:54:47.787Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-02-09T21:14:32.927Z",
+      "currentlyPresent": true
     },
     "Tess": {
       "totalPresenceMinutes": 353.1273,
@@ -2802,9 +2814,9 @@
     },
     "jordan": {
       "totalPresenceMinutes": 320.8433,
-      "totalWorkMinutes": 291.70416666666665,
+      "totalWorkMinutes": 299.9085833333333,
       "totalBreakMinutes": 25,
-      "pomodoroCount": 12,
+      "pomodoroCount": 13,
       "breakCount": 5,
       "firstSeen": "2026-01-29T19:13:00.000Z",
       "lastSeen": "2026-02-09T20:31:12.265Z",
@@ -2872,9 +2884,9 @@
     },
     "Cian": {
       "totalPresenceMinutes": 202.96968333333334,
-      "totalWorkMinutes": 40.83055,
+      "totalWorkMinutes": 49.03496666666667,
       "totalBreakMinutes": 0,
-      "pomodoroCount": 2,
+      "pomodoroCount": 3,
       "breakCount": 0,
       "firstSeen": "2026-02-04T20:53:20.323Z",
       "lastSeen": "2026-02-09T20:31:12.265Z",

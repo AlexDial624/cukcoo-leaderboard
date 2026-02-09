@@ -1,10 +1,23 @@
 {
-  "generated": "2026-02-09T20:38:28.149Z",
-  "currentlyPresent": [],
+  "generated": "2026-02-09T21:14:32.945Z",
+  "currentlyPresent": [
+    "angelina"
+  ],
   "totalUsers": 22,
-  "totalPomodoros": 216,
-  "totalWorkMinutes": 5045.598366666667,
+  "totalPomodoros": 218,
+  "totalWorkMinutes": 5062.007200000001,
   "activityLog": [
+    {
+      "time": "2026-02-09T20:23:00.000Z",
+      "endTime": "2026-02-09T20:48:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "jordan",
+      "participants": [
+        "jordan",
+        "Cian"
+      ]
+    },
     {
       "time": "2026-02-09T17:25:00.000Z",
       "endTime": "2026-02-09T17:50:00.000Z",
@@ -2935,15 +2948,15 @@
     },
     {
       "user": "angelina",
-      "currentlyPresent": false,
-      "totalPresenceMinutes": 701,
+      "currentlyPresent": true,
+      "totalPresenceMinutes": 706,
       "totalWorkMinutes": 763,
       "totalBreakMinutes": 113,
       "pomodoroCount": 33,
       "breakCount": 26,
       "avgPomodoroMinutes": 23,
       "firstSeen": "2026-01-21T23:17:00.000Z",
-      "lastSeen": "2026-02-06T20:54:47.787Z"
+      "lastSeen": "2026-02-09T21:14:32.927Z"
     },
     {
       "user": "Alex",
@@ -2997,11 +3010,11 @@
       "user": "jordan",
       "currentlyPresent": false,
       "totalPresenceMinutes": 321,
-      "totalWorkMinutes": 292,
+      "totalWorkMinutes": 300,
       "totalBreakMinutes": 25,
-      "pomodoroCount": 12,
+      "pomodoroCount": 13,
       "breakCount": 5,
-      "avgPomodoroMinutes": 24,
+      "avgPomodoroMinutes": 23,
       "firstSeen": "2026-01-29T19:13:00.000Z",
       "lastSeen": "2026-02-09T20:31:12.265Z"
     },
@@ -3021,11 +3034,11 @@
       "user": "Cian",
       "currentlyPresent": false,
       "totalPresenceMinutes": 203,
-      "totalWorkMinutes": 41,
+      "totalWorkMinutes": 49,
       "totalBreakMinutes": 0,
-      "pomodoroCount": 2,
+      "pomodoroCount": 3,
       "breakCount": 0,
-      "avgPomodoroMinutes": 20,
+      "avgPomodoroMinutes": 16,
       "firstSeen": "2026-02-04T20:53:20.323Z",
       "lastSeen": "2026-02-09T20:31:12.265Z"
     },
