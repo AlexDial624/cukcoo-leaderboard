@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-09T17:41:19.089Z",
+  "lastUpdated": "2026-02-09T18:43:03.491Z",
   "timerCount": 300,
   "timers": [
     {
@@ -2380,8 +2380,8 @@
       },
       {
         "joinTime": "2026-02-09T17:37:00.000Z",
-        "leaveTime": "2026-02-09T17:41:19.072Z",
-        "stillPresent": true
+        "leaveTime": "2026-02-09T18:35:50.483Z",
+        "stillPresent": false
       }
     ],
     "Alex": [
@@ -2581,8 +2581,8 @@
       },
       {
         "joinTime": "2026-02-09T16:37:00.000Z",
-        "leaveTime": "2026-02-09T17:41:19.072Z",
-        "stillPresent": true
+        "leaveTime": "2026-02-09T18:35:50.483Z",
+        "stillPresent": false
       }
     ],
     "k": [
@@ -2650,8 +2650,8 @@
       },
       {
         "joinTime": "2026-02-09T17:23:00.000Z",
-        "leaveTime": "2026-02-09T17:41:19.072Z",
-        "stillPresent": true
+        "leaveTime": "2026-02-09T18:35:50.483Z",
+        "stillPresent": false
       }
     ],
     "jemim": [
@@ -2711,14 +2711,14 @@
       "currentlyPresent": false
     },
     "Jessica": {
-      "totalPresenceMinutes": 1472.0070333333333,
-      "totalWorkMinutes": 1352.7115833333337,
+      "totalPresenceMinutes": 1526.53055,
+      "totalWorkMinutes": 1361.393716666667,
       "totalBreakMinutes": 172.167,
       "pomodoroCount": 59,
       "breakCount": 36,
       "firstSeen": "2026-01-22T17:01:00.000Z",
-      "lastSeen": "2026-02-09T17:41:19.072Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-02-09T18:35:50.483Z",
+      "currentlyPresent": false
     },
     "Alex": {
       "totalPresenceMinutes": 660.2568166666666,
@@ -2791,14 +2791,14 @@
       "currentlyPresent": false
     },
     "jordan": {
-      "totalPresenceMinutes": 196.02203333333333,
-      "totalWorkMinutes": 283.0220333333333,
+      "totalPresenceMinutes": 250.54555,
+      "totalWorkMinutes": 291.70416666666665,
       "totalBreakMinutes": 25,
       "pomodoroCount": 12,
       "breakCount": 5,
       "firstSeen": "2026-01-29T19:13:00.000Z",
-      "lastSeen": "2026-02-09T17:41:19.072Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-02-09T18:35:50.483Z",
+      "currentlyPresent": false
     },
     "k": {
       "totalPresenceMinutes": 104.26121666666667,
@@ -2861,14 +2861,14 @@
       "currentlyPresent": false
     },
     "Cian": {
-      "totalPresenceMinutes": 78.14841666666666,
-      "totalWorkMinutes": 32.14841666666667,
+      "totalPresenceMinutes": 132.67193333333333,
+      "totalWorkMinutes": 40.83055,
       "totalBreakMinutes": 0,
       "pomodoroCount": 2,
       "breakCount": 0,
       "firstSeen": "2026-02-04T20:53:20.323Z",
-      "lastSeen": "2026-02-09T17:41:19.072Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-02-09T18:35:50.483Z",
+      "currentlyPresent": false
     },
     "jemim": {
       "totalPresenceMinutes": 82.78428333333333,
