@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-09T22:00:28.932Z",
+  "lastUpdated": "2026-02-09T22:51:51.555Z",
   "timerCount": 302,
   "timers": [
     {
@@ -2191,8 +2191,8 @@
       },
       {
         "joinTime": "2026-02-09T21:09:00.000Z",
-        "leaveTime": "2026-02-09T22:00:28.915Z",
-        "stillPresent": true
+        "leaveTime": "2026-02-09T22:44:37.291Z",
+        "stillPresent": false
       }
     ],
     "Tess": [
@@ -2260,8 +2260,8 @@
       },
       {
         "joinTime": "2026-02-09T21:56:00.000Z",
-        "leaveTime": "2026-02-09T22:00:28.915Z",
-        "stillPresent": true
+        "leaveTime": "2026-02-09T22:44:37.291Z",
+        "stillPresent": false
       }
     ],
     "j": [
@@ -2705,14 +2705,14 @@
   },
   "userStats": {
     "angelina": {
-      "totalPresenceMinutes": 752.3074166666667,
+      "totalPresenceMinutes": 796.4470166666666,
       "totalWorkMinutes": 763.2541833333335,
       "totalBreakMinutes": 118.22998333333334,
       "pomodoroCount": 33,
       "breakCount": 27,
       "firstSeen": "2026-01-21T23:17:00.000Z",
-      "lastSeen": "2026-02-09T22:00:28.915Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-02-09T22:44:37.291Z",
+      "currentlyPresent": false
     },
     "Tess": {
       "totalPresenceMinutes": 353.1273,
@@ -2725,14 +2725,14 @@
       "currentlyPresent": false
     },
     "Joris": {
-      "totalPresenceMinutes": 311.53156666666666,
+      "totalPresenceMinutes": 355.6711666666667,
       "totalWorkMinutes": 56.15841666666667,
       "totalBreakMinutes": 10,
       "pomodoroCount": 3,
       "breakCount": 2,
       "firstSeen": "2026-01-22T17:18:00.000Z",
-      "lastSeen": "2026-02-09T22:00:28.915Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-02-09T22:44:37.291Z",
+      "currentlyPresent": false
     },
     "j": {
       "totalPresenceMinutes": 95.51088333333334,
