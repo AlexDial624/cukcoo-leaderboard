@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-10T16:42:01.434Z",
-  "timerCount": 302,
+  "lastUpdated": "2026-02-10T17:47:15.548Z",
+  "timerCount": 303,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -2114,6 +2114,13 @@
       "endTime": "2026-02-09T21:50:00.000Z",
       "type": "break",
       "duration": 5,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-02-10T17:31:00.000Z",
+      "endTime": "2026-02-10T17:56:00.000Z",
+      "type": "work",
+      "duration": 25,
       "startedBy": "angelina"
     }
   ],
