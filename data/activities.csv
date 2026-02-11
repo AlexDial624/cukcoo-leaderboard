@@ -626,3 +626,9 @@ estimated_time,scrape_time,user,action,time_ago_raw
 2026-02-11T16:24:00.000Z,2026-02-11T16:45:34.709Z,angelina,started a 5 minute break,21 min ago
 2026-02-11T16:24:00.000Z,2026-02-11T16:45:34.709Z,angelina,resumed the current break,21 min ago
 2026-02-11T16:29:00.000Z,2026-02-11T16:45:34.709Z,angelina,started a 25 minute work session,16 min ago
+2026-02-11T16:44:00.000Z,2026-02-11T17:44:43.919Z,angelina,joined this cuckoo,1 hours ago
+2026-02-11T16:48:00.000Z,2026-02-11T17:44:43.919Z,Cian,started a 5 minute break,56 min ago
+2026-02-11T16:51:00.000Z,2026-02-11T17:44:43.919Z,Cian,joined this cuckoo,53 min ago
+2026-02-11T16:56:00.000Z,2026-02-11T17:44:43.919Z,JEssica,joined this cuckoo,48 min ago
+2026-02-11T17:18:00.000Z,2026-02-11T17:44:43.919Z,Cian,joined this cuckoo,26 min ago
+2026-02-11T17:24:00.000Z,2026-02-11T17:44:43.919Z,JEssica,started a 25 minute work session,20 min ago
