@@ -609,3 +609,20 @@ estimated_time,scrape_time,user,action,time_ago_raw
 2026-02-11T14:25:00.000Z,2026-02-11T14:44:22.813Z,jemima,skipped the break,19 min ago
 2026-02-11T14:28:00.000Z,2026-02-11T14:44:22.813Z,jemima,started a 25 minute work session,16 min ago
 2026-02-11T14:34:00.000Z,2026-02-11T14:44:22.813Z,Cian,joined this cuckoo,10 min ago
+2026-02-11T14:45:00.000Z,2026-02-11T16:45:34.709Z,jemima,joined this cuckoo,2 hours ago
+2026-02-11T14:45:00.000Z,2026-02-11T16:45:34.709Z,Cian,joined this cuckoo,2 hours ago
+2026-02-11T15:45:00.000Z,2026-02-11T16:45:34.709Z,Cian,skipped the break,1 hours ago
+2026-02-11T15:45:00.000Z,2026-02-11T16:45:34.709Z,jemima,started a 25 minute work session,1 hours ago
+2026-02-11T15:45:00.000Z,2026-02-11T16:45:34.709Z,niko,joined this cuckoo,1 hours ago
+2026-02-11T15:45:00.000Z,2026-02-11T16:45:34.709Z,jemima,started a 5 minute break,1 hours ago
+2026-02-11T15:45:00.000Z,2026-02-11T16:45:34.709Z,Jessica,joined this cuckoo,1 hours ago
+2026-02-11T15:45:00.000Z,2026-02-11T16:45:34.709Z,niko,paused the current break,1 hours ago
+2026-02-11T15:45:00.000Z,2026-02-11T16:45:34.709Z,Joris,joined this cuckoo,1 hours ago
+2026-02-11T15:45:00.000Z,2026-02-11T16:45:34.709Z,niko,restarted the current break,1 hours ago
+2026-02-11T15:45:00.000Z,2026-02-11T16:45:34.709Z,niko,stopped the current break,1 hours ago
+2026-02-11T15:45:00.000Z,2026-02-11T16:45:34.709Z,niko,skipped the break,1 hours ago
+2026-02-11T15:45:00.000Z,2026-02-11T16:45:34.709Z,niko,started a 25 minute work session,1 hours ago
+2026-02-11T15:59:00.000Z,2026-02-11T16:45:34.709Z,angelina,joined this cuckoo,46 min ago
+2026-02-11T16:24:00.000Z,2026-02-11T16:45:34.709Z,angelina,started a 5 minute break,21 min ago
+2026-02-11T16:24:00.000Z,2026-02-11T16:45:34.709Z,angelina,resumed the current break,21 min ago
+2026-02-11T16:29:00.000Z,2026-02-11T16:45:34.709Z,angelina,started a 25 minute work session,16 min ago
