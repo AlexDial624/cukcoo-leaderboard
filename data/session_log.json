@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-11T21:52:43.928Z",
-  "timerCount": 320,
+  "lastUpdated": "2026-02-11T22:22:49.389Z",
+  "timerCount": 321,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -2241,6 +2241,13 @@
       "type": "work",
       "duration": 25,
       "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-02-11T22:10:00.000Z",
+      "endTime": "2026-02-11T22:15:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess"
     }
   ],
   "userWindows": {
@@ -2702,8 +2709,8 @@
       },
       {
         "joinTime": "2026-02-11T21:46:00.000Z",
-        "leaveTime": "2026-02-11T21:52:43.910Z",
-        "stillPresent": true
+        "leaveTime": "2026-02-11T22:15:33.348Z",
+        "stillPresent": false
       }
     ],
     "Rory Fenton": [
@@ -2973,14 +2980,14 @@
       "currentlyPresent": false
     },
     "Jess": {
-      "totalPresenceMinutes": 97.65311666666666,
-      "totalWorkMinutes": 90.69623333333332,
-      "totalBreakMinutes": 25,
+      "totalPresenceMinutes": 120.47708333333334,
+      "totalWorkMinutes": 108.9644,
+      "totalBreakMinutes": 30,
       "pomodoroCount": 5,
-      "breakCount": 5,
+      "breakCount": 6,
       "firstSeen": "2026-01-28T16:32:07.310Z",
-      "lastSeen": "2026-02-11T21:52:43.910Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-02-11T22:15:33.348Z",
+      "currentlyPresent": false
     },
     "Rory Fenton": {
       "totalPresenceMinutes": 356.9388333333333,
