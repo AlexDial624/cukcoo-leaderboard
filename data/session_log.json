@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-11T18:47:07.810Z",
-  "timerCount": 316,
+  "lastUpdated": "2026-02-11T19:47:56.171Z",
+  "timerCount": 317,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -2213,6 +2213,13 @@
       "type": "work",
       "duration": 25,
       "startedBy": "JEssica"
+    },
+    {
+      "startTime": "2026-02-11T18:56:00.000Z",
+      "endTime": "2026-02-11T19:21:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina"
     }
   ],
   "userWindows": {
@@ -2294,7 +2301,7 @@
       },
       {
         "joinTime": "2026-02-11T18:41:00.000Z",
-        "leaveTime": "2026-02-11T18:47:07.791Z",
+        "leaveTime": "2026-02-11T19:47:56.152Z",
         "stillPresent": true
       }
     ],
@@ -2370,6 +2377,11 @@
         "joinTime": "2026-02-11T15:13:21.619Z",
         "leaveTime": "2026-02-11T16:45:33.709Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-02-11T19:43:00.000Z",
+        "leaveTime": "2026-02-11T19:47:56.152Z",
+        "stillPresent": true
       }
     ],
     "j": [
@@ -2835,13 +2847,13 @@
   },
   "userStats": {
     "angelina": {
-      "totalPresenceMinutes": 802.5768666666667,
-      "totalWorkMinutes": 763.2541833333335,
+      "totalPresenceMinutes": 863.3828833333333,
+      "totalWorkMinutes": 788.2541833333335,
       "totalBreakMinutes": 118.22998333333334,
-      "pomodoroCount": 33,
+      "pomodoroCount": 34,
       "breakCount": 27,
       "firstSeen": "2026-01-21T23:17:00.000Z",
-      "lastSeen": "2026-02-11T18:47:07.791Z",
+      "lastSeen": "2026-02-11T19:47:56.152Z",
       "currentlyPresent": true
     },
     "Tess": {
@@ -2855,14 +2867,14 @@
       "currentlyPresent": false
     },
     "Joris": {
-      "totalPresenceMinutes": 447.87266666666665,
+      "totalPresenceMinutes": 452.80853333333334,
       "totalWorkMinutes": 122.72023333333334,
       "totalBreakMinutes": 20,
       "pomodoroCount": 6,
       "breakCount": 4,
       "firstSeen": "2026-01-22T17:18:00.000Z",
-      "lastSeen": "2026-02-11T16:45:33.709Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-02-11T19:47:56.152Z",
+      "currentlyPresent": true
     },
     "j": {
       "totalPresenceMinutes": 95.51088333333334,
