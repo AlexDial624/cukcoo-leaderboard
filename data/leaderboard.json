@@ -1,13 +1,31 @@
 {
-  "generated": "2026-02-11T19:47:56.173Z",
-  "currentlyPresent": [
-    "Joris",
-    "angelina"
-  ],
+  "generated": "2026-02-11T20:29:59.622Z",
+  "currentlyPresent": [],
   "totalUsers": 23,
-  "totalPomodoros": 233,
-  "totalWorkMinutes": 5419.692650000001,
+  "totalPomodoros": 236,
+  "totalWorkMinutes": 5497.692650000001,
   "activityLog": [
+    {
+      "time": "2026-02-11T19:42:00.000Z",
+      "endTime": "2026-02-11T20:07:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina",
+      "participants": [
+        "angelina",
+        "Joris"
+      ]
+    },
+    {
+      "time": "2026-02-11T19:22:00.000Z",
+      "endTime": "2026-02-11T19:47:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina",
+      "participants": [
+        "angelina"
+      ]
+    },
     {
       "time": "2026-02-11T18:56:00.000Z",
       "endTime": "2026-02-11T19:21:00.000Z",
@@ -3111,15 +3129,15 @@
     },
     {
       "user": "angelina",
-      "currentlyPresent": true,
-      "totalPresenceMinutes": 863,
-      "totalWorkMinutes": 788,
+      "currentlyPresent": false,
+      "totalPresenceMinutes": 898,
+      "totalWorkMinutes": 838,
       "totalBreakMinutes": 118,
-      "pomodoroCount": 34,
+      "pomodoroCount": 36,
       "breakCount": 27,
       "avgPomodoroMinutes": 23,
       "firstSeen": "2026-01-21T23:17:00.000Z",
-      "lastSeen": "2026-02-11T19:47:56.152Z"
+      "lastSeen": "2026-02-11T20:22:43.573Z"
     },
     {
       "user": "Alex",
@@ -3135,15 +3153,15 @@
     },
     {
       "user": "Joris",
-      "currentlyPresent": true,
-      "totalPresenceMinutes": 453,
-      "totalWorkMinutes": 123,
+      "currentlyPresent": false,
+      "totalPresenceMinutes": 488,
+      "totalWorkMinutes": 151,
       "totalBreakMinutes": 20,
-      "pomodoroCount": 6,
+      "pomodoroCount": 7,
       "breakCount": 4,
-      "avgPomodoroMinutes": 20,
+      "avgPomodoroMinutes": 22,
       "firstSeen": "2026-01-22T17:18:00.000Z",
-      "lastSeen": "2026-02-11T19:47:56.152Z"
+      "lastSeen": "2026-02-11T20:22:43.573Z"
     },
     {
       "user": "Cian",
