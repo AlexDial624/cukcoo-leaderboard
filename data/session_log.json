@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-12T21:21:54.387Z",
+  "lastUpdated": "2026-02-12T22:01:57.009Z",
   "timerCount": 322,
   "timers": [
     {
@@ -2341,8 +2341,8 @@
       },
       {
         "joinTime": "2026-02-12T21:19:00.000Z",
-        "leaveTime": "2026-02-12T21:21:54.369Z",
-        "stillPresent": true
+        "leaveTime": "2026-02-12T21:54:42.820Z",
+        "stillPresent": false
       }
     ],
     "Tess": [
@@ -2892,14 +2892,14 @@
   },
   "userStats": {
     "angelina": {
-      "totalPresenceMinutes": 901.0793833333333,
-      "totalWorkMinutes": 841.1603333333335,
+      "totalPresenceMinutes": 933.8869,
+      "totalWorkMinutes": 863.2541833333335,
       "totalBreakMinutes": 118.22998333333334,
       "pomodoroCount": 37,
       "breakCount": 27,
       "firstSeen": "2026-01-21T23:17:00.000Z",
-      "lastSeen": "2026-02-12T21:21:54.369Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-02-12T21:54:42.820Z",
+      "currentlyPresent": false
     },
     "Tess": {
       "totalPresenceMinutes": 353.1273,
