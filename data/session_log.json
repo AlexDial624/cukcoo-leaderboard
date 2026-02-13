@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-13T18:01:46.848Z",
-  "timerCount": 322,
+  "lastUpdated": "2026-02-13T18:59:13.832Z",
+  "timerCount": 325,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -2255,6 +2255,27 @@
       "type": "work",
       "duration": 25,
       "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-02-13T17:56:00.000Z",
+      "endTime": "2026-02-13T18:21:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "jordan"
+    },
+    {
+      "startTime": "2026-02-13T18:22:00.000Z",
+      "endTime": "2026-02-13T18:27:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "jordan"
+    },
+    {
+      "startTime": "2026-02-13T18:27:00.000Z",
+      "endTime": "2026-02-13T18:52:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "jordan"
     }
   ],
   "userWindows": {
