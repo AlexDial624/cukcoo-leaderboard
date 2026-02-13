@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-13T17:06:08.937Z",
+  "lastUpdated": "2026-02-13T18:01:46.848Z",
   "timerCount": 322,
   "timers": [
     {
@@ -2425,8 +2425,8 @@
       },
       {
         "joinTime": "2026-02-13T17:05:00.000Z",
-        "leaveTime": "2026-02-13T17:06:08.919Z",
-        "stillPresent": true
+        "leaveTime": "2026-02-13T17:54:30.356Z",
+        "stillPresent": false
       }
     ],
     "j": [
@@ -2828,8 +2828,8 @@
       },
       {
         "joinTime": "2026-02-13T17:05:00.000Z",
-        "leaveTime": "2026-02-13T17:06:08.919Z",
-        "stillPresent": true
+        "leaveTime": "2026-02-13T17:54:30.356Z",
+        "stillPresent": false
       }
     ],
     "jemima": [
@@ -2922,14 +2922,14 @@
       "currentlyPresent": false
     },
     "Joris": {
-      "totalPresenceMinutes": 488.7475333333333,
+      "totalPresenceMinutes": 537.1048166666667,
       "totalWorkMinutes": 150.72023333333334,
       "totalBreakMinutes": 20,
       "pomodoroCount": 7,
       "breakCount": 4,
       "firstSeen": "2026-01-22T17:18:00.000Z",
-      "lastSeen": "2026-02-13T17:06:08.919Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-02-13T17:54:30.356Z",
+      "currentlyPresent": false
     },
     "j": {
       "totalPresenceMinutes": 95.51088333333334,
@@ -3062,14 +3062,14 @@
       "currentlyPresent": false
     },
     "Izzy": {
-      "totalPresenceMinutes": 117.11788333333334,
+      "totalPresenceMinutes": 165.47516666666667,
       "totalWorkMinutes": 25,
       "totalBreakMinutes": 0,
       "pomodoroCount": 1,
       "breakCount": 0,
       "firstSeen": "2026-02-03T14:34:00.000Z",
-      "lastSeen": "2026-02-13T17:06:08.919Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-02-13T17:54:30.356Z",
+      "currentlyPresent": false
     },
     "jemima": {
       "totalPresenceMinutes": 171.02541666666667,
