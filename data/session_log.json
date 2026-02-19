@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-19T21:01:13.857Z",
-  "timerCount": 344,
+  "lastUpdated": "2026-02-19T21:39:26.622Z",
+  "timerCount": 347,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -2404,8 +2404,29 @@
       "startedBy": "Anna"
     },
     {
+      "startTime": "2026-02-19T20:32:00.000Z",
+      "endTime": "2026-02-19T20:57:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Anna"
+    },
+    {
       "startTime": "2026-02-19T20:40:00.000Z",
       "endTime": "2026-02-19T21:05:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Anna"
+    },
+    {
+      "startTime": "2026-02-19T21:07:00.000Z",
+      "endTime": "2026-02-19T21:12:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Anna"
+    },
+    {
+      "startTime": "2026-02-19T21:16:00.000Z",
+      "endTime": "2026-02-19T21:41:00.000Z",
       "type": "work",
       "duration": 25,
       "startedBy": "Anna"
