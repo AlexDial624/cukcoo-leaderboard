@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-19T19:14:21.004Z",
+  "lastUpdated": "2026-02-19T19:54:58.046Z",
   "timerCount": 339,
   "timers": [
     {
@@ -2930,6 +2930,11 @@
         "joinTime": "2026-01-30T21:02:00.000Z",
         "leaveTime": "2026-01-30T21:38:25.400Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-02-19T19:19:12.195Z",
+        "leaveTime": "2026-02-19T19:54:58.024Z",
+        "stillPresent": true
       }
     ],
     "niko": [
@@ -3183,14 +3188,14 @@
       "currentlyPresent": false
     },
     "Anna": {
-      "totalPresenceMinutes": 36.42333333333333,
+      "totalPresenceMinutes": 72.18715,
       "totalWorkMinutes": 33.42333333333333,
       "totalBreakMinutes": 15,
       "pomodoroCount": 2,
       "breakCount": 3,
       "firstSeen": "2026-01-30T21:02:00.000Z",
-      "lastSeen": "2026-01-30T21:38:25.400Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-02-19T19:54:58.024Z",
+      "currentlyPresent": true
     },
     "niko": {
       "totalPresenceMinutes": 132.56558333333334,
