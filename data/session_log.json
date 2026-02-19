@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-19T21:39:26.622Z",
-  "timerCount": 347,
+  "lastUpdated": "2026-02-19T22:07:26.408Z",
+  "timerCount": 349,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -2404,6 +2404,13 @@
       "startedBy": "Anna"
     },
     {
+      "startTime": "2026-02-19T20:00:00.000Z",
+      "endTime": "2026-02-19T20:05:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Anna"
+    },
+    {
       "startTime": "2026-02-19T20:32:00.000Z",
       "endTime": "2026-02-19T20:57:00.000Z",
       "type": "work",
@@ -2429,6 +2436,13 @@
       "endTime": "2026-02-19T21:41:00.000Z",
       "type": "work",
       "duration": 25,
+      "startedBy": "Anna"
+    },
+    {
+      "startTime": "2026-02-19T21:41:00.000Z",
+      "endTime": "2026-02-19T21:46:00.000Z",
+      "type": "break",
+      "duration": 5,
       "startedBy": "Anna"
     }
   ],
@@ -3246,9 +3260,9 @@
     "Anna": {
       "totalPresenceMinutes": 96.94195,
       "totalWorkMinutes": 83.42333333333333,
-      "totalBreakMinutes": 20,
+      "totalBreakMinutes": 25,
       "pomodoroCount": 4,
-      "breakCount": 4,
+      "breakCount": 5,
       "firstSeen": "2026-01-30T21:02:00.000Z",
       "lastSeen": "2026-02-19T20:18:31.117Z",
       "currentlyPresent": false
