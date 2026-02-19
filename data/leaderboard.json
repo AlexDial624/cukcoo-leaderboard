@@ -1,6 +1,9 @@
 {
-  "generated": "2026-02-19T07:45:56.873Z",
-  "currentlyPresent": [],
+  "generated": "2026-02-19T08:28:06.420Z",
+  "currentlyPresent": [
+    "Joris",
+    "Izzy"
+  ],
   "totalUsers": 23,
   "totalPomodoros": 238,
   "totalWorkMinutes": 5547.692650000001,
@@ -3255,15 +3258,15 @@
     },
     {
       "user": "Joris",
-      "currentlyPresent": false,
-      "totalPresenceMinutes": 537,
+      "currentlyPresent": true,
+      "totalPresenceMinutes": 539,
       "totalWorkMinutes": 151,
       "totalBreakMinutes": 20,
       "pomodoroCount": 7,
       "breakCount": 4,
       "avgPomodoroMinutes": 22,
       "firstSeen": "2026-01-22T17:18:00.000Z",
-      "lastSeen": "2026-02-13T17:54:30.356Z"
+      "lastSeen": "2026-02-19T08:28:06.400Z"
     },
     {
       "user": "Cian",
@@ -3339,15 +3342,15 @@
     },
     {
       "user": "Izzy",
-      "currentlyPresent": false,
-      "totalPresenceMinutes": 165,
+      "currentlyPresent": true,
+      "totalPresenceMinutes": 170,
       "totalWorkMinutes": 25,
       "totalBreakMinutes": 0,
       "pomodoroCount": 1,
       "breakCount": 0,
       "avgPomodoroMinutes": 25,
       "firstSeen": "2026-02-03T14:34:00.000Z",
-      "lastSeen": "2026-02-13T17:54:30.356Z"
+      "lastSeen": "2026-02-19T08:28:06.400Z"
     },
     {
       "user": "niko",
