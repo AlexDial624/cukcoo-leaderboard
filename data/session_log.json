@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-19T11:07:11.583Z",
+  "lastUpdated": "2026-02-19T11:59:43.369Z",
   "timerCount": 339,
   "timers": [
     {
@@ -2962,8 +2962,8 @@
       },
       {
         "joinTime": "2026-02-19T10:35:27.649Z",
-        "leaveTime": "2026-02-19T11:07:11.562Z",
-        "stillPresent": true
+        "leaveTime": "2026-02-19T11:52:28.576Z",
+        "stillPresent": false
       }
     ],
     "jemima": [
@@ -3036,8 +3036,8 @@
     "Cait": [
       {
         "joinTime": "2026-02-19T10:30:00.000Z",
-        "leaveTime": "2026-02-19T11:07:11.562Z",
-        "stillPresent": true
+        "leaveTime": "2026-02-19T11:52:28.576Z",
+        "stillPresent": false
       }
     ]
   },
@@ -3203,14 +3203,14 @@
       "currentlyPresent": false
     },
     "Izzy": {
-      "totalPresenceMinutes": 244.96783333333335,
+      "totalPresenceMinutes": 290.2514,
       "totalWorkMinutes": 63.521566666666665,
       "totalBreakMinutes": 10,
       "pomodoroCount": 4,
       "breakCount": 2,
       "firstSeen": "2026-02-03T14:34:00.000Z",
-      "lastSeen": "2026-02-19T11:07:11.562Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-02-19T11:52:28.576Z",
+      "currentlyPresent": false
     },
     "jemima": {
       "totalPresenceMinutes": 171.02541666666667,
@@ -3273,14 +3273,14 @@
       "currentlyPresent": false
     },
     "Cait": {
-      "totalPresenceMinutes": 37.1927,
+      "totalPresenceMinutes": 82.47626666666666,
       "totalWorkMinutes": 30,
       "totalBreakMinutes": 5,
       "pomodoroCount": 1,
       "breakCount": 1,
       "firstSeen": "2026-02-19T10:30:00.000Z",
-      "lastSeen": "2026-02-19T11:07:11.562Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-02-19T11:52:28.576Z",
+      "currentlyPresent": false
     }
   }
 }
