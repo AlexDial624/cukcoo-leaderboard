@@ -672,3 +672,15 @@ estimated_time,scrape_time,user,action,time_ago_raw
 2026-02-17T23:22:00.000Z,2026-02-17T23:47:45.881Z,Jess,started a 25 minute work session,25 min ago
 2026-02-19T08:24:00.000Z,2026-02-19T08:26:10.688Z,Izzy,joined this cuckoo,2 min ago
 2026-02-19T08:26:00.000Z,2026-02-19T08:26:10.688Z,Joris,joined this cuckoo,10 sec ago
+2026-02-19T09:05:00.000Z,2026-02-19T11:05:27.649Z,Izzy,joined this cuckoo,2 hours ago
+2026-02-19T09:05:00.000Z,2026-02-19T11:05:27.649Z,Joris,joined this cuckoo,2 hours ago
+2026-02-19T09:05:00.000Z,2026-02-19T11:05:27.649Z,Izzy,started a 25 minute work session,2 hours ago
+2026-02-19T09:05:00.000Z,2026-02-19T11:05:27.649Z,Izzy,started a 5 minute break,2 hours ago
+2026-02-19T09:05:00.000Z,2026-02-19T11:05:27.649Z,Joris,started a 25 minute work session,2 hours ago
+2026-02-19T10:05:00.000Z,2026-02-19T11:05:27.649Z,Izzy,started a 5 minute break,1 hours ago
+2026-02-19T10:05:00.000Z,2026-02-19T11:05:27.649Z,Joris,started a 25 minute work session,1 hours ago
+2026-02-19T10:10:00.000Z,2026-02-19T11:05:27.649Z,Izzy,skipped the break,55 min ago
+2026-02-19T10:10:00.000Z,2026-02-19T11:05:27.649Z,Izzy,started a 25 minute work session,55 min ago
+2026-02-19T10:30:00.000Z,2026-02-19T11:05:27.649Z,Cait,joined this cuckoo,35 min ago
+2026-02-19T10:36:00.000Z,2026-02-19T11:05:27.649Z,Izzy,started a 5 minute break,29 min ago
+2026-02-19T10:42:00.000Z,2026-02-19T11:05:27.649Z,Izzy,started a 25 minute work session,23 min ago
