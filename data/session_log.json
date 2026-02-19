@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-19T19:54:58.046Z",
-  "timerCount": 339,
+  "lastUpdated": "2026-02-19T20:25:47.119Z",
+  "timerCount": 342,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -2374,6 +2374,27 @@
       "type": "work",
       "duration": 25,
       "startedBy": "Izzy"
+    },
+    {
+      "startTime": "2026-02-19T19:18:00.000Z",
+      "endTime": "2026-02-19T19:43:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Anna"
+    },
+    {
+      "startTime": "2026-02-19T19:18:00.000Z",
+      "endTime": "2026-02-19T19:23:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Anna"
+    },
+    {
+      "startTime": "2026-02-19T19:35:00.000Z",
+      "endTime": "2026-02-19T20:00:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Anna"
     }
   ],
   "userWindows": {
@@ -2932,9 +2953,9 @@
         "stillPresent": false
       },
       {
-        "joinTime": "2026-02-19T19:19:12.195Z",
-        "leaveTime": "2026-02-19T19:54:58.024Z",
-        "stillPresent": true
+        "joinTime": "2026-02-19T19:18:00.000Z",
+        "leaveTime": "2026-02-19T20:18:31.117Z",
+        "stillPresent": false
       }
     ],
     "niko": [
@@ -3188,14 +3209,14 @@
       "currentlyPresent": false
     },
     "Anna": {
-      "totalPresenceMinutes": 72.18715,
-      "totalWorkMinutes": 33.42333333333333,
-      "totalBreakMinutes": 15,
-      "pomodoroCount": 2,
-      "breakCount": 3,
+      "totalPresenceMinutes": 96.94195,
+      "totalWorkMinutes": 83.42333333333333,
+      "totalBreakMinutes": 20,
+      "pomodoroCount": 4,
+      "breakCount": 4,
       "firstSeen": "2026-01-30T21:02:00.000Z",
-      "lastSeen": "2026-02-19T19:54:58.024Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-02-19T20:18:31.117Z",
+      "currentlyPresent": false
     },
     "niko": {
       "totalPresenceMinutes": 132.56558333333334,
