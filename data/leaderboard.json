@@ -1,13 +1,32 @@
 {
-  "generated": "2026-02-20T19:33:42.789Z",
-  "currentlyPresent": [
-    "Alex",
-    "angelina"
-  ],
+  "generated": "2026-02-20T20:03:33.029Z",
+  "currentlyPresent": [],
   "totalUsers": 24,
-  "totalPomodoros": 247,
-  "totalWorkMinutes": 5700.16135,
+  "totalPomodoros": 249,
+  "totalWorkMinutes": 5739.3345500000005,
   "activityLog": [
+    {
+      "time": "2026-02-20T19:46:00.000Z",
+      "endTime": "2026-02-20T20:11:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina",
+      "participants": [
+        "angelina",
+        "Alex"
+      ]
+    },
+    {
+      "time": "2026-02-20T19:40:00.000Z",
+      "endTime": "2026-02-20T19:45:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "angelina",
+      "participants": [
+        "angelina",
+        "Alex"
+      ]
+    },
     {
       "time": "2026-02-20T19:18:00.000Z",
       "endTime": "2026-02-20T19:43:00.000Z",
@@ -3411,27 +3430,27 @@
     },
     {
       "user": "angelina",
-      "currentlyPresent": true,
-      "totalPresenceMinutes": 952,
-      "totalWorkMinutes": 879,
-      "totalBreakMinutes": 118,
-      "pomodoroCount": 38,
-      "breakCount": 27,
+      "currentlyPresent": false,
+      "totalPresenceMinutes": 974,
+      "totalWorkMinutes": 899,
+      "totalBreakMinutes": 123,
+      "pomodoroCount": 39,
+      "breakCount": 28,
       "avgPomodoroMinutes": 23,
       "firstSeen": "2026-01-21T23:17:00.000Z",
-      "lastSeen": "2026-02-20T19:33:42.767Z"
+      "lastSeen": "2026-02-20T19:56:17.963Z"
     },
     {
       "user": "Alex",
-      "currentlyPresent": true,
-      "totalPresenceMinutes": 665,
-      "totalWorkMinutes": 795,
-      "totalBreakMinutes": 127,
-      "pomodoroCount": 37,
-      "breakCount": 27,
+      "currentlyPresent": false,
+      "totalPresenceMinutes": 688,
+      "totalWorkMinutes": 814,
+      "totalBreakMinutes": 132,
+      "pomodoroCount": 38,
+      "breakCount": 28,
       "avgPomodoroMinutes": 21,
       "firstSeen": "2026-01-22T18:55:00.000Z",
-      "lastSeen": "2026-02-20T19:33:42.767Z"
+      "lastSeen": "2026-02-20T19:56:17.963Z"
     },
     {
       "user": "Joris",
