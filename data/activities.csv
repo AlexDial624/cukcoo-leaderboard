@@ -711,3 +711,6 @@ estimated_time,scrape_time,user,action,time_ago_raw
 2026-02-19T21:00:00.000Z,2026-02-19T22:00:10.459Z,Anna,skipped the break,1 hours ago
 2026-02-19T21:00:00.000Z,2026-02-19T22:00:10.459Z,mariah,joined this cuckoo,1 hours ago
 2026-02-19T21:41:00.000Z,2026-02-19T22:00:10.459Z,Anna,started a 5 minute break,19 min ago
+2026-02-20T19:16:00.000Z,2026-02-20T19:29:19.317Z,angelina,joined this cuckoo,13 min ago
+2026-02-20T19:18:00.000Z,2026-02-20T19:29:19.317Z,angelina,started a 25 minute work session,11 min ago
+2026-02-20T19:29:00.000Z,2026-02-20T19:29:19.317Z,Alex,joined this cuckoo,5 sec ago

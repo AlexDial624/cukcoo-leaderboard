@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-20T18:57:04.157Z",
-  "timerCount": 349,
+  "lastUpdated": "2026-02-20T19:33:42.787Z",
+  "timerCount": 350,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -2444,6 +2444,13 @@
       "type": "break",
       "duration": 5,
       "startedBy": "Anna"
+    },
+    {
+      "startTime": "2026-02-20T19:18:00.000Z",
+      "endTime": "2026-02-20T19:43:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina"
     }
   ],
   "userWindows": {
@@ -2532,6 +2539,11 @@
         "joinTime": "2026-02-12T21:19:00.000Z",
         "leaveTime": "2026-02-12T21:54:42.820Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-02-20T19:16:00.000Z",
+        "leaveTime": "2026-02-20T19:33:42.767Z",
+        "stillPresent": true
       }
     ],
     "Tess": [
@@ -2852,6 +2864,11 @@
         "joinTime": "2026-02-03T20:58:28.921Z",
         "leaveTime": "2026-02-03T22:00:36.815Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-02-20T19:29:00.000Z",
+        "leaveTime": "2026-02-20T19:33:42.767Z",
+        "stillPresent": true
       }
     ],
     "Kiran": [
@@ -3118,14 +3135,14 @@
   },
   "userStats": {
     "angelina": {
-      "totalPresenceMinutes": 933.8869,
-      "totalWorkMinutes": 863.2541833333335,
+      "totalPresenceMinutes": 951.5996833333334,
+      "totalWorkMinutes": 878.9669666666668,
       "totalBreakMinutes": 118.22998333333334,
-      "pomodoroCount": 37,
+      "pomodoroCount": 38,
       "breakCount": 27,
       "firstSeen": "2026-01-21T23:17:00.000Z",
-      "lastSeen": "2026-02-12T21:54:42.820Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-02-20T19:33:42.767Z",
+      "currentlyPresent": true
     },
     "Tess": {
       "totalPresenceMinutes": 353.1273,
@@ -3168,14 +3185,14 @@
       "currentlyPresent": false
     },
     "Alex": {
-      "totalPresenceMinutes": 660.2568166666666,
-      "totalWorkMinutes": 789.9519833333335,
+      "totalPresenceMinutes": 664.9696,
+      "totalWorkMinutes": 794.6647666666668,
       "totalBreakMinutes": 127.00078333333335,
       "pomodoroCount": 37,
       "breakCount": 27,
       "firstSeen": "2026-01-22T18:55:00.000Z",
-      "lastSeen": "2026-02-03T22:00:36.815Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-02-20T19:33:42.767Z",
+      "currentlyPresent": true
     },
     "Kiran": {
       "totalPresenceMinutes": 378.23181666666665,
