@@ -730,3 +730,10 @@ estimated_time,scrape_time,user,action,time_ago_raw
 2026-02-23T19:32:00.000Z,2026-02-23T20:09:11.895Z,angelina,skipped the break,37 min ago
 2026-02-23T19:32:00.000Z,2026-02-23T20:09:11.895Z,angelina,started a 25 minute work session,37 min ago
 2026-02-23T19:58:00.000Z,2026-02-23T20:09:11.895Z,angelina,started a 5 minute break,11 min ago
+2026-02-23T20:02:00.000Z,2026-02-23T21:02:02.194Z,Cian,joined this cuckoo,1 hours ago
+2026-02-23T20:02:00.000Z,2026-02-23T21:02:02.194Z,angelina,started a 5 minute break,1 hours ago
+2026-02-23T20:02:00.000Z,2026-02-23T21:02:02.194Z,angelina,paused the current break,1 hours ago
+2026-02-23T20:02:00.000Z,2026-02-23T21:02:02.194Z,angelina,stopped the current break,1 hours ago
+2026-02-23T20:02:00.000Z,2026-02-23T21:02:02.194Z,angelina,skipped the break,1 hours ago
+2026-02-23T20:02:00.000Z,2026-02-23T21:02:02.194Z,angelina,started a 25 minute work session,1 hours ago
+2026-02-23T20:45:00.000Z,2026-02-23T21:02:02.194Z,angelina,started a 25 minute work session,17 min ago
