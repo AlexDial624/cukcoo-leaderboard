@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-25T19:42:25.005Z",
-  "timerCount": 370,
+  "lastUpdated": "2026-02-25T20:20:32.800Z",
+  "timerCount": 374,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -2591,6 +2591,34 @@
       "type": "break",
       "duration": 5,
       "startedBy": "Rory Fenton"
+    },
+    {
+      "startTime": "2026-02-25T19:45:00.000Z",
+      "endTime": "2026-02-25T20:10:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-02-25T19:45:00.000Z",
+      "endTime": "2026-02-25T20:10:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "jemima"
+    },
+    {
+      "startTime": "2026-02-25T20:10:00.000Z",
+      "endTime": "2026-02-25T20:15:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Kiran"
+    },
+    {
+      "startTime": "2026-02-25T20:15:00.000Z",
+      "endTime": "2026-02-25T20:40:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina"
     }
   ],
   "userWindows": {
@@ -2684,6 +2712,11 @@
         "joinTime": "2026-02-20T19:16:00.000Z",
         "leaveTime": "2026-02-20T19:56:17.963Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-02-25T19:43:00.000Z",
+        "leaveTime": "2026-02-25T20:20:32.778Z",
+        "stillPresent": true
       }
     ],
     "Tess": [
@@ -3046,6 +3079,11 @@
         "joinTime": "2026-02-06T22:00:00.035Z",
         "leaveTime": "2026-02-06T22:53:14.432Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-02-25T19:51:00.000Z",
+        "leaveTime": "2026-02-25T20:20:32.778Z",
+        "stillPresent": true
       }
     ],
     "charlotte": [
@@ -3216,7 +3254,7 @@
       },
       {
         "joinTime": "2026-02-25T19:41:00.000Z",
-        "leaveTime": "2026-02-25T19:42:24.984Z",
+        "leaveTime": "2026-02-25T20:20:32.778Z",
         "stillPresent": true
       }
     ],
@@ -3280,14 +3318,14 @@
   },
   "userStats": {
     "angelina": {
-      "totalPresenceMinutes": 974.1862833333333,
-      "totalWorkMinutes": 898.5535666666668,
-      "totalBreakMinutes": 123.22998333333334,
-      "pomodoroCount": 39,
-      "breakCount": 28,
+      "totalPresenceMinutes": 1011.7325833333333,
+      "totalWorkMinutes": 954.0998666666668,
+      "totalBreakMinutes": 128.22998333333334,
+      "pomodoroCount": 42,
+      "breakCount": 29,
       "firstSeen": "2026-01-21T23:17:00.000Z",
-      "lastSeen": "2026-02-20T19:56:17.963Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-02-25T20:20:32.778Z",
+      "currentlyPresent": true
     },
     "Tess": {
       "totalPresenceMinutes": 353.1273,
@@ -3340,14 +3378,14 @@
       "currentlyPresent": false
     },
     "Kiran": {
-      "totalPresenceMinutes": 378.23181666666665,
-      "totalWorkMinutes": 497.4677,
-      "totalBreakMinutes": 56.689283333333336,
-      "pomodoroCount": 21,
-      "breakCount": 12,
+      "totalPresenceMinutes": 407.7781166666667,
+      "totalWorkMinutes": 541.0139999999999,
+      "totalBreakMinutes": 61.689283333333336,
+      "pomodoroCount": 22,
+      "breakCount": 13,
       "firstSeen": "2026-01-23T17:48:00.000Z",
-      "lastSeen": "2026-02-06T22:53:14.432Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-02-25T20:20:32.778Z",
+      "currentlyPresent": true
     },
     "charlotte": {
       "totalPresenceMinutes": 60.46811666666667,
@@ -3450,13 +3488,13 @@
       "currentlyPresent": false
     },
     "jemima": {
-      "totalPresenceMinutes": 172.44181666666665,
-      "totalWorkMinutes": 85.51226666666666,
-      "totalBreakMinutes": 5,
-      "pomodoroCount": 3,
-      "breakCount": 1,
+      "totalPresenceMinutes": 210.57171666666667,
+      "totalWorkMinutes": 141.05856666666668,
+      "totalBreakMinutes": 10,
+      "pomodoroCount": 6,
+      "breakCount": 2,
       "firstSeen": "2026-02-03T14:04:00.000Z",
-      "lastSeen": "2026-02-25T19:42:24.984Z",
+      "lastSeen": "2026-02-25T20:20:32.778Z",
       "currentlyPresent": true
     },
     "Caitlin": {
