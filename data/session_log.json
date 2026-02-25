@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T18:52:03.565Z",
+  "lastUpdated": "2026-02-25T19:42:25.005Z",
   "timerCount": 370,
   "timers": [
     {
@@ -3213,6 +3213,11 @@
         "joinTime": "2026-02-06T20:13:00.000Z",
         "leaveTime": "2026-02-06T20:54:47.787Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-02-25T19:41:00.000Z",
+        "leaveTime": "2026-02-25T19:42:24.984Z",
+        "stillPresent": true
       }
     ],
     "Caitlin": [
@@ -3445,14 +3450,14 @@
       "currentlyPresent": false
     },
     "jemima": {
-      "totalPresenceMinutes": 171.02541666666667,
+      "totalPresenceMinutes": 172.44181666666665,
       "totalWorkMinutes": 85.51226666666666,
       "totalBreakMinutes": 5,
       "pomodoroCount": 3,
       "breakCount": 1,
       "firstSeen": "2026-02-03T14:04:00.000Z",
-      "lastSeen": "2026-02-06T20:54:47.787Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-02-25T19:42:24.984Z",
+      "currentlyPresent": true
     },
     "Caitlin": {
       "totalPresenceMinutes": 77.96923333333334,
