@@ -737,3 +737,16 @@ estimated_time,scrape_time,user,action,time_ago_raw
 2026-02-23T20:02:00.000Z,2026-02-23T21:02:02.194Z,angelina,skipped the break,1 hours ago
 2026-02-23T20:02:00.000Z,2026-02-23T21:02:02.194Z,angelina,started a 25 minute work session,1 hours ago
 2026-02-23T20:45:00.000Z,2026-02-23T21:02:02.194Z,angelina,started a 25 minute work session,17 min ago
+2026-02-24T21:52:00.000Z,2026-02-24T23:52:56.711Z,angelina,joined this cuckoo,2 hours ago
+2026-02-24T21:52:00.000Z,2026-02-24T23:52:56.711Z,angelina,started a 25 minute work session,2 hours ago
+2026-02-24T21:52:00.000Z,2026-02-24T23:52:56.711Z,Alex,joined this cuckoo,2 hours ago
+2026-02-24T22:52:00.000Z,2026-02-24T23:52:56.711Z,angelina,started a 5 minute break,1 hours ago
+2026-02-24T22:52:00.000Z,2026-02-24T23:52:56.711Z,angelina,started a 25 minute work session,1 hours ago
+2026-02-24T22:52:00.000Z,2026-02-24T23:52:56.711Z,Alex,joined this cuckoo,1 hours ago
+2026-02-24T22:52:00.000Z,2026-02-24T23:52:56.711Z,Rory Fenton,joined this cuckoo,1 hours ago
+2026-02-24T22:52:00.000Z,2026-02-24T23:52:56.711Z,Alex,started a 25 minute work session,1 hours ago
+2026-02-24T23:08:00.000Z,2026-02-24T23:52:56.711Z,Rory Fenton,started a 5 minute break,44 min ago
+2026-02-24T23:11:00.000Z,2026-02-24T23:52:56.711Z,Alex,joined this cuckoo,41 min ago
+2026-02-24T23:13:00.000Z,2026-02-24T23:52:56.711Z,Rory Fenton,joined this cuckoo,39 min ago
+2026-02-24T23:14:00.000Z,2026-02-24T23:52:56.711Z,Alex,started a 25 minute work session,38 min ago
+2026-02-24T23:39:00.000Z,2026-02-24T23:52:56.711Z,Rory Fenton,started a 5 minute break,13 min ago
