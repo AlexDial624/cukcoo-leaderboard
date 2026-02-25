@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-25T20:20:32.800Z",
-  "timerCount": 374,
+  "lastUpdated": "2026-02-25T21:06:25.804Z",
+  "timerCount": 378,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -2607,6 +2607,20 @@
       "startedBy": "jemima"
     },
     {
+      "startTime": "2026-02-25T19:59:00.000Z",
+      "endTime": "2026-02-25T20:24:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-02-25T19:59:00.000Z",
+      "endTime": "2026-02-25T20:24:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "jemima"
+    },
+    {
       "startTime": "2026-02-25T20:10:00.000Z",
       "endTime": "2026-02-25T20:15:00.000Z",
       "type": "break",
@@ -2619,6 +2633,20 @@
       "type": "work",
       "duration": 25,
       "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-02-25T20:34:00.000Z",
+      "endTime": "2026-02-25T20:39:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-02-25T20:39:00.000Z",
+      "endTime": "2026-02-25T21:04:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Kiran"
     }
   ],
   "userWindows": {
@@ -2715,8 +2743,8 @@
       },
       {
         "joinTime": "2026-02-25T19:43:00.000Z",
-        "leaveTime": "2026-02-25T20:20:32.778Z",
-        "stillPresent": true
+        "leaveTime": "2026-02-25T20:59:09.805Z",
+        "stillPresent": false
       }
     ],
     "Tess": [
@@ -3082,8 +3110,8 @@
       },
       {
         "joinTime": "2026-02-25T19:51:00.000Z",
-        "leaveTime": "2026-02-25T20:20:32.778Z",
-        "stillPresent": true
+        "leaveTime": "2026-02-25T20:59:09.805Z",
+        "stillPresent": false
       }
     ],
     "charlotte": [
@@ -3254,8 +3282,8 @@
       },
       {
         "joinTime": "2026-02-25T19:41:00.000Z",
-        "leaveTime": "2026-02-25T20:20:32.778Z",
-        "stillPresent": true
+        "leaveTime": "2026-02-25T20:59:09.805Z",
+        "stillPresent": false
       }
     ],
     "Caitlin": [
@@ -3318,14 +3346,14 @@
   },
   "userStats": {
     "angelina": {
-      "totalPresenceMinutes": 1011.7325833333333,
-      "totalWorkMinutes": 954.0998666666668,
-      "totalBreakMinutes": 128.22998333333334,
-      "pomodoroCount": 42,
-      "breakCount": 29,
+      "totalPresenceMinutes": 1050.3497,
+      "totalWorkMinutes": 1043.7169833333335,
+      "totalBreakMinutes": 133.22998333333334,
+      "pomodoroCount": 45,
+      "breakCount": 30,
       "firstSeen": "2026-01-21T23:17:00.000Z",
-      "lastSeen": "2026-02-25T20:20:32.778Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-02-25T20:59:09.805Z",
+      "currentlyPresent": false
     },
     "Tess": {
       "totalPresenceMinutes": 353.1273,
@@ -3378,14 +3406,14 @@
       "currentlyPresent": false
     },
     "Kiran": {
-      "totalPresenceMinutes": 407.7781166666667,
-      "totalWorkMinutes": 541.0139999999999,
-      "totalBreakMinutes": 61.689283333333336,
-      "pomodoroCount": 22,
-      "breakCount": 13,
+      "totalPresenceMinutes": 446.39523333333335,
+      "totalWorkMinutes": 630.6311166666666,
+      "totalBreakMinutes": 66.68928333333334,
+      "pomodoroCount": 25,
+      "breakCount": 14,
       "firstSeen": "2026-01-23T17:48:00.000Z",
-      "lastSeen": "2026-02-25T20:20:32.778Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-02-25T20:59:09.805Z",
+      "currentlyPresent": false
     },
     "charlotte": {
       "totalPresenceMinutes": 60.46811666666667,
@@ -3488,14 +3516,14 @@
       "currentlyPresent": false
     },
     "jemima": {
-      "totalPresenceMinutes": 210.57171666666667,
-      "totalWorkMinutes": 141.05856666666668,
-      "totalBreakMinutes": 10,
-      "pomodoroCount": 6,
-      "breakCount": 2,
+      "totalPresenceMinutes": 249.18883333333332,
+      "totalWorkMinutes": 230.67568333333335,
+      "totalBreakMinutes": 15,
+      "pomodoroCount": 9,
+      "breakCount": 3,
       "firstSeen": "2026-02-03T14:04:00.000Z",
-      "lastSeen": "2026-02-25T20:20:32.778Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-02-25T20:59:09.805Z",
+      "currentlyPresent": false
     },
     "Caitlin": {
       "totalPresenceMinutes": 77.96923333333334,
