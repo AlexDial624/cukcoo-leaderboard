@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-26T21:00:04.282Z",
-  "timerCount": 379,
+  "lastUpdated": "2026-02-26T21:36:27.346Z",
+  "timerCount": 386,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -2654,6 +2654,55 @@
       "type": "work",
       "duration": 25,
       "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-02-26T20:29:00.000Z",
+      "endTime": "2026-02-26T20:54:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-02-26T20:29:00.000Z",
+      "endTime": "2026-02-26T20:34:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-02-26T20:29:00.000Z",
+      "endTime": "2026-02-26T20:54:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Alex"
+    },
+    {
+      "startTime": "2026-02-26T20:53:00.000Z",
+      "endTime": "2026-02-26T20:58:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-02-26T20:59:00.000Z",
+      "endTime": "2026-02-26T21:24:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-02-26T21:24:00.000Z",
+      "endTime": "2026-02-26T21:29:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "jemim"
+    },
+    {
+      "startTime": "2026-02-26T21:28:00.000Z",
+      "endTime": "2026-02-26T21:53:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess"
     }
   ],
   "userWindows": {
@@ -3434,10 +3483,10 @@
     },
     "Alex": {
       "totalPresenceMinutes": 801.65025,
-      "totalWorkMinutes": 839.2513666666669,
-      "totalBreakMinutes": 132.00078333333335,
-      "pomodoroCount": 39,
-      "breakCount": 28,
+      "totalWorkMinutes": 886.8997666666669,
+      "totalBreakMinutes": 137.00078333333335,
+      "pomodoroCount": 41,
+      "breakCount": 29,
       "firstSeen": "2026-01-22T18:55:00.000Z",
       "lastSeen": "2026-02-26T20:52:49.452Z",
       "currentlyPresent": false
@@ -3484,10 +3533,10 @@
     },
     "Jess": {
       "totalPresenceMinutes": 234.57113333333334,
-      "totalWorkMinutes": 133.9644,
-      "totalBreakMinutes": 30,
-      "pomodoroCount": 6,
-      "breakCount": 6,
+      "totalWorkMinutes": 181.6128,
+      "totalBreakMinutes": 35,
+      "pomodoroCount": 8,
+      "breakCount": 7,
       "firstSeen": "2026-01-28T16:32:07.310Z",
       "lastSeen": "2026-02-26T20:52:49.452Z",
       "currentlyPresent": false
@@ -3584,10 +3633,10 @@
     },
     "jemim": {
       "totalPresenceMinutes": 132.60848333333334,
-      "totalWorkMinutes": 214.78428333333335,
-      "totalBreakMinutes": 15,
-      "pomodoroCount": 8,
-      "breakCount": 3,
+      "totalWorkMinutes": 262.43268333333333,
+      "totalBreakMinutes": 20,
+      "pomodoroCount": 10,
+      "breakCount": 4,
       "firstSeen": "2026-02-06T14:26:52.861Z",
       "lastSeen": "2026-02-26T20:52:49.452Z",
       "currentlyPresent": false

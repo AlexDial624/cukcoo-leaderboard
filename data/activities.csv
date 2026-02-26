@@ -779,3 +779,12 @@ estimated_time,scrape_time,user,action,time_ago_raw
 2026-02-26T19:56:00.000Z,2026-02-26T20:03:51.682Z,Jess,joined this cuckoo,7 min ago
 2026-02-26T19:57:00.000Z,2026-02-26T20:03:51.682Z,Jess,started a 25 minute work session,6 min ago
 2026-02-26T20:03:00.000Z,2026-02-26T20:03:51.682Z,jemim,joined this cuckoo,10 sec ago
+2026-02-26T20:29:00.000Z,2026-02-26T21:29:12.533Z,Alex,joined this cuckoo,1 hours ago
+2026-02-26T20:29:00.000Z,2026-02-26T21:29:12.533Z,Jess,joined this cuckoo,1 hours ago
+2026-02-26T20:29:00.000Z,2026-02-26T21:29:12.533Z,Jess,started a 25 minute work session,1 hours ago
+2026-02-26T20:29:00.000Z,2026-02-26T21:29:12.533Z,Jess,started a 5 minute break,1 hours ago
+2026-02-26T20:29:00.000Z,2026-02-26T21:29:12.533Z,Alex,started a 25 minute work session,1 hours ago
+2026-02-26T20:53:00.000Z,2026-02-26T21:29:12.533Z,Jess,started a 5 minute break,36 min ago
+2026-02-26T20:59:00.000Z,2026-02-26T21:29:12.533Z,Jess,started a 25 minute work session,30 min ago
+2026-02-26T21:24:00.000Z,2026-02-26T21:29:12.533Z,jemim,started a 5 minute break,5 min ago
+2026-02-26T21:28:00.000Z,2026-02-26T21:29:12.533Z,Jess,started a 25 minute work session,30 sec ago

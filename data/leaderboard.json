@@ -1,10 +1,78 @@
 {
-  "generated": "2026-02-26T21:00:04.284Z",
+  "generated": "2026-02-26T21:36:27.348Z",
   "currentlyPresent": [],
   "totalUsers": 24,
-  "totalPomodoros": 267,
-  "totalWorkMinutes": 6231.824799999999,
+  "totalPomodoros": 273,
+  "totalWorkMinutes": 6374.7699999999995,
   "activityLog": [
+    {
+      "time": "2026-02-26T21:28:00.000Z",
+      "endTime": "2026-02-26T21:53:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess",
+      "participants": []
+    },
+    {
+      "time": "2026-02-26T21:24:00.000Z",
+      "endTime": "2026-02-26T21:29:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "jemim",
+      "participants": []
+    },
+    {
+      "time": "2026-02-26T20:59:00.000Z",
+      "endTime": "2026-02-26T21:24:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess",
+      "participants": []
+    },
+    {
+      "time": "2026-02-26T20:53:00.000Z",
+      "endTime": "2026-02-26T20:58:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess",
+      "participants": []
+    },
+    {
+      "time": "2026-02-26T20:29:00.000Z",
+      "endTime": "2026-02-26T20:54:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess",
+      "participants": [
+        "Alex",
+        "Jess",
+        "jemim"
+      ]
+    },
+    {
+      "time": "2026-02-26T20:29:00.000Z",
+      "endTime": "2026-02-26T20:34:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess",
+      "participants": [
+        "Alex",
+        "Jess",
+        "jemim"
+      ]
+    },
+    {
+      "time": "2026-02-26T20:29:00.000Z",
+      "endTime": "2026-02-26T20:54:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Alex",
+      "participants": [
+        "Alex",
+        "Jess",
+        "jemim"
+      ]
+    },
     {
       "time": "2026-02-26T19:57:00.000Z",
       "endTime": "2026-02-26T20:22:00.000Z",
@@ -3693,10 +3761,10 @@
       "user": "Alex",
       "currentlyPresent": false,
       "totalPresenceMinutes": 802,
-      "totalWorkMinutes": 839,
-      "totalBreakMinutes": 132,
-      "pomodoroCount": 39,
-      "breakCount": 28,
+      "totalWorkMinutes": 887,
+      "totalBreakMinutes": 137,
+      "pomodoroCount": 41,
+      "breakCount": 29,
       "avgPomodoroMinutes": 22,
       "firstSeen": "2026-01-22T18:55:00.000Z",
       "lastSeen": "2026-02-26T20:52:49.452Z"
@@ -3801,11 +3869,11 @@
       "user": "Jess",
       "currentlyPresent": false,
       "totalPresenceMinutes": 235,
-      "totalWorkMinutes": 134,
-      "totalBreakMinutes": 30,
-      "pomodoroCount": 6,
-      "breakCount": 6,
-      "avgPomodoroMinutes": 22,
+      "totalWorkMinutes": 182,
+      "totalBreakMinutes": 35,
+      "pomodoroCount": 8,
+      "breakCount": 7,
+      "avgPomodoroMinutes": 23,
       "firstSeen": "2026-01-28T16:32:07.310Z",
       "lastSeen": "2026-02-26T20:52:49.452Z"
     },
@@ -3813,11 +3881,11 @@
       "user": "jemim",
       "currentlyPresent": false,
       "totalPresenceMinutes": 133,
-      "totalWorkMinutes": 215,
-      "totalBreakMinutes": 15,
-      "pomodoroCount": 8,
-      "breakCount": 3,
-      "avgPomodoroMinutes": 27,
+      "totalWorkMinutes": 262,
+      "totalBreakMinutes": 20,
+      "pomodoroCount": 10,
+      "breakCount": 4,
+      "avgPomodoroMinutes": 26,
       "firstSeen": "2026-02-06T14:26:52.861Z",
       "lastSeen": "2026-02-26T20:52:49.452Z"
     },
