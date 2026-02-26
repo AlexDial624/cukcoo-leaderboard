@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-26T21:36:27.346Z",
-  "timerCount": 386,
+  "lastUpdated": "2026-02-26T22:01:30.179Z",
+  "timerCount": 387,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -2703,6 +2703,13 @@
       "type": "work",
       "duration": 25,
       "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-02-26T21:33:00.000Z",
+      "endTime": "2026-02-26T21:58:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess"
     }
   ],
   "userWindows": {
@@ -3141,6 +3148,11 @@
         "joinTime": "2026-02-26T19:56:00.000Z",
         "leaveTime": "2026-02-26T20:52:49.452Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-02-26T21:29:13.533Z",
+        "leaveTime": "2026-02-26T22:01:30.154Z",
+        "stillPresent": true
       }
     ],
     "Kiran": [
@@ -3406,6 +3418,11 @@
         "joinTime": "2026-02-26T20:03:00.000Z",
         "leaveTime": "2026-02-26T20:52:49.452Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-02-26T21:29:13.533Z",
+        "leaveTime": "2026-02-26T22:01:30.154Z",
+        "stillPresent": true
       }
     ],
     "Charlotte": [
@@ -3482,14 +3499,14 @@
       "currentlyPresent": false
     },
     "Alex": {
-      "totalPresenceMinutes": 801.65025,
-      "totalWorkMinutes": 886.8997666666669,
+      "totalPresenceMinutes": 833.9272666666667,
+      "totalWorkMinutes": 935.6742166666669,
       "totalBreakMinutes": 137.00078333333335,
-      "pomodoroCount": 41,
+      "pomodoroCount": 43,
       "breakCount": 29,
       "firstSeen": "2026-01-22T18:55:00.000Z",
-      "lastSeen": "2026-02-26T20:52:49.452Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-02-26T22:01:30.154Z",
+      "currentlyPresent": true
     },
     "Kiran": {
       "totalPresenceMinutes": 446.39523333333335,
@@ -3632,14 +3649,14 @@
       "currentlyPresent": false
     },
     "jemim": {
-      "totalPresenceMinutes": 132.60848333333334,
-      "totalWorkMinutes": 262.43268333333333,
+      "totalPresenceMinutes": 164.8855,
+      "totalWorkMinutes": 311.20713333333333,
       "totalBreakMinutes": 20,
-      "pomodoroCount": 10,
+      "pomodoroCount": 12,
       "breakCount": 4,
       "firstSeen": "2026-02-06T14:26:52.861Z",
-      "lastSeen": "2026-02-26T20:52:49.452Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-02-26T22:01:30.154Z",
+      "currentlyPresent": true
     },
     "Charlotte": {
       "totalPresenceMinutes": 66.03138333333334,
