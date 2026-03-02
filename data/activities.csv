@@ -832,3 +832,6 @@ estimated_time,scrape_time,user,action,time_ago_raw
 2026-03-02T14:45:00.000Z,2026-03-02T15:01:04.854Z,Jessica,started a 5 minute break,16 min ago
 2026-03-02T14:51:00.000Z,2026-03-02T15:01:04.854Z,Jessica,joined this cuckoo,10 min ago
 2026-03-02T14:52:00.000Z,2026-03-02T15:01:04.854Z,jemima,started a 25 minute work session,9 min ago
+2026-03-02T20:07:00.000Z,2026-03-02T20:20:06.635Z,jemima,joined this cuckoo,13 min ago
+2026-03-02T20:07:00.000Z,2026-03-02T20:20:06.635Z,jemima,started a 25 minute work session,13 min ago
+2026-03-02T20:19:00.000Z,2026-03-02T20:20:06.635Z,Alex,joined this cuckoo,10 sec ago

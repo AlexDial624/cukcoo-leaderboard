@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-02T19:56:37.527Z",
-  "timerCount": 403,
+  "lastUpdated": "2026-03-02T20:23:31.071Z",
+  "timerCount": 404,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -2822,6 +2822,13 @@
       "type": "work",
       "duration": 25,
       "startedBy": "jemima"
+    },
+    {
+      "startTime": "2026-03-02T20:07:00.000Z",
+      "endTime": "2026-03-02T20:32:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "jemima"
     }
   ],
   "userWindows": {
@@ -3275,6 +3282,11 @@
         "joinTime": "2026-02-27T17:20:40.609Z",
         "leaveTime": "2026-02-27T18:28:23.371Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-03-02T20:19:00.000Z",
+        "leaveTime": "2026-03-02T20:23:31.044Z",
+        "stillPresent": true
       }
     ],
     "Kiran": [
@@ -3509,6 +3521,11 @@
         "joinTime": "2026-02-25T19:41:00.000Z",
         "leaveTime": "2026-02-25T20:59:09.805Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-03-02T20:07:00.000Z",
+        "leaveTime": "2026-03-02T20:23:31.044Z",
+        "stillPresent": true
       }
     ],
     "Caitlin": [
@@ -3641,14 +3658,14 @@
       "currentlyPresent": false
     },
     "Alex": {
-      "totalPresenceMinutes": 944.8406666666667,
-      "totalWorkMinutes": 935.6742166666669,
+      "totalPresenceMinutes": 949.3580666666667,
+      "totalWorkMinutes": 940.1916166666668,
       "totalBreakMinutes": 137.00078333333335,
       "pomodoroCount": 43,
       "breakCount": 29,
       "firstSeen": "2026-01-22T18:55:00.000Z",
-      "lastSeen": "2026-02-27T18:28:23.371Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-03-02T20:23:31.044Z",
+      "currentlyPresent": true
     },
     "Kiran": {
       "totalPresenceMinutes": 446.39523333333335,
@@ -3761,14 +3778,14 @@
       "currentlyPresent": false
     },
     "jemima": {
-      "totalPresenceMinutes": 249.18883333333332,
-      "totalWorkMinutes": 230.67568333333335,
+      "totalPresenceMinutes": 265.70623333333333,
+      "totalWorkMinutes": 247.19308333333336,
       "totalBreakMinutes": 15,
-      "pomodoroCount": 9,
+      "pomodoroCount": 10,
       "breakCount": 3,
       "firstSeen": "2026-02-03T14:04:00.000Z",
-      "lastSeen": "2026-02-25T20:59:09.805Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-03-02T20:23:31.044Z",
+      "currentlyPresent": true
     },
     "Caitlin": {
       "totalPresenceMinutes": 77.96923333333334,
