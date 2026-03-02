@@ -1,15 +1,74 @@
 {
-  "generated": "2026-03-02T14:14:06.521Z",
-  "currentlyPresent": [
-    "jordan",
-    "jemim",
-    "Cian",
-    "Jessica"
-  ],
+  "generated": "2026-03-02T15:08:20.041Z",
+  "currentlyPresent": [],
   "totalUsers": 24,
-  "totalPomodoros": 280,
-  "totalWorkMinutes": 6539.7511,
+  "totalPomodoros": 291,
+  "totalWorkMinutes": 6782.575833333333,
   "activityLog": [
+    {
+      "time": "2026-03-02T14:52:00.000Z",
+      "endTime": "2026-03-02T15:17:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "jemima",
+      "participants": [
+        "Jessica",
+        "jordan",
+        "Cian",
+        "jemim"
+      ]
+    },
+    {
+      "time": "2026-03-02T14:45:00.000Z",
+      "endTime": "2026-03-02T14:50:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jessica",
+      "participants": [
+        "Jessica",
+        "jordan",
+        "Cian",
+        "jemim"
+      ]
+    },
+    {
+      "time": "2026-03-02T14:20:00.000Z",
+      "endTime": "2026-03-02T14:45:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "jemima",
+      "participants": [
+        "Jessica",
+        "jordan",
+        "Cian",
+        "jemim"
+      ]
+    },
+    {
+      "time": "2026-03-02T14:14:00.000Z",
+      "endTime": "2026-03-02T14:19:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jessica",
+      "participants": [
+        "Jessica",
+        "jordan",
+        "Cian",
+        "jemim"
+      ]
+    },
+    {
+      "time": "2026-03-02T14:01:00.000Z",
+      "endTime": "2026-03-02T14:26:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jessica",
+      "participants": [
+        "Jessica",
+        "Cian",
+        "jemim"
+      ]
+    },
     {
       "time": "2026-03-02T13:53:00.000Z",
       "endTime": "2026-03-02T14:18:00.000Z",
@@ -3846,15 +3905,15 @@
   "users": [
     {
       "user": "Jessica",
-      "currentlyPresent": true,
-      "totalPresenceMinutes": 1642,
-      "totalWorkMinutes": 1449,
-      "totalBreakMinutes": 182,
-      "pomodoroCount": 63,
-      "breakCount": 38,
+      "currentlyPresent": false,
+      "totalPresenceMinutes": 1689,
+      "totalWorkMinutes": 1512,
+      "totalBreakMinutes": 192,
+      "pomodoroCount": 66,
+      "breakCount": 40,
       "avgPomodoroMinutes": 23,
       "firstSeen": "2026-01-22T17:01:00.000Z",
-      "lastSeen": "2026-03-02T14:14:06.483Z"
+      "lastSeen": "2026-03-02T15:01:03.854Z"
     },
     {
       "user": "angelina",
@@ -3894,15 +3953,15 @@
     },
     {
       "user": "Cian",
-      "currentlyPresent": true,
-      "totalPresenceMinutes": 462,
-      "totalWorkMinutes": 178,
-      "totalBreakMinutes": 15,
-      "pomodoroCount": 8,
-      "breakCount": 3,
+      "currentlyPresent": false,
+      "totalPresenceMinutes": 509,
+      "totalWorkMinutes": 241,
+      "totalBreakMinutes": 25,
+      "pomodoroCount": 11,
+      "breakCount": 5,
       "avgPomodoroMinutes": 22,
       "firstSeen": "2026-02-04T20:53:20.323Z",
-      "lastSeen": "2026-03-02T14:14:06.483Z"
+      "lastSeen": "2026-03-02T15:01:03.854Z"
     },
     {
       "user": "Kiran",
@@ -3918,15 +3977,15 @@
     },
     {
       "user": "jordan",
-      "currentlyPresent": true,
-      "totalPresenceMinutes": 393,
-      "totalWorkMinutes": 304,
-      "totalBreakMinutes": 25,
-      "pomodoroCount": 13,
-      "breakCount": 5,
-      "avgPomodoroMinutes": 23,
+      "currentlyPresent": false,
+      "totalPresenceMinutes": 440,
+      "totalWorkMinutes": 358,
+      "totalBreakMinutes": 35,
+      "pomodoroCount": 15,
+      "breakCount": 7,
+      "avgPomodoroMinutes": 24,
       "firstSeen": "2026-01-29T19:13:00.000Z",
-      "lastSeen": "2026-03-02T14:14:06.483Z"
+      "lastSeen": "2026-03-02T15:01:03.854Z"
     },
     {
       "user": "Rory Fenton",
@@ -3965,6 +4024,18 @@
       "lastSeen": "2026-02-19T11:52:28.576Z"
     },
     {
+      "user": "jemim",
+      "currentlyPresent": false,
+      "totalPresenceMinutes": 276,
+      "totalWorkMinutes": 395,
+      "totalBreakMinutes": 30,
+      "pomodoroCount": 16,
+      "breakCount": 6,
+      "avgPomodoroMinutes": 25,
+      "firstSeen": "2026-02-06T14:26:52.861Z",
+      "lastSeen": "2026-03-02T15:01:03.854Z"
+    },
+    {
       "user": "jemima",
       "currentlyPresent": false,
       "totalPresenceMinutes": 249,
@@ -3987,18 +4058,6 @@
       "avgPomodoroMinutes": 23,
       "firstSeen": "2026-01-28T16:32:07.310Z",
       "lastSeen": "2026-02-26T20:52:49.452Z"
-    },
-    {
-      "user": "jemim",
-      "currentlyPresent": true,
-      "totalPresenceMinutes": 229,
-      "totalWorkMinutes": 332,
-      "totalBreakMinutes": 20,
-      "pomodoroCount": 13,
-      "breakCount": 4,
-      "avgPomodoroMinutes": 26,
-      "firstSeen": "2026-02-06T14:26:52.861Z",
-      "lastSeen": "2026-03-02T14:14:06.483Z"
     },
     {
       "user": "niko",
