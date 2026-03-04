@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-04T20:43:29.448Z",
-  "timerCount": 418,
+  "lastUpdated": "2026-03-04T21:03:06.497Z",
+  "timerCount": 422,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -2927,6 +2927,34 @@
       "type": "break",
       "duration": 5,
       "startedBy": "Jessica"
+    },
+    {
+      "startTime": "2026-03-04T20:02:00.000Z",
+      "endTime": "2026-03-04T20:07:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jessica"
+    },
+    {
+      "startTime": "2026-03-04T20:02:00.000Z",
+      "endTime": "2026-03-04T20:27:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jessica"
+    },
+    {
+      "startTime": "2026-03-04T20:32:00.000Z",
+      "endTime": "2026-03-04T20:37:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jessica"
+    },
+    {
+      "startTime": "2026-03-04T20:49:00.000Z",
+      "endTime": "2026-03-04T20:59:00.000Z",
+      "type": "work",
+      "duration": 10,
+      "startedBy": "Alex"
     }
   ],
   "userWindows": {
@@ -3273,6 +3301,11 @@
         "joinTime": "2026-03-02T13:51:00.000Z",
         "leaveTime": "2026-03-02T15:01:03.854Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-03-04T20:36:14.970Z",
+        "leaveTime": "2026-03-04T21:03:06.466Z",
+        "stillPresent": true
       }
     ],
     "Alex": [
@@ -3746,14 +3779,14 @@
       "currentlyPresent": false
     },
     "Jessica": {
-      "totalPresenceMinutes": 1688.7962833333333,
-      "totalWorkMinutes": 1512.0197666666668,
-      "totalBreakMinutes": 192.167,
-      "pomodoroCount": 66,
-      "breakCount": 40,
+      "totalPresenceMinutes": 1715.65455,
+      "totalWorkMinutes": 1522.0197666666668,
+      "totalBreakMinutes": 192.9175,
+      "pomodoroCount": 67,
+      "breakCount": 41,
       "firstSeen": "2026-01-22T17:01:00.000Z",
-      "lastSeen": "2026-03-02T15:01:03.854Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-03-04T21:03:06.466Z",
+      "currentlyPresent": true
     },
     "Alex": {
       "totalPresenceMinutes": 984.0471666666666,
