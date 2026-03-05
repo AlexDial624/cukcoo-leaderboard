@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-05T22:00:21.567Z",
+  "lastUpdated": "2026-03-05T22:43:52.831Z",
   "timerCount": 428,
   "timers": [
     {
@@ -3356,8 +3356,8 @@
       },
       {
         "joinTime": "2026-03-05T21:25:47.650Z",
-        "leaveTime": "2026-03-05T22:00:21.537Z",
-        "stillPresent": true
+        "leaveTime": "2026-03-05T22:36:37.205Z",
+        "stillPresent": false
       }
     ],
     "Alex": [
@@ -3836,14 +3836,14 @@
       "currentlyPresent": false
     },
     "Jessica": {
-      "totalPresenceMinutes": 1844.5153666666668,
+      "totalPresenceMinutes": 1880.7765,
       "totalWorkMinutes": 1565.3847833333336,
       "totalBreakMinutes": 197.9175,
       "pomodoroCount": 69,
       "breakCount": 42,
       "firstSeen": "2026-01-22T17:01:00.000Z",
-      "lastSeen": "2026-03-05T22:00:21.537Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-03-05T22:36:37.205Z",
+      "currentlyPresent": false
     },
     "Alex": {
       "totalPresenceMinutes": 984.0471666666666,
