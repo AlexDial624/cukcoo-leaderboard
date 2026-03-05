@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-05T08:57:26.099Z",
+  "lastUpdated": "2026-03-05T09:32:22.642Z",
   "timerCount": 422,
   "timers": [
     {
@@ -3630,6 +3630,11 @@
         "joinTime": "2026-02-19T10:35:27.649Z",
         "leaveTime": "2026-02-19T11:52:28.576Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-03-05T09:31:00.000Z",
+        "leaveTime": "2026-03-05T09:32:22.616Z",
+        "stillPresent": true
       }
     ],
     "jemima": [
@@ -3899,14 +3904,14 @@
       "currentlyPresent": false
     },
     "Izzy": {
-      "totalPresenceMinutes": 290.2514,
+      "totalPresenceMinutes": 291.62833333333333,
       "totalWorkMinutes": 63.521566666666665,
       "totalBreakMinutes": 10,
       "pomodoroCount": 4,
       "breakCount": 2,
       "firstSeen": "2026-02-03T14:34:00.000Z",
-      "lastSeen": "2026-02-19T11:52:28.576Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-03-05T09:32:22.616Z",
+      "currentlyPresent": true
     },
     "jemima": {
       "totalPresenceMinutes": 300.3953333333333,
