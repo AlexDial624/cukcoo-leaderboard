@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-05T09:32:22.642Z",
-  "timerCount": 422,
+  "lastUpdated": "2026-03-05T10:29:36.497Z",
+  "timerCount": 423,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -2955,6 +2955,13 @@
       "type": "work",
       "duration": 10,
       "startedBy": "Alex"
+    },
+    {
+      "startTime": "2026-03-05T09:43:00.000Z",
+      "endTime": "2026-03-05T10:08:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Izzy"
     }
   ],
   "userWindows": {
@@ -3633,8 +3640,8 @@
       },
       {
         "joinTime": "2026-03-05T09:31:00.000Z",
-        "leaveTime": "2026-03-05T09:32:22.616Z",
-        "stillPresent": true
+        "leaveTime": "2026-03-05T10:22:21.278Z",
+        "stillPresent": false
       }
     ],
     "jemima": [
@@ -3904,14 +3911,14 @@
       "currentlyPresent": false
     },
     "Izzy": {
-      "totalPresenceMinutes": 291.62833333333333,
-      "totalWorkMinutes": 63.521566666666665,
+      "totalPresenceMinutes": 341.60603333333336,
+      "totalWorkMinutes": 88.52156666666667,
       "totalBreakMinutes": 10,
-      "pomodoroCount": 4,
+      "pomodoroCount": 5,
       "breakCount": 2,
       "firstSeen": "2026-02-03T14:34:00.000Z",
-      "lastSeen": "2026-03-05T09:32:22.616Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-03-05T10:22:21.278Z",
+      "currentlyPresent": false
     },
     "jemima": {
       "totalPresenceMinutes": 300.3953333333333,
