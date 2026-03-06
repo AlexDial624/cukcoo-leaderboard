@@ -1,6 +1,8 @@
 {
-  "generated": "2026-03-06T23:45:08.854Z",
-  "currentlyPresent": [],
+  "generated": "2026-03-06T23:58:11.795Z",
+  "currentlyPresent": [
+    "Jess"
+  ],
   "totalUsers": 24,
   "totalPomodoros": 298,
   "totalWorkMinutes": 6946.940849999999,
@@ -4355,15 +4357,15 @@
     },
     {
       "user": "Jess",
-      "currentlyPresent": false,
-      "totalPresenceMinutes": 235,
+      "currentlyPresent": true,
+      "totalPresenceMinutes": 236,
       "totalWorkMinutes": 182,
       "totalBreakMinutes": 35,
       "pomodoroCount": 8,
       "breakCount": 7,
       "avgPomodoroMinutes": 23,
       "firstSeen": "2026-01-28T16:32:07.310Z",
-      "lastSeen": "2026-02-26T20:52:49.452Z"
+      "lastSeen": "2026-03-06T23:58:11.762Z"
     },
     {
       "user": "niko",
