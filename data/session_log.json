@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-06T17:01:33.120Z",
+  "lastUpdated": "2026-03-06T17:43:09.990Z",
   "timerCount": 430,
   "timers": [
     {
@@ -3641,8 +3641,8 @@
       },
       {
         "joinTime": "2026-03-06T15:57:00.000Z",
-        "leaveTime": "2026-03-06T17:01:33.085Z",
-        "stillPresent": true
+        "leaveTime": "2026-03-06T17:35:55.376Z",
+        "stillPresent": false
       }
     ],
     "k": [
@@ -3935,14 +3935,14 @@
       "currentlyPresent": false
     },
     "jordan": {
-      "totalPresenceMinutes": 504.17165,
+      "totalPresenceMinutes": 538.5431666666667,
       "totalWorkMinutes": 405.97281666666663,
       "totalBreakMinutes": 35,
       "pomodoroCount": 17,
       "breakCount": 7,
       "firstSeen": "2026-01-29T19:13:00.000Z",
-      "lastSeen": "2026-03-06T17:01:33.085Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-03-06T17:35:55.376Z",
+      "currentlyPresent": false
     },
     "k": {
       "totalPresenceMinutes": 104.26121666666667,
