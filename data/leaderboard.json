@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-07T05:56:06.120Z",
+  "generated": "2026-03-07T06:36:16.926Z",
   "currentlyPresent": [
     "Alex"
   ],
@@ -4238,14 +4238,14 @@
     {
       "user": "Alex",
       "currentlyPresent": true,
-      "totalPresenceMinutes": 1159,
+      "totalPresenceMinutes": 1199,
       "totalWorkMinutes": 949,
       "totalBreakMinutes": 137,
       "pomodoroCount": 43,
       "breakCount": 29,
       "avgPomodoroMinutes": 22,
       "firstSeen": "2026-01-22T18:55:00.000Z",
-      "lastSeen": "2026-03-07T05:56:06.087Z"
+      "lastSeen": "2026-03-07T06:36:16.895Z"
     },
     {
       "user": "Joris",
