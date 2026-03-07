@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-07T11:24:16.501Z",
+  "lastUpdated": "2026-03-07T11:40:27.102Z",
   "timerCount": 439,
   "timers": [
     {
@@ -3564,8 +3564,8 @@
         "stillPresent": false
       },
       {
-        "joinTime": "2026-03-07T10:53:24.235Z",
-        "leaveTime": "2026-03-07T11:24:16.469Z",
+        "joinTime": "2026-03-07T11:06:00.000Z",
+        "leaveTime": "2026-03-07T11:40:27.069Z",
         "stillPresent": true
       }
     ],
@@ -3659,8 +3659,8 @@
         "stillPresent": false
       },
       {
-        "joinTime": "2026-03-07T10:53:24.235Z",
-        "leaveTime": "2026-03-07T11:24:16.469Z",
+        "joinTime": "2026-03-07T11:16:00.000Z",
+        "leaveTime": "2026-03-07T11:40:27.069Z",
         "stillPresent": true
       }
     ],
@@ -3958,13 +3958,13 @@
       "currentlyPresent": false
     },
     "Alex": {
-      "totalPresenceMinutes": 1413.62695,
+      "totalPresenceMinutes": 1417.2075333333332,
       "totalWorkMinutes": 948.6742166666669,
       "totalBreakMinutes": 137.00078333333335,
       "pomodoroCount": 43,
       "breakCount": 29,
       "firstSeen": "2026-01-22T18:55:00.000Z",
-      "lastSeen": "2026-03-07T11:24:16.469Z",
+      "lastSeen": "2026-03-07T11:40:27.069Z",
       "currentlyPresent": true
     },
     "Kiran": {
@@ -4008,13 +4008,13 @@
       "currentlyPresent": false
     },
     "Jess": {
-      "totalPresenceMinutes": 424.48106666666666,
+      "totalPresenceMinutes": 418.06165,
       "totalWorkMinutes": 181.6128,
       "totalBreakMinutes": 35,
       "pomodoroCount": 8,
       "breakCount": 7,
       "firstSeen": "2026-01-28T16:32:07.310Z",
-      "lastSeen": "2026-03-07T11:24:16.469Z",
+      "lastSeen": "2026-03-07T11:40:27.069Z",
       "currentlyPresent": true
     },
     "Rory Fenton": {

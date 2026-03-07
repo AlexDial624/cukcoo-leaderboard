@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-07T11:24:16.503Z",
+  "generated": "2026-03-07T11:40:27.105Z",
   "currentlyPresent": [
     "Alex",
     "Jess"
@@ -4227,14 +4227,14 @@
     {
       "user": "Alex",
       "currentlyPresent": true,
-      "totalPresenceMinutes": 1414,
+      "totalPresenceMinutes": 1417,
       "totalWorkMinutes": 949,
       "totalBreakMinutes": 137,
       "pomodoroCount": 43,
       "breakCount": 29,
       "avgPomodoroMinutes": 22,
       "firstSeen": "2026-01-22T18:55:00.000Z",
-      "lastSeen": "2026-03-07T11:24:16.469Z"
+      "lastSeen": "2026-03-07T11:40:27.069Z"
     },
     {
       "user": "angelina",
@@ -4299,14 +4299,14 @@
     {
       "user": "Jess",
       "currentlyPresent": true,
-      "totalPresenceMinutes": 424,
+      "totalPresenceMinutes": 418,
       "totalWorkMinutes": 182,
       "totalBreakMinutes": 35,
       "pomodoroCount": 8,
       "breakCount": 7,
       "avgPomodoroMinutes": 23,
       "firstSeen": "2026-01-28T16:32:07.310Z",
-      "lastSeen": "2026-03-07T11:24:16.469Z"
+      "lastSeen": "2026-03-07T11:40:27.069Z"
     },
     {
       "user": "Rory Fenton",
