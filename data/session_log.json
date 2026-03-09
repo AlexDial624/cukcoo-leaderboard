@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-09T11:49:13.086Z",
-  "timerCount": 442,
+  "lastUpdated": "2026-03-09T12:34:57.396Z",
+  "timerCount": 446,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -3090,8 +3090,36 @@
       "startedBy": "Jess"
     },
     {
+      "startTime": "2026-03-09T11:27:00.000Z",
+      "endTime": "2026-03-09T11:52:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina"
+    },
+    {
       "startTime": "2026-03-09T11:31:00.000Z",
       "endTime": "2026-03-09T11:56:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-03-09T11:51:00.000Z",
+      "endTime": "2026-03-09T11:56:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-03-09T12:22:00.000Z",
+      "endTime": "2026-03-09T12:27:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-03-09T12:27:00.000Z",
+      "endTime": "2026-03-09T12:52:00.000Z",
       "type": "work",
       "duration": 25,
       "startedBy": "angelina"
@@ -3201,8 +3229,8 @@
       },
       {
         "joinTime": "2026-03-09T11:28:00.000Z",
-        "leaveTime": "2026-03-09T11:49:13.053Z",
-        "stillPresent": true
+        "leaveTime": "2026-03-09T12:27:43.463Z",
+        "stillPresent": false
       }
     ],
     "Tess": [
@@ -3295,8 +3323,8 @@
       },
       {
         "joinTime": "2026-03-09T11:46:00.000Z",
-        "leaveTime": "2026-03-09T11:49:13.053Z",
-        "stillPresent": true
+        "leaveTime": "2026-03-09T12:27:43.463Z",
+        "stillPresent": false
       }
     ],
     "j": [
@@ -3701,8 +3729,8 @@
       },
       {
         "joinTime": "2026-03-09T11:16:11.332Z",
-        "leaveTime": "2026-03-09T11:49:13.053Z",
-        "stillPresent": true
+        "leaveTime": "2026-03-09T12:27:43.463Z",
+        "stillPresent": false
       }
     ],
     "Rory Fenton": [
@@ -3949,14 +3977,14 @@
   },
   "userStats": {
     "angelina": {
-      "totalPresenceMinutes": 1240.3607333333334,
-      "totalWorkMinutes": 1061.9345333333335,
-      "totalBreakMinutes": 136.22998333333334,
-      "pomodoroCount": 46,
-      "breakCount": 31,
+      "totalPresenceMinutes": 1278.8675666666666,
+      "totalWorkMinutes": 1093.441366666667,
+      "totalBreakMinutes": 146.22998333333334,
+      "pomodoroCount": 48,
+      "breakCount": 33,
       "firstSeen": "2026-01-21T23:17:00.000Z",
-      "lastSeen": "2026-03-09T11:49:13.053Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-03-09T12:27:43.463Z",
+      "currentlyPresent": false
     },
     "Tess": {
       "totalPresenceMinutes": 353.1273,
@@ -3969,14 +3997,14 @@
       "currentlyPresent": false
     },
     "Joris": {
-      "totalPresenceMinutes": 586.08315,
-      "totalWorkMinutes": 167.45935,
-      "totalBreakMinutes": 25,
-      "pomodoroCount": 9,
-      "breakCount": 5,
+      "totalPresenceMinutes": 624.5899833333333,
+      "totalWorkMinutes": 180.96618333333333,
+      "totalBreakMinutes": 35,
+      "pomodoroCount": 10,
+      "breakCount": 7,
       "firstSeen": "2026-01-22T17:18:00.000Z",
-      "lastSeen": "2026-03-09T11:49:13.053Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-03-09T12:27:43.463Z",
+      "currentlyPresent": false
     },
     "j": {
       "totalPresenceMinutes": 95.51088333333334,
@@ -4049,14 +4077,14 @@
       "currentlyPresent": false
     },
     "Jess": {
-      "totalPresenceMinutes": 510.28953333333334,
-      "totalWorkMinutes": 208.64148333333333,
-      "totalBreakMinutes": 40,
-      "pomodoroCount": 9,
-      "breakCount": 8,
+      "totalPresenceMinutes": 548.7963666666667,
+      "totalWorkMinutes": 241.14831666666666,
+      "totalBreakMinutes": 50,
+      "pomodoroCount": 11,
+      "breakCount": 10,
       "firstSeen": "2026-01-28T16:32:07.310Z",
-      "lastSeen": "2026-03-09T11:49:13.053Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-03-09T12:27:43.463Z",
+      "currentlyPresent": false
     },
     "Rory Fenton": {
       "totalPresenceMinutes": 356.9388333333333,
