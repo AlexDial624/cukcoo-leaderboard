@@ -948,3 +948,26 @@ estimated_time,scrape_time,user,action,time_ago_raw
 2026-03-09T14:40:00.000Z,2026-03-09T15:40:20.429Z,Alex,joined this cuckoo,1 hours ago
 2026-03-09T14:45:00.000Z,2026-03-09T15:40:20.429Z,Alex,joined this cuckoo,55 min ago
 2026-03-09T15:40:00.000Z,2026-03-09T15:40:20.429Z,Jess,joined this cuckoo,5 sec ago
+2026-03-11T13:27:00.000Z,2026-03-11T19:27:11.508Z,angelina,started a 5 minute break,6 hours ago
+2026-03-11T14:27:00.000Z,2026-03-11T19:27:11.508Z,angelina,started a 25 minute work session,5 hours ago
+2026-03-11T14:27:00.000Z,2026-03-11T19:27:11.508Z,Jess,joined this cuckoo,5 hours ago
+2026-03-11T14:27:00.000Z,2026-03-11T19:27:11.508Z,Jess,started a 5 minute break,5 hours ago
+2026-03-11T14:27:00.000Z,2026-03-11T19:27:11.508Z,Jess,started a 25 minute work session,5 hours ago
+2026-03-11T14:27:00.000Z,2026-03-11T19:27:11.508Z,Fran,joined this cuckoo,5 hours ago
+2026-03-11T15:27:00.000Z,2026-03-11T19:27:11.508Z,Jess,started a 5 minute break,4 hours ago
+2026-03-11T15:27:00.000Z,2026-03-11T19:27:11.508Z,Jess,started a 25 minute work session,4 hours ago
+2026-03-11T16:27:00.000Z,2026-03-11T19:27:11.508Z,Jess,joined this cuckoo,3 hours ago
+2026-03-11T16:27:00.000Z,2026-03-11T19:27:11.508Z,angelina,started a 5 minute break,3 hours ago
+2026-03-11T16:27:00.000Z,2026-03-11T19:27:11.508Z,angelina,joined this cuckoo,3 hours ago
+2026-03-11T16:27:00.000Z,2026-03-11T19:27:11.508Z,Jess,started a 25 minute work session,3 hours ago
+2026-03-11T16:27:00.000Z,2026-03-11T19:27:11.508Z,Jess,started a 5 minute break,3 hours ago
+2026-03-11T17:27:00.000Z,2026-03-11T19:27:11.508Z,Jess,started a 25 minute work session,2 hours ago
+2026-03-11T17:27:00.000Z,2026-03-11T19:27:11.508Z,Alex,joined this cuckoo,2 hours ago
+2026-03-11T17:27:00.000Z,2026-03-11T19:27:11.508Z,Jess,started a 5 minute break,2 hours ago
+2026-03-11T18:27:00.000Z,2026-03-11T19:27:11.508Z,Jess,joined this cuckoo,1 hours ago
+2026-03-11T18:27:00.000Z,2026-03-11T19:27:11.508Z,Alex,skipped the break,1 hours ago
+2026-03-11T18:27:00.000Z,2026-03-11T19:27:11.508Z,Jess,started a 25 minute work session,1 hours ago
+2026-03-11T18:27:00.000Z,2026-03-11T19:27:11.508Z,Jess,started a 5 minute break,1 hours ago
+2026-03-11T18:31:00.000Z,2026-03-11T19:27:11.508Z,Jess,started a 25 minute work session,56 min ago
+2026-03-11T18:57:00.000Z,2026-03-11T19:27:11.508Z,Jess,started a 5 minute break,30 min ago
+2026-03-11T19:02:00.000Z,2026-03-11T19:27:11.508Z,Jess,started a 25 minute work session,25 min ago
