@@ -1,11 +1,9 @@
 {
-  "generated": "2026-03-12T17:38:04.795Z",
-  "currentlyPresent": [
-    "jemim"
-  ],
+  "generated": "2026-03-12T18:37:45.151Z",
+  "currentlyPresent": [],
   "totalUsers": 24,
   "totalPomodoros": 307,
-  "totalWorkMinutes": 7101.004416666667,
+  "totalWorkMinutes": 7122.925133333333,
   "activityLog": [
     {
       "time": "2026-03-12T17:35:00.000Z",
@@ -4709,6 +4707,18 @@
       "lastSeen": "2026-03-05T10:22:21.278Z"
     },
     {
+      "user": "jemim",
+      "currentlyPresent": false,
+      "totalPresenceMinutes": 332,
+      "totalWorkMinutes": 420,
+      "totalBreakMinutes": 30,
+      "pomodoroCount": 17,
+      "breakCount": 6,
+      "avgPomodoroMinutes": 25,
+      "firstSeen": "2026-02-06T14:26:52.861Z",
+      "lastSeen": "2026-03-12T18:30:30.882Z"
+    },
+    {
       "user": "jemima",
       "currentlyPresent": false,
       "totalPresenceMinutes": 300,
@@ -4719,18 +4729,6 @@
       "avgPomodoroMinutes": 26,
       "firstSeen": "2026-02-03T14:04:00.000Z",
       "lastSeen": "2026-03-02T20:58:12.390Z"
-    },
-    {
-      "user": "jemim",
-      "currentlyPresent": true,
-      "totalPresenceMinutes": 279,
-      "totalWorkMinutes": 398,
-      "totalBreakMinutes": 30,
-      "pomodoroCount": 17,
-      "breakCount": 6,
-      "avgPomodoroMinutes": 23,
-      "firstSeen": "2026-02-06T14:26:52.861Z",
-      "lastSeen": "2026-03-12T17:38:04.757Z"
     },
     {
       "user": "niko",
