@@ -976,3 +976,15 @@ estimated_time,scrape_time,user,action,time_ago_raw
 2026-03-12T10:53:00.000Z,2026-03-12T11:23:06.381Z,Jess,started a 25 minute work session,30 min ago
 2026-03-12T11:18:00.000Z,2026-03-12T11:23:06.381Z,Jess,started a 5 minute break,5 min ago
 2026-03-12T11:22:00.000Z,2026-03-12T11:23:06.381Z,Jess,started a 25 minute work session,25 sec ago
+2026-03-12T11:44:00.000Z,2026-03-12T13:44:08.968Z,Jess,joined this cuckoo,2 hours ago
+2026-03-12T11:44:00.000Z,2026-03-12T13:44:08.968Z,Izzy,joined this cuckoo,2 hours ago
+2026-03-12T12:44:00.000Z,2026-03-12T13:44:08.968Z,Joris,joined this cuckoo,1 hours ago
+2026-03-12T12:44:00.000Z,2026-03-12T13:44:08.968Z,Joris,skipped the break,1 hours ago
+2026-03-12T12:44:00.000Z,2026-03-12T13:44:08.968Z,Joris,started a 25 minute work session,1 hours ago
+2026-03-12T12:44:00.000Z,2026-03-12T13:44:08.968Z,Jess,started a 5 minute break,1 hours ago
+2026-03-12T12:44:00.000Z,2026-03-12T13:44:08.968Z,Jess,started a 25 minute work session,1 hours ago
+2026-03-12T12:53:00.000Z,2026-03-12T13:44:08.968Z,Jess,started a 5 minute break,51 min ago
+2026-03-12T12:58:00.000Z,2026-03-12T13:44:08.968Z,Jess,started a 10 minute work session,46 min ago
+2026-03-12T13:09:00.000Z,2026-03-12T13:44:08.968Z,Jess,started a 5 minute break,35 min ago
+2026-03-12T13:28:00.000Z,2026-03-12T13:44:08.968Z,angelina,joined this cuckoo,16 min ago
+2026-03-12T13:29:00.000Z,2026-03-12T13:44:08.968Z,angelina,started a 25 minute work session,15 min ago
