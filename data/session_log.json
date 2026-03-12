@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-12T04:32:14.118Z",
+  "lastUpdated": "2026-03-12T05:45:01.064Z",
   "timerCount": 470,
   "timers": [
     {
@@ -3912,8 +3912,8 @@
       },
       {
         "joinTime": "2026-03-12T03:58:30.915Z",
-        "leaveTime": "2026-03-12T04:32:14.087Z",
-        "stillPresent": true
+        "leaveTime": "2026-03-12T05:37:45.524Z",
+        "stillPresent": false
       }
     ],
     "Rory Fenton": [
@@ -4260,14 +4260,14 @@
       "currentlyPresent": false
     },
     "Jess": {
-      "totalPresenceMinutes": 642.6846166666667,
+      "totalPresenceMinutes": 708.2085666666667,
       "totalWorkMinutes": 241.14831666666666,
       "totalBreakMinutes": 50,
       "pomodoroCount": 11,
       "breakCount": 10,
       "firstSeen": "2026-01-28T16:32:07.310Z",
-      "lastSeen": "2026-03-12T04:32:14.087Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-03-12T05:37:45.524Z",
+      "currentlyPresent": false
     },
     "Rory Fenton": {
       "totalPresenceMinutes": 356.9388333333333,
