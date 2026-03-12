@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-12T16:49:29.868Z",
-  "timerCount": 480,
+  "lastUpdated": "2026-03-12T17:38:04.792Z",
+  "timerCount": 481,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -3361,6 +3361,13 @@
       "type": "work",
       "duration": 25,
       "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-03-12T17:35:00.000Z",
+      "endTime": "2026-03-12T18:00:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "jemim"
     }
   ],
   "userWindows": {
@@ -4204,6 +4211,11 @@
         "joinTime": "2026-03-02T13:53:00.000Z",
         "leaveTime": "2026-03-02T15:01:03.854Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-03-12T17:35:00.000Z",
+        "leaveTime": "2026-03-12T17:38:04.757Z",
+        "stillPresent": true
       }
     ],
     "Charlotte": [
@@ -4430,14 +4442,14 @@
       "currentlyPresent": false
     },
     "jemim": {
-      "totalPresenceMinutes": 276.15043333333335,
-      "totalWorkMinutes": 395.27136666666667,
+      "totalPresenceMinutes": 279.22971666666666,
+      "totalWorkMinutes": 398.35065,
       "totalBreakMinutes": 30,
-      "pomodoroCount": 16,
+      "pomodoroCount": 17,
       "breakCount": 6,
       "firstSeen": "2026-02-06T14:26:52.861Z",
-      "lastSeen": "2026-03-02T15:01:03.854Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-03-12T17:38:04.757Z",
+      "currentlyPresent": true
     },
     "Charlotte": {
       "totalPresenceMinutes": 66.03138333333334,
