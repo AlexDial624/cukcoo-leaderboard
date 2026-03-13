@@ -1,8 +1,6 @@
 {
-  "generated": "2026-03-13T18:01:58.491Z",
-  "currentlyPresent": [
-    "jemim"
-  ],
+  "generated": "2026-03-13T19:03:57.355Z",
+  "currentlyPresent": [],
   "totalUsers": 24,
   "totalPomodoros": 307,
   "totalWorkMinutes": 7122.925133333333,
@@ -4674,15 +4672,15 @@
     },
     {
       "user": "jemim",
-      "currentlyPresent": true,
-      "totalPresenceMinutes": 371,
+      "currentlyPresent": false,
+      "totalPresenceMinutes": 425,
       "totalWorkMinutes": 420,
       "totalBreakMinutes": 30,
       "pomodoroCount": 17,
       "breakCount": 6,
       "avgPomodoroMinutes": 25,
       "firstSeen": "2026-02-06T14:26:52.861Z",
-      "lastSeen": "2026-03-13T18:01:58.454Z"
+      "lastSeen": "2026-03-13T18:56:43.947Z"
     },
     {
       "user": "Rory Fenton",
