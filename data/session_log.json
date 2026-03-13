@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-13T20:52:16.704Z",
+  "lastUpdated": "2026-03-13T21:28:02.979Z",
   "timerCount": 487,
   "timers": [
     {
@@ -3931,8 +3931,8 @@
       },
       {
         "joinTime": "2026-03-13T20:19:11.965Z",
-        "leaveTime": "2026-03-13T20:52:16.669Z",
-        "stillPresent": true
+        "leaveTime": "2026-03-13T21:20:49.922Z",
+        "stillPresent": false
       }
     ],
     "Kiran": [
@@ -4304,8 +4304,8 @@
     "Hillary": [
       {
         "joinTime": "2026-03-13T20:45:00.000Z",
-        "leaveTime": "2026-03-13T20:52:16.669Z",
-        "stillPresent": true
+        "leaveTime": "2026-03-13T21:20:49.922Z",
+        "stillPresent": false
       }
     ]
   },
@@ -4361,14 +4361,14 @@
       "currentlyPresent": false
     },
     "Alex": {
-      "totalPresenceMinutes": 1682.8647,
-      "totalWorkMinutes": 1001.7526166666669,
+      "totalPresenceMinutes": 1711.4189166666667,
+      "totalWorkMinutes": 1019.4748000000002,
       "totalBreakMinutes": 152.00078333333335,
       "pomodoroCount": 46,
       "breakCount": 32,
       "firstSeen": "2026-01-22T18:55:00.000Z",
-      "lastSeen": "2026-03-13T20:52:16.669Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-03-13T21:20:49.922Z",
+      "currentlyPresent": false
     },
     "Kiran": {
       "totalPresenceMinutes": 446.39523333333335,
@@ -4551,14 +4551,14 @@
       "currentlyPresent": false
     },
     "Hillary": {
-      "totalPresenceMinutes": 7.277816666666666,
-      "totalWorkMinutes": 7.277816666666666,
+      "totalPresenceMinutes": 35.832033333333335,
+      "totalWorkMinutes": 25,
       "totalBreakMinutes": 0,
       "pomodoroCount": 1,
       "breakCount": 1,
       "firstSeen": "2026-03-13T20:45:00.000Z",
-      "lastSeen": "2026-03-13T20:52:16.669Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-03-13T21:20:49.922Z",
+      "currentlyPresent": false
     }
   }
 }
