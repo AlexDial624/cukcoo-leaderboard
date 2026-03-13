@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-13T17:24:38.331Z",
+  "lastUpdated": "2026-03-13T18:01:58.488Z",
   "timerCount": 481,
   "timers": [
     {
@@ -4229,7 +4229,7 @@
       },
       {
         "joinTime": "2026-03-13T17:23:00.000Z",
-        "leaveTime": "2026-03-13T17:24:38.295Z",
+        "leaveTime": "2026-03-13T18:01:58.454Z",
         "stillPresent": true
       }
     ],
@@ -4457,13 +4457,13 @@
       "currentlyPresent": false
     },
     "jemim": {
-      "totalPresenceMinutes": 333.30338333333333,
+      "totalPresenceMinutes": 370.63936666666666,
       "totalWorkMinutes": 420.27136666666667,
       "totalBreakMinutes": 30,
       "pomodoroCount": 17,
       "breakCount": 6,
       "firstSeen": "2026-02-06T14:26:52.861Z",
-      "lastSeen": "2026-03-13T17:24:38.295Z",
+      "lastSeen": "2026-03-13T18:01:58.454Z",
       "currentlyPresent": true
     },
     "Charlotte": {
