@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-13T21:28:02.979Z",
-  "timerCount": 487,
+  "lastUpdated": "2026-03-13T22:00:11.423Z",
+  "timerCount": 493,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -3410,6 +3410,48 @@
       "type": "work",
       "duration": 25,
       "startedBy": "Alex"
+    },
+    {
+      "startTime": "2026-03-13T20:52:00.000Z",
+      "endTime": "2026-03-13T20:57:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-03-13T20:52:00.000Z",
+      "endTime": "2026-03-13T21:17:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Alex"
+    },
+    {
+      "startTime": "2026-03-13T21:06:00.000Z",
+      "endTime": "2026-03-13T21:11:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-03-13T21:15:00.000Z",
+      "endTime": "2026-03-13T21:40:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-03-13T21:40:00.000Z",
+      "endTime": "2026-03-13T21:45:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-03-13T21:45:00.000Z",
+      "endTime": "2026-03-13T22:10:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess"
     }
   ],
   "userWindows": {
@@ -4362,10 +4404,10 @@
     },
     "Alex": {
       "totalPresenceMinutes": 1711.4189166666667,
-      "totalWorkMinutes": 1019.4748000000002,
-      "totalBreakMinutes": 152.00078333333335,
-      "pomodoroCount": 46,
-      "breakCount": 32,
+      "totalWorkMinutes": 1050.3068333333335,
+      "totalBreakMinutes": 162.00078333333335,
+      "pomodoroCount": 48,
+      "breakCount": 34,
       "firstSeen": "2026-01-22T18:55:00.000Z",
       "lastSeen": "2026-03-13T21:20:49.922Z",
       "currentlyPresent": false
@@ -4552,10 +4594,10 @@
     },
     "Hillary": {
       "totalPresenceMinutes": 35.832033333333335,
-      "totalWorkMinutes": 25,
-      "totalBreakMinutes": 0,
-      "pomodoroCount": 1,
-      "breakCount": 1,
+      "totalWorkMinutes": 55.832033333333335,
+      "totalBreakMinutes": 10,
+      "pomodoroCount": 3,
+      "breakCount": 3,
       "firstSeen": "2026-03-13T20:45:00.000Z",
       "lastSeen": "2026-03-13T21:20:49.922Z",
       "currentlyPresent": false

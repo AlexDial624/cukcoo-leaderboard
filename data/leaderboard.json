@@ -1,10 +1,70 @@
 {
-  "generated": "2026-03-13T21:28:02.981Z",
+  "generated": "2026-03-13T22:00:11.427Z",
   "currentlyPresent": [],
   "totalUsers": 25,
-  "totalPomodoros": 310,
-  "totalWorkMinutes": 7193.725716666666,
+  "totalPomodoros": 314,
+  "totalWorkMinutes": 7255.389783333332,
   "activityLog": [
+    {
+      "time": "2026-03-13T21:45:00.000Z",
+      "endTime": "2026-03-13T22:10:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess",
+      "participants": []
+    },
+    {
+      "time": "2026-03-13T21:40:00.000Z",
+      "endTime": "2026-03-13T21:45:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess",
+      "participants": []
+    },
+    {
+      "time": "2026-03-13T21:15:00.000Z",
+      "endTime": "2026-03-13T21:40:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess",
+      "participants": [
+        "Alex",
+        "Hillary"
+      ]
+    },
+    {
+      "time": "2026-03-13T21:06:00.000Z",
+      "endTime": "2026-03-13T21:11:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess",
+      "participants": [
+        "Alex",
+        "Hillary"
+      ]
+    },
+    {
+      "time": "2026-03-13T20:52:00.000Z",
+      "endTime": "2026-03-13T20:57:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess",
+      "participants": [
+        "Alex",
+        "Hillary"
+      ]
+    },
+    {
+      "time": "2026-03-13T20:52:00.000Z",
+      "endTime": "2026-03-13T21:17:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Alex",
+      "participants": [
+        "Alex",
+        "Hillary"
+      ]
+    },
     {
       "time": "2026-03-13T20:45:00.000Z",
       "endTime": "2026-03-13T21:10:00.000Z",
@@ -4646,10 +4706,10 @@
       "user": "Alex",
       "currentlyPresent": false,
       "totalPresenceMinutes": 1711,
-      "totalWorkMinutes": 1019,
-      "totalBreakMinutes": 152,
-      "pomodoroCount": 46,
-      "breakCount": 32,
+      "totalWorkMinutes": 1050,
+      "totalBreakMinutes": 162,
+      "pomodoroCount": 48,
+      "breakCount": 34,
       "avgPomodoroMinutes": 22,
       "firstSeen": "2026-01-22T18:55:00.000Z",
       "lastSeen": "2026-03-13T21:20:49.922Z"
@@ -4922,11 +4982,11 @@
       "user": "Hillary",
       "currentlyPresent": false,
       "totalPresenceMinutes": 36,
-      "totalWorkMinutes": 25,
-      "totalBreakMinutes": 0,
-      "pomodoroCount": 1,
-      "breakCount": 1,
-      "avgPomodoroMinutes": 25,
+      "totalWorkMinutes": 56,
+      "totalBreakMinutes": 10,
+      "pomodoroCount": 3,
+      "breakCount": 3,
+      "avgPomodoroMinutes": 19,
       "firstSeen": "2026-03-13T20:45:00.000Z",
       "lastSeen": "2026-03-13T21:20:49.922Z"
     }
