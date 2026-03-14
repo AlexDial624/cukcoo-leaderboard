@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-14T07:48:42.357Z",
+  "lastUpdated": "2026-03-14T08:06:56.488Z",
   "timerCount": 496,
   "timers": [
     {
@@ -4009,7 +4009,7 @@
       },
       {
         "joinTime": "2026-03-14T07:44:00.000Z",
-        "leaveTime": "2026-03-14T07:48:42.321Z",
+        "leaveTime": "2026-03-14T08:06:56.452Z",
         "stillPresent": true
       }
     ],
@@ -4444,13 +4444,13 @@
       "currentlyPresent": false
     },
     "Alex": {
-      "totalPresenceMinutes": 1829.8627666666666,
+      "totalPresenceMinutes": 1848.0982833333333,
       "totalWorkMinutes": 1090.4260166666668,
       "totalBreakMinutes": 167.00078333333335,
       "pomodoroCount": 49,
       "breakCount": 35,
       "firstSeen": "2026-01-22T18:55:00.000Z",
-      "lastSeen": "2026-03-14T07:48:42.321Z",
+      "lastSeen": "2026-03-14T08:06:56.452Z",
       "currentlyPresent": true
     },
     "Kiran": {
