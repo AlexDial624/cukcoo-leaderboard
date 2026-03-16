@@ -1028,3 +1028,24 @@ estimated_time,scrape_time,user,action,time_ago_raw
 2026-03-16T10:41:00.000Z,2026-03-16T11:14:01.566Z,Jess,started a 25 minute work session,33 min ago
 2026-03-16T11:07:00.000Z,2026-03-16T11:14:01.566Z,Jess,started a 5 minute break,7 min ago
 2026-03-16T11:12:00.000Z,2026-03-16T11:14:01.566Z,Jess,started a 25 minute work session,2 min ago
+2026-03-16T10:59:00.000Z,2026-03-16T15:59:36.570Z,Jess,joined this cuckoo,5 hours ago
+2026-03-16T10:59:00.000Z,2026-03-16T15:59:36.570Z,Joris,joined this cuckoo,5 hours ago
+2026-03-16T10:59:00.000Z,2026-03-16T15:59:36.570Z,Jess,started a 25 minute work session,5 hours ago
+2026-03-16T11:59:00.000Z,2026-03-16T15:59:36.570Z,Joris,joined this cuckoo,4 hours ago
+2026-03-16T12:59:00.000Z,2026-03-16T15:59:36.570Z,Joris,joined this cuckoo,3 hours ago
+2026-03-16T12:59:00.000Z,2026-03-16T15:59:36.570Z,Jess,started a 5 minute break,3 hours ago
+2026-03-16T12:59:00.000Z,2026-03-16T15:59:36.570Z,Jess,started a 25 minute work session,3 hours ago
+2026-03-16T12:59:00.000Z,2026-03-16T15:59:36.570Z,Jess,created a 20 minutes work session to settings,3 hours ago
+2026-03-16T12:59:00.000Z,2026-03-16T15:59:36.570Z,Jess,started a 20 minute work session,3 hours ago
+2026-03-16T14:59:00.000Z,2026-03-16T15:59:36.570Z,angelina,joined this cuckoo,1 hours ago
+2026-03-16T14:59:00.000Z,2026-03-16T15:59:36.570Z,angelina,skipped the break,1 hours ago
+2026-03-16T14:59:00.000Z,2026-03-16T15:59:36.570Z,Jess,started a 25 minute work session,1 hours ago
+2026-03-16T14:59:00.000Z,2026-03-16T15:59:36.570Z,angie,joined this cuckoo,1 hours ago
+2026-03-16T14:59:00.000Z,2026-03-16T15:59:36.570Z,Jess,started a 5 minute break,1 hours ago
+2026-03-16T14:59:00.000Z,2026-03-16T15:59:36.570Z,angie,started a 25 minute work session,1 hours ago
+2026-03-16T14:59:00.000Z,2026-03-16T15:59:36.570Z,Jess,joined this cuckoo,1 hours ago
+2026-03-16T15:02:00.000Z,2026-03-16T15:59:36.570Z,angie,started a 5 minute break,57 min ago
+2026-03-16T15:07:00.000Z,2026-03-16T15:59:36.570Z,angie,started a 25 minute work session,52 min ago
+2026-03-16T15:31:00.000Z,2026-03-16T15:59:36.570Z,Hillary,joined this cuckoo,28 min ago
+2026-03-16T15:33:00.000Z,2026-03-16T15:59:36.570Z,Jess,started a 5 minute break,26 min ago
+2026-03-16T15:38:00.000Z,2026-03-16T15:59:36.570Z,angie,started a 25 minute work session,21 min ago
