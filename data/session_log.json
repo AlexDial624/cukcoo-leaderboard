@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-16T16:00:12.557Z",
+  "lastUpdated": "2026-03-16T17:21:01.050Z",
   "timerCount": 510,
   "timers": [
     {
@@ -4242,8 +4242,8 @@
       },
       {
         "joinTime": "2026-03-16T14:59:00.000Z",
-        "leaveTime": "2026-03-16T16:00:12.518Z",
-        "stillPresent": true
+        "leaveTime": "2026-03-16T17:13:46.842Z",
+        "stillPresent": false
       }
     ],
     "Rory Fenton": [
@@ -4505,8 +4505,8 @@
       },
       {
         "joinTime": "2026-03-16T15:31:00.000Z",
-        "leaveTime": "2026-03-16T16:00:12.518Z",
-        "stillPresent": true
+        "leaveTime": "2026-03-16T17:13:46.842Z",
+        "stillPresent": false
       }
     ]
   },
@@ -4612,14 +4612,14 @@
       "currentlyPresent": false
     },
     "Jess": {
-      "totalPresenceMinutes": 887.0583833333334,
-      "totalWorkMinutes": 369.35695000000004,
+      "totalPresenceMinutes": 960.63045,
+      "totalWorkMinutes": 372.1483166666667,
       "totalBreakMinutes": 70,
       "pomodoroCount": 16,
       "breakCount": 14,
       "firstSeen": "2026-01-28T16:32:07.310Z",
-      "lastSeen": "2026-03-16T16:00:12.518Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-03-16T17:13:46.842Z",
+      "currentlyPresent": false
     },
     "Rory Fenton": {
       "totalPresenceMinutes": 356.9388333333333,
@@ -4752,14 +4752,14 @@
       "currentlyPresent": false
     },
     "Hillary": {
-      "totalPresenceMinutes": 65.04066666666667,
-      "totalWorkMinutes": 79.04066666666667,
+      "totalPresenceMinutes": 138.61273333333332,
+      "totalWorkMinutes": 81.83203333333333,
       "totalBreakMinutes": 15,
       "pomodoroCount": 4,
       "breakCount": 4,
       "firstSeen": "2026-03-13T20:45:00.000Z",
-      "lastSeen": "2026-03-16T16:00:12.518Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-03-16T17:13:46.842Z",
+      "currentlyPresent": false
     }
   }
 }
