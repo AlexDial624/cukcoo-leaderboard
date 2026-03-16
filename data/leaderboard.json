@@ -1,12 +1,20 @@
 {
-  "generated": "2026-03-16T19:34:44.253Z",
-  "currentlyPresent": [
-    "jordan"
-  ],
+  "generated": "2026-03-16T20:08:44.481Z",
+  "currentlyPresent": [],
   "totalUsers": 25,
-  "totalPomodoros": 321,
-  "totalWorkMinutes": 7452.508966666665,
+  "totalPomodoros": 322,
+  "totalWorkMinutes": 7476.508966666665,
   "activityLog": [
+    {
+      "time": "2026-03-16T19:28:00.000Z",
+      "endTime": "2026-03-16T19:53:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "jordan",
+      "participants": [
+        "jordan"
+      ]
+    },
     {
       "time": "2026-03-16T15:38:00.000Z",
       "endTime": "2026-03-16T16:03:00.000Z",
@@ -4912,15 +4920,15 @@
     },
     {
       "user": "jordan",
-      "currentlyPresent": true,
-      "totalPresenceMinutes": 544,
-      "totalWorkMinutes": 406,
+      "currentlyPresent": false,
+      "totalPresenceMinutes": 571,
+      "totalWorkMinutes": 430,
       "totalBreakMinutes": 35,
-      "pomodoroCount": 17,
+      "pomodoroCount": 18,
       "breakCount": 7,
       "avgPomodoroMinutes": 24,
       "firstSeen": "2026-01-29T19:13:00.000Z",
-      "lastSeen": "2026-03-16T19:34:44.210Z"
+      "lastSeen": "2026-03-16T20:01:31.460Z"
     },
     {
       "user": "Cian",

@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-16T19:34:44.250Z",
-  "timerCount": 510,
+  "lastUpdated": "2026-03-16T20:08:44.478Z",
+  "timerCount": 511,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -3571,6 +3571,13 @@
       "type": "work",
       "duration": 25,
       "startedBy": "angie"
+    },
+    {
+      "startTime": "2026-03-16T19:28:00.000Z",
+      "endTime": "2026-03-16T19:53:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "jordan"
     }
   ],
   "userWindows": {
@@ -4321,8 +4328,8 @@
       },
       {
         "joinTime": "2026-03-16T19:29:00.000Z",
-        "leaveTime": "2026-03-16T19:34:44.210Z",
-        "stillPresent": true
+        "leaveTime": "2026-03-16T20:01:31.460Z",
+        "stillPresent": false
       }
     ],
     "k": [
@@ -4637,14 +4644,14 @@
       "currentlyPresent": false
     },
     "jordan": {
-      "totalPresenceMinutes": 544.28,
-      "totalWorkMinutes": 405.97281666666663,
+      "totalPresenceMinutes": 571.0675,
+      "totalWorkMinutes": 429.97281666666663,
       "totalBreakMinutes": 35,
-      "pomodoroCount": 17,
+      "pomodoroCount": 18,
       "breakCount": 7,
       "firstSeen": "2026-01-29T19:13:00.000Z",
-      "lastSeen": "2026-03-16T19:34:44.210Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-03-16T20:01:31.460Z",
+      "currentlyPresent": false
     },
     "k": {
       "totalPresenceMinutes": 104.26121666666667,
