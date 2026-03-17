@@ -1071,3 +1071,17 @@ estimated_time,scrape_time,user,action,time_ago_raw
 2026-03-17T18:20:00.000Z,2026-03-17T18:48:00.158Z,Cian,joined this cuckoo,28 min ago
 2026-03-17T18:35:00.000Z,2026-03-17T18:48:00.158Z,Jess,started a 5 minute break,13 min ago
 2026-03-17T18:41:00.000Z,2026-03-17T18:48:00.158Z,angelina,started a 25 minute work session,7 min ago
+2026-03-17T19:24:00.000Z,2026-03-17T20:24:23.212Z,Jess,started a 5 minute break,1 hours ago
+2026-03-17T19:24:00.000Z,2026-03-17T20:24:23.212Z,angelina,started a 25 minute work session,1 hours ago
+2026-03-17T19:24:00.000Z,2026-03-17T20:24:23.212Z,Jess,started a 25 minute work session,1 hours ago
+2026-03-17T19:34:00.000Z,2026-03-17T20:24:23.212Z,angelina,joined this cuckoo,50 min ago
+2026-03-17T19:37:00.000Z,2026-03-17T20:24:23.212Z,Jess,started a 5 minute break,47 min ago
+2026-03-17T19:38:00.000Z,2026-03-17T20:24:23.212Z,Jess,joined this cuckoo,46 min ago
+2026-03-17T19:42:00.000Z,2026-03-17T20:24:23.212Z,Cian,paused the current break,42 min ago
+2026-03-17T19:42:00.000Z,2026-03-17T20:24:23.212Z,Cian,restarted the current break,42 min ago
+2026-03-17T19:42:00.000Z,2026-03-17T20:24:23.212Z,Cian,stopped the current break,42 min ago
+2026-03-17T19:42:00.000Z,2026-03-17T20:24:23.212Z,Jess,skipped the break,42 min ago
+2026-03-17T19:42:00.000Z,2026-03-17T20:24:23.212Z,Jess,started a 25 minute work session,42 min ago
+2026-03-17T20:07:00.000Z,2026-03-17T20:24:23.212Z,Jess,started a 5 minute break,17 min ago
+2026-03-17T20:12:00.000Z,2026-03-17T20:24:23.212Z,Cian,started a 25 minute work session,12 min ago
+2026-03-17T20:24:00.000Z,2026-03-17T20:24:23.212Z,Jess,joined this cuckoo,5 sec ago

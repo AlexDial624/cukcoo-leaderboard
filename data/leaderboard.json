@@ -1,14 +1,91 @@
 {
-  "generated": "2026-03-17T19:45:20.187Z",
+  "generated": "2026-03-17T20:31:16.491Z",
   "currentlyPresent": [
     "Jess",
-    "angelina",
     "Cian"
   ],
   "totalUsers": 25,
-  "totalPomodoros": 322,
-  "totalWorkMinutes": 7476.508966666665,
+  "totalPomodoros": 330,
+  "totalWorkMinutes": 7704.4275,
   "activityLog": [
+    {
+      "time": "2026-03-17T20:12:00.000Z",
+      "endTime": "2026-03-17T20:37:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Cian",
+      "participants": [
+        "angelina",
+        "Jess",
+        "Cian"
+      ]
+    },
+    {
+      "time": "2026-03-17T20:07:00.000Z",
+      "endTime": "2026-03-17T20:12:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess",
+      "participants": [
+        "angelina",
+        "Jess",
+        "Cian"
+      ]
+    },
+    {
+      "time": "2026-03-17T19:42:00.000Z",
+      "endTime": "2026-03-17T20:07:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess",
+      "participants": [
+        "angelina",
+        "Jess",
+        "Cian"
+      ]
+    },
+    {
+      "time": "2026-03-17T19:37:00.000Z",
+      "endTime": "2026-03-17T19:42:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess",
+      "participants": [
+        "angelina",
+        "Jess",
+        "Cian"
+      ]
+    },
+    {
+      "time": "2026-03-17T19:24:00.000Z",
+      "endTime": "2026-03-17T19:29:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess",
+      "participants": [
+        "Cian"
+      ]
+    },
+    {
+      "time": "2026-03-17T19:24:00.000Z",
+      "endTime": "2026-03-17T19:49:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angelina",
+      "participants": [
+        "Cian"
+      ]
+    },
+    {
+      "time": "2026-03-17T19:24:00.000Z",
+      "endTime": "2026-03-17T19:49:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess",
+      "participants": [
+        "Cian"
+      ]
+    },
     {
       "time": "2026-03-17T18:41:00.000Z",
       "endTime": "2026-03-17T19:06:00.000Z",
@@ -4960,27 +5037,27 @@
     },
     {
       "user": "angelina",
-      "currentlyPresent": true,
-      "totalPresenceMinutes": 1309,
-      "totalWorkMinutes": 1093,
-      "totalBreakMinutes": 146,
-      "pomodoroCount": 48,
-      "breakCount": 33,
+      "currentlyPresent": false,
+      "totalPresenceMinutes": 1329,
+      "totalWorkMinutes": 1161,
+      "totalBreakMinutes": 156,
+      "pomodoroCount": 50,
+      "breakCount": 35,
       "avgPomodoroMinutes": 23,
       "firstSeen": "2026-01-21T23:17:00.000Z",
-      "lastSeen": "2026-03-17T19:45:20.145Z"
+      "lastSeen": "2026-03-17T20:24:22.212Z"
     },
     {
       "user": "Jess",
       "currentlyPresent": true,
-      "totalPresenceMinutes": 991,
-      "totalWorkMinutes": 372,
-      "totalBreakMinutes": 70,
-      "pomodoroCount": 16,
-      "breakCount": 14,
-      "avgPomodoroMinutes": 23,
+      "totalPresenceMinutes": 1014,
+      "totalWorkMinutes": 438,
+      "totalBreakMinutes": 79,
+      "pomodoroCount": 18,
+      "breakCount": 16,
+      "avgPomodoroMinutes": 24,
       "firstSeen": "2026-01-28T16:32:07.310Z",
-      "lastSeen": "2026-03-17T19:45:20.145Z"
+      "lastSeen": "2026-03-17T20:31:16.450Z"
     },
     {
       "user": "Joris",
@@ -4995,6 +5072,18 @@
       "lastSeen": "2026-03-13T11:41:46.244Z"
     },
     {
+      "user": "Cian",
+      "currentlyPresent": true,
+      "totalPresenceMinutes": 586,
+      "totalWorkMinutes": 335,
+      "totalBreakMinutes": 40,
+      "pomodoroCount": 15,
+      "breakCount": 8,
+      "avgPomodoroMinutes": 22,
+      "firstSeen": "2026-02-04T20:53:20.323Z",
+      "lastSeen": "2026-03-17T20:31:16.450Z"
+    },
+    {
       "user": "jordan",
       "currentlyPresent": false,
       "totalPresenceMinutes": 571,
@@ -5005,18 +5094,6 @@
       "avgPomodoroMinutes": 24,
       "firstSeen": "2026-01-29T19:13:00.000Z",
       "lastSeen": "2026-03-16T20:01:31.460Z"
-    },
-    {
-      "user": "Cian",
-      "currentlyPresent": true,
-      "totalPresenceMinutes": 540,
-      "totalWorkMinutes": 241,
-      "totalBreakMinutes": 25,
-      "pomodoroCount": 11,
-      "breakCount": 5,
-      "avgPomodoroMinutes": 22,
-      "firstSeen": "2026-02-04T20:53:20.323Z",
-      "lastSeen": "2026-03-17T19:45:20.145Z"
     },
     {
       "user": "Kiran",
