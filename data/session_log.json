@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-18T18:14:29.445Z",
-  "timerCount": 531,
+  "lastUpdated": "2026-03-18T19:32:24.825Z",
+  "timerCount": 536,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -3718,6 +3718,41 @@
       "type": "work",
       "duration": 25,
       "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-03-18T18:26:00.000Z",
+      "endTime": "2026-03-18T19:06:00.000Z",
+      "type": "work",
+      "duration": 40,
+      "startedBy": "angelina"
+    },
+    {
+      "startTime": "2026-03-18T18:50:00.000Z",
+      "endTime": "2026-03-18T18:55:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-03-18T18:55:00.000Z",
+      "endTime": "2026-03-18T19:20:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-03-18T19:20:00.000Z",
+      "endTime": "2026-03-18T19:25:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-03-18T19:25:00.000Z",
+      "endTime": "2026-03-18T19:50:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "jemim"
     }
   ],
   "userWindows": {
@@ -3834,8 +3869,8 @@
       },
       {
         "joinTime": "2026-03-18T18:13:00.000Z",
-        "leaveTime": "2026-03-18T18:14:29.405Z",
-        "stillPresent": true
+        "leaveTime": "2026-03-18T19:26:00.918Z",
+        "stillPresent": false
       }
     ],
     "Tess": [
@@ -4409,7 +4444,7 @@
       },
       {
         "joinTime": "2026-03-18T18:13:00.000Z",
-        "leaveTime": "2026-03-18T18:14:29.405Z",
+        "leaveTime": "2026-03-18T19:32:24.781Z",
         "stillPresent": true
       }
     ],
@@ -4619,6 +4654,11 @@
         "joinTime": "2026-03-17T19:14:47.037Z",
         "leaveTime": "2026-03-17T21:04:10.001Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-03-18T18:26:00.000Z",
+        "leaveTime": "2026-03-18T19:32:24.781Z",
+        "stillPresent": true
       }
     ],
     "jemim": [
@@ -4651,6 +4691,11 @@
         "joinTime": "2026-03-13T17:23:00.000Z",
         "leaveTime": "2026-03-13T18:56:43.947Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-03-18T19:14:00.000Z",
+        "leaveTime": "2026-03-18T19:32:24.781Z",
+        "stillPresent": true
       }
     ],
     "Charlotte": [
@@ -4689,14 +4734,14 @@
   },
   "userStats": {
     "angelina": {
-      "totalPresenceMinutes": 1330.72785,
-      "totalWorkMinutes": 1160.811566666667,
-      "totalBreakMinutes": 156.22998333333334,
-      "pomodoroCount": 50,
-      "breakCount": 35,
+      "totalPresenceMinutes": 1402.2530666666667,
+      "totalWorkMinutes": 1226.826866666667,
+      "totalBreakMinutes": 166.22998333333334,
+      "pomodoroCount": 53,
+      "breakCount": 37,
       "firstSeen": "2026-01-21T23:17:00.000Z",
-      "lastSeen": "2026-03-18T18:14:29.405Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-03-18T19:26:00.918Z",
+      "currentlyPresent": false
     },
     "Tess": {
       "totalPresenceMinutes": 353.1273,
@@ -4789,13 +4834,13 @@
       "currentlyPresent": false
     },
     "Jess": {
-      "totalPresenceMinutes": 1048.2872166666666,
-      "totalWorkMinutes": 444.1483166666667,
-      "totalBreakMinutes": 79,
-      "pomodoroCount": 18,
-      "breakCount": 16,
+      "totalPresenceMinutes": 1126.21015,
+      "totalWorkMinutes": 516.5613333333333,
+      "totalBreakMinutes": 89,
+      "pomodoroCount": 21,
+      "breakCount": 18,
       "firstSeen": "2026-01-28T16:32:07.310Z",
-      "lastSeen": "2026-03-18T18:14:29.405Z",
+      "lastSeen": "2026-03-18T19:32:24.781Z",
       "currentlyPresent": true
     },
     "Rory Fenton": {
@@ -4879,24 +4924,24 @@
       "currentlyPresent": false
     },
     "Cian": {
-      "totalPresenceMinutes": 618.4527166666667,
-      "totalWorkMinutes": 341.0992,
-      "totalBreakMinutes": 40,
-      "pomodoroCount": 15,
-      "breakCount": 8,
+      "totalPresenceMinutes": 684.8657333333333,
+      "totalWorkMinutes": 413.5122166666667,
+      "totalBreakMinutes": 50,
+      "pomodoroCount": 18,
+      "breakCount": 10,
       "firstSeen": "2026-02-04T20:53:20.323Z",
-      "lastSeen": "2026-03-17T21:04:10.001Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-03-18T19:32:24.781Z",
+      "currentlyPresent": true
     },
     "jemim": {
-      "totalPresenceMinutes": 425.39758333333333,
-      "totalWorkMinutes": 420.27136666666667,
-      "totalBreakMinutes": 30,
-      "pomodoroCount": 17,
-      "breakCount": 6,
+      "totalPresenceMinutes": 443.8106,
+      "totalWorkMinutes": 433.68438333333336,
+      "totalBreakMinutes": 35,
+      "pomodoroCount": 18,
+      "breakCount": 7,
       "firstSeen": "2026-02-06T14:26:52.861Z",
-      "lastSeen": "2026-03-13T18:56:43.947Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-03-18T19:32:24.781Z",
+      "currentlyPresent": true
     },
     "Charlotte": {
       "totalPresenceMinutes": 66.03138333333334,
