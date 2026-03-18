@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-18T20:00:42.435Z",
+  "lastUpdated": "2026-03-18T20:58:22.010Z",
   "timerCount": 540,
   "timers": [
     {
@@ -4472,8 +4472,8 @@
       },
       {
         "joinTime": "2026-03-18T18:13:00.000Z",
-        "leaveTime": "2026-03-18T20:00:42.395Z",
-        "stillPresent": true
+        "leaveTime": "2026-03-18T20:51:07.897Z",
+        "stillPresent": false
       }
     ],
     "Rory Fenton": [
@@ -4722,8 +4722,8 @@
       },
       {
         "joinTime": "2026-03-18T19:14:00.000Z",
-        "leaveTime": "2026-03-18T20:00:42.395Z",
-        "stillPresent": true
+        "leaveTime": "2026-03-18T20:51:07.897Z",
+        "stillPresent": false
       }
     ],
     "Charlotte": [
@@ -4862,14 +4862,14 @@
       "currentlyPresent": false
     },
     "Jess": {
-      "totalPresenceMinutes": 1154.5037166666666,
+      "totalPresenceMinutes": 1204.92875,
       "totalWorkMinutes": 584.1483166666667,
-      "totalBreakMinutes": 98.70658333333333,
+      "totalBreakMinutes": 99,
       "pomodoroCount": 23,
       "breakCount": 20,
       "firstSeen": "2026-01-28T16:32:07.310Z",
-      "lastSeen": "2026-03-18T20:00:42.395Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-03-18T20:51:07.897Z",
+      "currentlyPresent": false
     },
     "Rory Fenton": {
       "totalPresenceMinutes": 356.9388333333333,
@@ -4962,14 +4962,14 @@
       "currentlyPresent": false
     },
     "jemim": {
-      "totalPresenceMinutes": 472.1041666666667,
+      "totalPresenceMinutes": 522.5292,
       "totalWorkMinutes": 487.27136666666667,
-      "totalBreakMinutes": 39.706583333333334,
+      "totalBreakMinutes": 40,
       "pomodoroCount": 19,
       "breakCount": 8,
       "firstSeen": "2026-02-06T14:26:52.861Z",
-      "lastSeen": "2026-03-18T20:00:42.395Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-03-18T20:51:07.897Z",
+      "currentlyPresent": false
     },
     "Charlotte": {
       "totalPresenceMinutes": 66.03138333333334,
