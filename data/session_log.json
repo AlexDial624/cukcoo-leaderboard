@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-19T20:01:16.663Z",
-  "timerCount": 552,
+  "lastUpdated": "2026-03-19T20:44:14.745Z",
+  "timerCount": 557,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -3865,6 +3865,41 @@
       "type": "work",
       "duration": 25,
       "startedBy": "Izzy"
+    },
+    {
+      "startTime": "2026-03-19T19:37:00.000Z",
+      "endTime": "2026-03-19T20:02:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-03-19T19:37:00.000Z",
+      "endTime": "2026-03-19T19:42:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-03-19T19:59:00.000Z",
+      "endTime": "2026-03-19T20:04:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-03-19T20:07:00.000Z",
+      "endTime": "2026-03-19T20:32:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-03-19T20:32:00.000Z",
+      "endTime": "2026-03-19T20:37:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess"
     }
   ],
   "userWindows": {
@@ -4924,10 +4959,10 @@
     },
     "Alex": {
       "totalPresenceMinutes": 2036.2039166666666,
-      "totalWorkMinutes": 1090.4260166666668,
-      "totalBreakMinutes": 167.00078333333335,
-      "pomodoroCount": 49,
-      "breakCount": 35,
+      "totalWorkMinutes": 1107.4832166666667,
+      "totalBreakMinutes": 172.00078333333335,
+      "pomodoroCount": 50,
+      "breakCount": 36,
       "firstSeen": "2026-01-22T18:55:00.000Z",
       "lastSeen": "2026-03-19T19:54:03.432Z",
       "currentlyPresent": false
@@ -4974,10 +5009,10 @@
     },
     "Jess": {
       "totalPresenceMinutes": 1334.0768333333333,
-      "totalWorkMinutes": 631.1019833333334,
-      "totalBreakMinutes": 109,
-      "pomodoroCount": 25,
-      "breakCount": 22,
+      "totalWorkMinutes": 648.1591833333333,
+      "totalBreakMinutes": 114,
+      "pomodoroCount": 26,
+      "breakCount": 23,
       "firstSeen": "2026-01-28T16:32:07.310Z",
       "lastSeen": "2026-03-19T19:54:03.432Z",
       "currentlyPresent": false
@@ -5124,10 +5159,10 @@
     },
     "angie": {
       "totalPresenceMinutes": 71.19441666666667,
-      "totalWorkMinutes": 0,
-      "totalBreakMinutes": 0,
-      "pomodoroCount": 0,
-      "breakCount": 0,
+      "totalWorkMinutes": 17.0572,
+      "totalBreakMinutes": 5,
+      "pomodoroCount": 1,
+      "breakCount": 1,
       "firstSeen": "2026-03-19T18:42:51.767Z",
       "lastSeen": "2026-03-19T19:54:03.432Z",
       "currentlyPresent": false
