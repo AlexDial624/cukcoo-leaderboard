@@ -1802,3 +1802,4 @@ timestamp,timer_running,timer_value,session_type
 2026-03-19T07:58:48.256Z,false,00:00,unknown
 2026-03-19T08:55:58.220Z,true,05:10,work
 2026-03-19T09:52:23.078Z,true,08:04,unknown
+2026-03-19T10:34:36.050Z,false,00:00,breakTime
