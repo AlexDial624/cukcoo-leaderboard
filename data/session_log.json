@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-19T11:28:32.420Z",
+  "lastUpdated": "2026-03-19T11:59:04.822Z",
   "timerCount": 552,
   "timers": [
     {
@@ -4082,6 +4082,11 @@
         "joinTime": "2026-03-13T10:32:58.815Z",
         "leaveTime": "2026-03-13T11:41:46.244Z",
         "stillPresent": false
+      },
+      {
+        "joinTime": "2026-03-19T11:25:32.451Z",
+        "leaveTime": "2026-03-19T11:59:04.778Z",
+        "stillPresent": true
       }
     ],
     "j": [
@@ -4871,14 +4876,14 @@
       "currentlyPresent": false
     },
     "Joris": {
-      "totalPresenceMinutes": 693.3804666666666,
+      "totalPresenceMinutes": 726.91925,
       "totalWorkMinutes": 180.96618333333333,
       "totalBreakMinutes": 35,
       "pomodoroCount": 10,
       "breakCount": 7,
       "firstSeen": "2026-01-22T17:18:00.000Z",
-      "lastSeen": "2026-03-13T11:41:46.244Z",
-      "currentlyPresent": false
+      "lastSeen": "2026-03-19T11:59:04.778Z",
+      "currentlyPresent": true
     },
     "j": {
       "totalPresenceMinutes": 95.51088333333334,
