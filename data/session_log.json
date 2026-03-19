@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-19T19:15:53.164Z",
+  "lastUpdated": "2026-03-19T20:01:16.663Z",
   "timerCount": 552,
   "timers": [
     {
@@ -4431,8 +4431,8 @@
       },
       {
         "joinTime": "2026-03-19T18:42:51.767Z",
-        "leaveTime": "2026-03-19T19:15:53.121Z",
-        "stillPresent": true
+        "leaveTime": "2026-03-19T19:54:03.432Z",
+        "stillPresent": false
       }
     ],
     "Kiran": [
@@ -4576,8 +4576,8 @@
       },
       {
         "joinTime": "2026-03-19T18:42:51.767Z",
-        "leaveTime": "2026-03-19T19:15:53.121Z",
-        "stillPresent": true
+        "leaveTime": "2026-03-19T19:54:03.432Z",
+        "stillPresent": false
       }
     ],
     "Rory Fenton": [
@@ -4866,8 +4866,8 @@
     "angie": [
       {
         "joinTime": "2026-03-19T18:42:51.767Z",
-        "leaveTime": "2026-03-19T19:15:53.121Z",
-        "stillPresent": true
+        "leaveTime": "2026-03-19T19:54:03.432Z",
+        "stillPresent": false
       }
     ]
   },
@@ -4923,14 +4923,14 @@
       "currentlyPresent": false
     },
     "Alex": {
-      "totalPresenceMinutes": 1998.0320666666667,
+      "totalPresenceMinutes": 2036.2039166666666,
       "totalWorkMinutes": 1090.4260166666668,
       "totalBreakMinutes": 167.00078333333335,
       "pomodoroCount": 49,
       "breakCount": 35,
       "firstSeen": "2026-01-22T18:55:00.000Z",
-      "lastSeen": "2026-03-19T19:15:53.121Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-03-19T19:54:03.432Z",
+      "currentlyPresent": false
     },
     "Kiran": {
       "totalPresenceMinutes": 446.39523333333335,
@@ -4973,14 +4973,14 @@
       "currentlyPresent": false
     },
     "Jess": {
-      "totalPresenceMinutes": 1295.9049833333333,
+      "totalPresenceMinutes": 1334.0768333333333,
       "totalWorkMinutes": 631.1019833333334,
       "totalBreakMinutes": 109,
       "pomodoroCount": 25,
       "breakCount": 22,
       "firstSeen": "2026-01-28T16:32:07.310Z",
-      "lastSeen": "2026-03-19T19:15:53.121Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-03-19T19:54:03.432Z",
+      "currentlyPresent": false
     },
     "Rory Fenton": {
       "totalPresenceMinutes": 356.9388333333333,
@@ -5123,14 +5123,14 @@
       "currentlyPresent": false
     },
     "angie": {
-      "totalPresenceMinutes": 33.02256666666667,
+      "totalPresenceMinutes": 71.19441666666667,
       "totalWorkMinutes": 0,
       "totalBreakMinutes": 0,
       "pomodoroCount": 0,
       "breakCount": 0,
       "firstSeen": "2026-03-19T18:42:51.767Z",
-      "lastSeen": "2026-03-19T19:15:53.121Z",
-      "currentlyPresent": true
+      "lastSeen": "2026-03-19T19:54:03.432Z",
+      "currentlyPresent": false
     }
   }
 }
