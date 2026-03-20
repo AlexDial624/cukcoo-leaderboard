@@ -1,10 +1,90 @@
 {
-  "generated": "2026-03-20T19:11:38.445Z",
+  "generated": "2026-03-20T19:54:29.428Z",
   "currentlyPresent": [],
   "totalUsers": 26,
-  "totalPomodoros": 377,
-  "totalWorkMinutes": 8843.275583333332,
+  "totalPomodoros": 380,
+  "totalWorkMinutes": 8909.209466666667,
   "activityLog": [
+    {
+      "time": "2026-03-20T19:40:00.000Z",
+      "endTime": "2026-03-20T20:05:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess",
+      "participants": []
+    },
+    {
+      "time": "2026-03-20T19:39:00.000Z",
+      "endTime": "2026-03-20T19:40:00.000Z",
+      "type": "break",
+      "duration": 1,
+      "startedBy": "Jess",
+      "participants": []
+    },
+    {
+      "time": "2026-03-20T19:10:00.000Z",
+      "endTime": "2026-03-20T19:35:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Cian",
+      "participants": []
+    },
+    {
+      "time": "2026-03-20T19:04:00.000Z",
+      "endTime": "2026-03-20T19:09:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess",
+      "participants": []
+    },
+    {
+      "time": "2026-03-20T18:47:00.000Z",
+      "endTime": "2026-03-20T18:52:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess",
+      "participants": []
+    },
+    {
+      "time": "2026-03-20T18:47:00.000Z",
+      "endTime": "2026-03-20T19:12:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess",
+      "participants": []
+    },
+    {
+      "time": "2026-03-20T18:47:00.000Z",
+      "endTime": "2026-03-20T19:12:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "jordan",
+      "participants": []
+    },
+    {
+      "time": "2026-03-20T17:47:00.000Z",
+      "endTime": "2026-03-20T17:52:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess",
+      "participants": [
+        "Alex",
+        "Jess",
+        "angie"
+      ]
+    },
+    {
+      "time": "2026-03-20T17:47:00.000Z",
+      "endTime": "2026-03-20T18:12:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess",
+      "participants": [
+        "Alex",
+        "Jess",
+        "angie"
+      ]
+    },
     {
       "time": "2026-03-20T17:08:00.000Z",
       "endTime": "2026-03-20T17:33:00.000Z",
@@ -15,6 +95,14 @@
         "Alex",
         "angie"
       ]
+    },
+    {
+      "time": "2026-03-20T16:47:00.000Z",
+      "endTime": "2026-03-20T17:12:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess",
+      "participants": []
     },
     {
       "time": "2026-03-20T16:33:00.000Z",
@@ -5517,10 +5605,10 @@
       "user": "Alex",
       "currentlyPresent": false,
       "totalPresenceMinutes": 2395,
-      "totalWorkMinutes": 1260,
-      "totalBreakMinutes": 192,
-      "pomodoroCount": 57,
-      "breakCount": 40,
+      "totalWorkMinutes": 1289,
+      "totalBreakMinutes": 197,
+      "pomodoroCount": 58,
+      "breakCount": 41,
       "avgPomodoroMinutes": 22,
       "firstSeen": "2026-01-22T18:55:00.000Z",
       "lastSeen": "2026-03-20T18:03:16.550Z"
@@ -5541,11 +5629,11 @@
       "user": "Jess",
       "currentlyPresent": false,
       "totalPresenceMinutes": 1572,
-      "totalWorkMinutes": 786,
-      "totalBreakMinutes": 139,
-      "pomodoroCount": 32,
-      "breakCount": 28,
-      "avgPomodoroMinutes": 25,
+      "totalWorkMinutes": 803,
+      "totalBreakMinutes": 144,
+      "pomodoroCount": 33,
+      "breakCount": 29,
+      "avgPomodoroMinutes": 24,
       "firstSeen": "2026-01-28T16:32:07.310Z",
       "lastSeen": "2026-03-20T18:03:16.550Z"
     },
@@ -5697,10 +5785,10 @@
       "user": "angie",
       "currentlyPresent": false,
       "totalPresenceMinutes": 126,
-      "totalWorkMinutes": 42,
-      "totalBreakMinutes": 5,
-      "pomodoroCount": 2,
-      "breakCount": 1,
+      "totalWorkMinutes": 62,
+      "totalBreakMinutes": 10,
+      "pomodoroCount": 3,
+      "breakCount": 2,
       "avgPomodoroMinutes": 21,
       "firstSeen": "2026-03-19T18:42:51.767Z",
       "lastSeen": "2026-03-20T18:03:16.550Z"

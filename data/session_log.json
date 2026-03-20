@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-20T19:11:38.443Z",
-  "timerCount": 576,
+  "lastUpdated": "2026-03-20T19:54:29.425Z",
+  "timerCount": 586,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -4028,11 +4028,81 @@
       "startedBy": "Jess"
     },
     {
+      "startTime": "2026-03-20T16:47:00.000Z",
+      "endTime": "2026-03-20T17:12:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess"
+    },
+    {
       "startTime": "2026-03-20T17:08:00.000Z",
       "endTime": "2026-03-20T17:33:00.000Z",
       "type": "work",
       "duration": 25,
       "startedBy": "angie"
+    },
+    {
+      "startTime": "2026-03-20T17:47:00.000Z",
+      "endTime": "2026-03-20T17:52:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-03-20T17:47:00.000Z",
+      "endTime": "2026-03-20T18:12:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-03-20T18:47:00.000Z",
+      "endTime": "2026-03-20T18:52:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-03-20T18:47:00.000Z",
+      "endTime": "2026-03-20T19:12:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-03-20T18:47:00.000Z",
+      "endTime": "2026-03-20T19:12:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "jordan"
+    },
+    {
+      "startTime": "2026-03-20T19:04:00.000Z",
+      "endTime": "2026-03-20T19:09:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-03-20T19:10:00.000Z",
+      "endTime": "2026-03-20T19:35:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Cian"
+    },
+    {
+      "startTime": "2026-03-20T19:39:00.000Z",
+      "endTime": "2026-03-20T19:40:00.000Z",
+      "type": "break",
+      "duration": 1,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-03-20T19:40:00.000Z",
+      "endTime": "2026-03-20T20:05:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess"
     }
   ],
   "userWindows": {
@@ -5152,10 +5222,10 @@
     },
     "Alex": {
       "totalPresenceMinutes": 2395.2640166666665,
-      "totalWorkMinutes": 1260.0461166666669,
-      "totalBreakMinutes": 192.00078333333335,
-      "pomodoroCount": 57,
-      "breakCount": 40,
+      "totalWorkMinutes": 1289.4283333333335,
+      "totalBreakMinutes": 197.00078333333335,
+      "pomodoroCount": 58,
+      "breakCount": 41,
       "firstSeen": "2026-01-22T18:55:00.000Z",
       "lastSeen": "2026-03-20T18:03:16.550Z",
       "currentlyPresent": false
@@ -5202,10 +5272,10 @@
     },
     "Jess": {
       "totalPresenceMinutes": 1571.9243,
-      "totalWorkMinutes": 786.3901666666667,
-      "totalBreakMinutes": 138.73145,
-      "pomodoroCount": 32,
-      "breakCount": 28,
+      "totalWorkMinutes": 802.666,
+      "totalBreakMinutes": 143.73145,
+      "pomodoroCount": 33,
+      "breakCount": 29,
       "firstSeen": "2026-01-28T16:32:07.310Z",
       "lastSeen": "2026-03-20T18:03:16.550Z",
       "currentlyPresent": false
@@ -5352,10 +5422,10 @@
     },
     "angie": {
       "totalPresenceMinutes": 126.47025,
-      "totalWorkMinutes": 42.0572,
-      "totalBreakMinutes": 5,
-      "pomodoroCount": 2,
-      "breakCount": 1,
+      "totalWorkMinutes": 62.33303333333333,
+      "totalBreakMinutes": 10,
+      "pomodoroCount": 3,
+      "breakCount": 2,
       "firstSeen": "2026-03-19T18:42:51.767Z",
       "lastSeen": "2026-03-20T18:03:16.550Z",
       "currentlyPresent": false
