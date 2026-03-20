@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-19T23:31:51.853Z",
-  "timerCount": 557,
+  "lastUpdated": "2026-03-20T00:00:05.641Z",
+  "timerCount": 560,
   "timers": [
     {
       "startTime": "2026-01-21T23:19:00.000Z",
@@ -3900,6 +3900,27 @@
       "type": "break",
       "duration": 5,
       "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-03-19T20:52:00.000Z",
+      "endTime": "2026-03-19T20:57:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-03-19T21:52:00.000Z",
+      "endTime": "2026-03-19T21:57:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess"
+    },
+    {
+      "startTime": "2026-03-19T21:52:00.000Z",
+      "endTime": "2026-03-19T22:17:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess"
     }
   ],
   "userWindows": {
@@ -4969,10 +4990,10 @@
     },
     "Alex": {
       "totalPresenceMinutes": 2094.7184166666666,
-      "totalWorkMinutes": 1107.4832166666667,
-      "totalBreakMinutes": 172.00078333333335,
-      "pomodoroCount": 50,
-      "breakCount": 36,
+      "totalWorkMinutes": 1132.4832166666667,
+      "totalBreakMinutes": 177.00078333333335,
+      "pomodoroCount": 51,
+      "breakCount": 37,
       "firstSeen": "2026-01-22T18:55:00.000Z",
       "lastSeen": "2026-03-19T22:19:52.597Z",
       "currentlyPresent": false
@@ -5019,10 +5040,10 @@
     },
     "Jess": {
       "totalPresenceMinutes": 1392.5913333333333,
-      "totalWorkMinutes": 648.1591833333333,
-      "totalBreakMinutes": 114,
-      "pomodoroCount": 26,
-      "breakCount": 23,
+      "totalWorkMinutes": 673.1591833333333,
+      "totalBreakMinutes": 119,
+      "pomodoroCount": 27,
+      "breakCount": 24,
       "firstSeen": "2026-01-28T16:32:07.310Z",
       "lastSeen": "2026-03-19T22:19:52.597Z",
       "currentlyPresent": false
