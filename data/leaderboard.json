@@ -1,10 +1,18 @@
 {
-  "generated": "2026-03-20T19:54:29.428Z",
+  "generated": "2026-03-20T20:24:17.777Z",
   "currentlyPresent": [],
   "totalUsers": 26,
   "totalPomodoros": 380,
   "totalWorkMinutes": 8909.209466666667,
   "activityLog": [
+    {
+      "time": "2026-03-20T20:06:00.000Z",
+      "endTime": "2026-03-20T20:11:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Alex",
+      "participants": []
+    },
     {
       "time": "2026-03-20T19:40:00.000Z",
       "endTime": "2026-03-20T20:05:00.000Z",
@@ -19,6 +27,14 @@
       "type": "break",
       "duration": 1,
       "startedBy": "Jess",
+      "participants": []
+    },
+    {
+      "time": "2026-03-20T19:17:00.000Z",
+      "endTime": "2026-03-20T19:42:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "jordan",
       "participants": []
     },
     {
