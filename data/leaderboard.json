@@ -1,15 +1,101 @@
 {
-  "generated": "2026-03-20T12:03:10.693Z",
-  "currentlyPresent": [
-    "Alex",
-    "Izzy",
-    "Jess",
-    "Joris"
-  ],
+  "generated": "2026-03-20T13:28:27.276Z",
+  "currentlyPresent": [],
   "totalUsers": 26,
-  "totalPomodoros": 359,
-  "totalWorkMinutes": 8428.061249999999,
+  "totalPomodoros": 375,
+  "totalWorkMinutes": 8788.275583333332,
   "activityLog": [
+    {
+      "time": "2026-03-20T13:13:00.000Z",
+      "endTime": "2026-03-20T13:38:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Joris",
+      "participants": [
+        "Joris",
+        "Alex",
+        "Jess",
+        "Izzy"
+      ]
+    },
+    {
+      "time": "2026-03-20T13:08:00.000Z",
+      "endTime": "2026-03-20T13:13:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess",
+      "participants": [
+        "Joris",
+        "Alex",
+        "Jess",
+        "Izzy"
+      ]
+    },
+    {
+      "time": "2026-03-20T12:43:00.000Z",
+      "endTime": "2026-03-20T13:08:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess",
+      "participants": [
+        "Joris",
+        "Alex",
+        "Jess",
+        "Izzy"
+      ]
+    },
+    {
+      "time": "2026-03-20T12:38:00.000Z",
+      "endTime": "2026-03-20T12:43:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess",
+      "participants": [
+        "Joris",
+        "Alex",
+        "Jess",
+        "Izzy"
+      ]
+    },
+    {
+      "time": "2026-03-20T12:21:00.000Z",
+      "endTime": "2026-03-20T12:26:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess",
+      "participants": [
+        "Joris",
+        "Alex",
+        "Jess",
+        "Izzy"
+      ]
+    },
+    {
+      "time": "2026-03-20T12:21:00.000Z",
+      "endTime": "2026-03-20T12:46:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Izzy",
+      "participants": [
+        "Joris",
+        "Alex",
+        "Jess",
+        "Izzy"
+      ]
+    },
+    {
+      "time": "2026-03-20T12:21:00.000Z",
+      "endTime": "2026-03-20T12:46:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Joris",
+      "participants": [
+        "Joris",
+        "Alex",
+        "Jess",
+        "Izzy"
+      ]
+    },
     {
       "time": "2026-03-20T11:45:00.000Z",
       "endTime": "2026-03-20T12:10:00.000Z",
@@ -5394,15 +5480,15 @@
   "users": [
     {
       "user": "Alex",
-      "currentlyPresent": true,
-      "totalPresenceMinutes": 2253,
-      "totalWorkMinutes": 1145,
-      "totalBreakMinutes": 177,
-      "pomodoroCount": 52,
-      "breakCount": 37,
+      "currentlyPresent": false,
+      "totalPresenceMinutes": 2331,
+      "totalWorkMinutes": 1235,
+      "totalBreakMinutes": 192,
+      "pomodoroCount": 56,
+      "breakCount": 40,
       "avgPomodoroMinutes": 22,
       "firstSeen": "2026-01-22T18:55:00.000Z",
-      "lastSeen": "2026-03-20T12:03:10.644Z"
+      "lastSeen": "2026-03-20T13:21:13.859Z"
     },
     {
       "user": "Jessica",
@@ -5418,15 +5504,15 @@
     },
     {
       "user": "Jess",
-      "currentlyPresent": true,
-      "totalPresenceMinutes": 1459,
-      "totalWorkMinutes": 691,
-      "totalBreakMinutes": 124,
-      "pomodoroCount": 28,
-      "breakCount": 25,
-      "avgPomodoroMinutes": 25,
+      "currentlyPresent": false,
+      "totalPresenceMinutes": 1537,
+      "totalWorkMinutes": 781,
+      "totalBreakMinutes": 139,
+      "pomodoroCount": 32,
+      "breakCount": 28,
+      "avgPomodoroMinutes": 24,
       "firstSeen": "2026-01-28T16:32:07.310Z",
-      "lastSeen": "2026-03-20T12:03:10.644Z"
+      "lastSeen": "2026-03-20T13:21:13.859Z"
     },
     {
       "user": "angelina",
@@ -5442,15 +5528,15 @@
     },
     {
       "user": "Joris",
-      "currentlyPresent": true,
-      "totalPresenceMinutes": 824,
-      "totalWorkMinutes": 199,
-      "totalBreakMinutes": 40,
-      "pomodoroCount": 11,
-      "breakCount": 8,
-      "avgPomodoroMinutes": 18,
+      "currentlyPresent": false,
+      "totalPresenceMinutes": 902,
+      "totalWorkMinutes": 289,
+      "totalBreakMinutes": 55,
+      "pomodoroCount": 15,
+      "breakCount": 11,
+      "avgPomodoroMinutes": 19,
       "firstSeen": "2026-01-22T17:18:00.000Z",
-      "lastSeen": "2026-03-20T12:03:10.644Z"
+      "lastSeen": "2026-03-20T13:21:13.859Z"
     },
     {
       "user": "Cian",
@@ -5502,15 +5588,15 @@
     },
     {
       "user": "Izzy",
-      "currentlyPresent": true,
-      "totalPresenceMinutes": 365,
-      "totalWorkMinutes": 107,
-      "totalBreakMinutes": 15,
-      "pomodoroCount": 6,
-      "breakCount": 3,
-      "avgPomodoroMinutes": 18,
+      "currentlyPresent": false,
+      "totalPresenceMinutes": 443,
+      "totalWorkMinutes": 197,
+      "totalBreakMinutes": 30,
+      "pomodoroCount": 10,
+      "breakCount": 6,
+      "avgPomodoroMinutes": 20,
       "firstSeen": "2026-02-03T14:34:00.000Z",
-      "lastSeen": "2026-03-20T12:03:10.644Z"
+      "lastSeen": "2026-03-20T13:21:13.859Z"
     },
     {
       "user": "Rory Fenton",
