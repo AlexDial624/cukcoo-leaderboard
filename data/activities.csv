@@ -1205,3 +1205,18 @@ estimated_time,scrape_time,user,action,time_ago_raw
 2026-03-20T22:29:00.000Z,2026-03-20T22:29:54.647Z,Alex,joined this cuckoo,5 sec ago
 2026-03-21T11:11:00.000Z,2026-03-21T11:11:30.519Z,Cian,joined this cuckoo,5 sec ago
 2026-03-21T15:35:00.000Z,2026-03-21T15:35:36.518Z,Cian,joined this cuckoo,10 sec ago
+2026-03-23T10:45:00.000Z,2026-03-23T14:45:37.979Z,angie,joined this cuckoo,4 hours ago
+2026-03-23T10:45:00.000Z,2026-03-23T14:45:37.979Z,angie,started a 15 minute work session,4 hours ago
+2026-03-23T10:45:00.000Z,2026-03-23T14:45:37.979Z,angie,paused the current work session,4 hours ago
+2026-03-23T10:45:00.000Z,2026-03-23T14:45:37.979Z,angie,restarted the current work session,4 hours ago
+2026-03-23T10:45:00.000Z,2026-03-23T14:45:37.979Z,angie,stopped the current work session,4 hours ago
+2026-03-23T10:45:00.000Z,2026-03-23T14:45:37.979Z,Jess,joined this cuckoo,4 hours ago
+2026-03-23T10:45:00.000Z,2026-03-23T14:45:37.979Z,angie,started a 25 minute work session,4 hours ago
+2026-03-23T11:45:00.000Z,2026-03-23T14:45:37.979Z,Joris,joined this cuckoo,3 hours ago
+2026-03-23T11:45:00.000Z,2026-03-23T14:45:37.979Z,Jess,started a 5 minute break,3 hours ago
+2026-03-23T11:45:00.000Z,2026-03-23T14:45:37.979Z,Jess,started a 25 minute work session,3 hours ago
+2026-03-23T11:45:00.000Z,2026-03-23T14:45:37.979Z,angie,started a 25 minute work session,3 hours ago
+2026-03-23T12:45:00.000Z,2026-03-23T14:45:37.979Z,Jess,started a 5 minute break,2 hours ago
+2026-03-23T12:45:00.000Z,2026-03-23T14:45:37.979Z,angie,started a 25 minute work session,2 hours ago
+2026-03-23T13:45:00.000Z,2026-03-23T14:45:37.979Z,Jess,started a 25 minute work session,1 hours ago
+2026-03-23T13:45:00.000Z,2026-03-23T14:45:37.979Z,Jess,started a 5 minute break,1 hours ago

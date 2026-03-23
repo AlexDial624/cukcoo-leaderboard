@@ -1,10 +1,82 @@
 {
-  "generated": "2026-03-23T13:54:30.236Z",
+  "generated": "2026-03-23T14:52:52.176Z",
   "currentlyPresent": [],
   "totalUsers": 26,
   "totalPomodoros": 380,
   "totalWorkMinutes": 8909.209466666667,
   "activityLog": [
+    {
+      "time": "2026-03-23T13:45:00.000Z",
+      "endTime": "2026-03-23T14:10:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess",
+      "participants": []
+    },
+    {
+      "time": "2026-03-23T13:45:00.000Z",
+      "endTime": "2026-03-23T13:50:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess",
+      "participants": []
+    },
+    {
+      "time": "2026-03-23T12:45:00.000Z",
+      "endTime": "2026-03-23T12:50:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess",
+      "participants": []
+    },
+    {
+      "time": "2026-03-23T12:45:00.000Z",
+      "endTime": "2026-03-23T13:10:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angie",
+      "participants": []
+    },
+    {
+      "time": "2026-03-23T11:45:00.000Z",
+      "endTime": "2026-03-23T11:50:00.000Z",
+      "type": "break",
+      "duration": 5,
+      "startedBy": "Jess",
+      "participants": []
+    },
+    {
+      "time": "2026-03-23T11:45:00.000Z",
+      "endTime": "2026-03-23T12:10:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "Jess",
+      "participants": []
+    },
+    {
+      "time": "2026-03-23T11:45:00.000Z",
+      "endTime": "2026-03-23T12:10:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angie",
+      "participants": []
+    },
+    {
+      "time": "2026-03-23T10:45:00.000Z",
+      "endTime": "2026-03-23T11:00:00.000Z",
+      "type": "work",
+      "duration": 15,
+      "startedBy": "angie",
+      "participants": []
+    },
+    {
+      "time": "2026-03-23T10:45:00.000Z",
+      "endTime": "2026-03-23T11:10:00.000Z",
+      "type": "work",
+      "duration": 25,
+      "startedBy": "angie",
+      "participants": []
+    },
     {
       "time": "2026-03-20T20:06:00.000Z",
       "endTime": "2026-03-20T20:11:00.000Z",
